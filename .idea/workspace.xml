@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="" />
+    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="borrar test">
+      <change beforePath="$PROJECT_DIR$/.idea/Progra.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Progra.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,17 +12,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2KlPPbJ8sDOqGoFbonhJst06vW8" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -30,6 +36,28 @@
       <option name="presentableId" value="Default" />
       <updated>1674546174903</updated>
     </task>
+    <task id="LOCAL-00001" summary="fin ejercicio prueba">
+      <created>1674546926262</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674546926262</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fin ejercicio prueba 2">
+      <created>1674546935972</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674546935972</updated>
+    </task>
+    <task id="LOCAL-00003" summary="borrar test">
+      <created>1674547011731</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674547011731</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -72,5 +100,11 @@
         <entry key="586dbd59-af49-44e4-9699-e7946589a0b7" value="TOOL_WINDOW" />
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fin ejercicio prueba" />
+    <MESSAGE value="fin ejercicio prueba 2" />
+    <MESSAGE value="borrar test" />
+    <option name="LAST_COMMIT_MESSAGE" value="borrar test" />
   </component>
 </project>

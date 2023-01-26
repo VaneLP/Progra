@@ -1,8 +1,6 @@
 package ArrayList;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.Scanner;
 
@@ -16,7 +14,7 @@ d) Eliminar por valor. Se le pasa como parámetro una altura y elimina todas las
 e) Ordenar la lista*/
     public static void main(String[] args) {
         Scanner entrada= new Scanner(System.in);
-        int op=0, altura;
+        int op=0;
 
         ArrayList alturasAlumnos= new ArrayList<>();
 
@@ -37,21 +35,35 @@ e) Ordenar la lista*/
 
             switch (op){
                 case 1:
-                    System.out.println("¿Que altura deseas añadir?");
-                    altura= entrada.nextInt();
-
+                    System.out.printf("1. Añadir altura" +
+                                    "%n¿Que altura deseas añadir? ");
+                    double altura= entrada.nextDouble();
+                    anyadirAltura(alturasAlumnos,altura);
                     break;
 
                 case 2:
+                    System.out.println("2. Mostrar lista");
+                    mostrarlista(alturasAlumnos);
                     break;
 
                 case 3:
+                    System.out.printf("3. Eliminar por posicion" +
+                            "%n¿Que posicion deseas eliminar? ");
+                     int posicion= entrada.nextInt();
+                    eliminarPosi(alturasAlumnos,posicion);
                     break;
 
                 case 4:
+                    System.out.printf("4. Eliminar por valor" +
+                            "%n¿Que valor deseas eliminar? ");
+                    double valor= entrada.nextDouble();
+                    eliminarValor(alturasAlumnos,valor);
                     break;
 
                 case 5:
+                    System.out.println("5. Ordenar lista");
+                    ordernar(alturasAlumnos);
+                    mostrarlista(alturasAlumnos);
                     break;
 
                 case 6:
@@ -62,25 +74,25 @@ e) Ordenar la lista*/
         }while(op!=6);
     }
     //añadir altura
-    public void anyadirAltura (ArrayList alturasAlum, int altura){
+    public static void anyadirAltura (ArrayList alturasAlum, double altura){
         alturasAlum.add(altura);
     }
 
     //Mostrar lista actual con el número de posición.
-    public void mostrarlista(ArrayList alturaAlum){
+    public static void mostrarlista(ArrayList alturaAlum){
         for (int i =0;i<alturaAlum.size();i++){
-            System.out.println("El alumno en la posicion "+i+"tiene una altura de: "+alturaAlum.get(i));
+            System.out.println("El alumno en la posicion "+i+" tiene una altura de: "+alturaAlum.get(i));
         }
     }
 
     //Eliminar por posición. Se le pasa como parámetro una posición y elimina la altura en dicha posición.
-    public void eliminarPosi (ArrayList alturaAlum, int posicion){
+    public static void eliminarPosi (ArrayList alturaAlum, int posicion){
         alturaAlum.remove(posicion);
     }
 
     //Eliminar por valor. Se le pasa como parámetro una altura y elimina todas las posiciones en las que se encuentre dicha
     // altura. Devuelve la cantidad de eliminaciones.
-    public void eliminarValor (ArrayList alturaAlum, int altura){
+    public static void eliminarValor (ArrayList alturaAlum, double altura){
         int cont=0;
         while(alturaAlum.remove((Object) altura)){
             cont++;
@@ -89,7 +101,7 @@ e) Ordenar la lista*/
     }
 
     //Ordenar la lista
-    public void ordernar (ArrayList alturaAlum){
+    public static void ordernar (ArrayList alturaAlum){
         Collections.sort(alturaAlum);
     }
 

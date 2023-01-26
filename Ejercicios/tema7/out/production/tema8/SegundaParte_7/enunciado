@@ -1,0 +1,22 @@
+Queremos crear una clase para representar los móviles prepago (los jovencitos que no
+sepan lo que son, que pregunten al señor mayor del profesor).
+Las propiedades de un móvil prepago son:
+• int numeroMovil (13 digitos)
+• float costeEstableceLlamada (euros, con dos decimales)
+• float costeMinutoLlamada (euros, con dos decimales)
+• float costeConsumoMB (euros, con dos decimales)
+• float saldo (euros, con dos decimales) nunca puede ser negativo
+
+Y los métodos que queremos implementar son:
+• void efectuarLlamada (int segundos): reduce el saldo. Si el saldo no es suficiente,
+se corta la llamada
+• void navegar(int MB) análogo a efectuar una llamada
+• boolean recargar (int importe): aumenta el saldo, debe ser múltiplo de 5 euros,
+sino devuelve false
+• float consultarSaldo ()
+
+Al constructor de la clase se le deben pasar todos los datos necesarios para un nuevo
+móvil prepago.
+
+Crea una clase para probar la clase MovilPrepago, crea un par de móviles, efectúa
+llamadas, navega, recarga y muestra cómo va modificándose el saldo.

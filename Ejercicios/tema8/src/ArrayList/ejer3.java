@@ -47,6 +47,7 @@ A continuación, en el programa principal haz lo siguiente: */
         System.out.println("------------------------------------");
 
         Iterator<Producto> iter2= lista.iterator();
+
         while(iter2.hasNext()){
             System.out.println(iter2.next());
         }

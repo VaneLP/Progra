@@ -46,10 +46,11 @@ A continuación, en el programa principal haz lo siguiente: */
         //7. Visualiza de nuevo el contenido de ArrayList utilizando Iterator.
         System.out.println("------------------------------------");
 
-        Iterator<Producto> iter2= lista.iterator();
+        //hay que volver a pasarle la lista para que se reinicie
+        iter= lista.iterator();
 
-        while(iter2.hasNext()){
-            System.out.println(iter2.next());
+        while(iter.hasNext()){
+            System.out.println(iter.next());
         }
 
         //8. Elimina todos los valores del ArrayList.

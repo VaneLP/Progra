@@ -20,6 +20,17 @@ para añadirlo (descripción, precio unitario y cantidad de unidades). Para elim
 
 Hacer también un programa con un menú para gestionar una factura (alta, añadir/eliminar líneas, mostrar factura) Nota: pensar en método toString() para LíneaFactura.*/
     public static void main(String[] args) {
+        LineaFactura l1= new LineaFactura("tornillo",0.75,15);
+        System.out.println(l1);
+
+        Factura miFactura=new Factura("1001","1");
+        miFactura.anyadirLinea("tornillos",0.75,15);
+        miFactura.anyadirLinea("tuercas",0.345,150);
+        miFactura.anyadirLinea("Arandelas",1.8,5);
+        miFactura.mostrar();
+
+        miFactura.eliminarLinea(2);
+        miFactura.mostrar();
 
     }
 }

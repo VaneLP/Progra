@@ -1,0 +1,34 @@
+Implementa las clases Ingrediente y Receta (partiendo de los modelos UML que están
+anexos abajo). Una vez creadas las clases. Implementa un método main que introduzca
+por teclado los valores de los atributos para crear una receta. Se preguntará cuántos
+ingredientes lleva la receta. Una vez introducidos los valores mostrar la receta.
+
+receta
+-nombre(string)
+-elaboracion(sting)
+-duracion(int)
+-ingredientes(ingrediente[])
+--------------------------------------
++receta(string,int,ingrediente[])
++setNombre(String):void
++getNombre():String
++setElaboracion(String):void
++getElaboracion():String
++setduracion(int):void
++getDuracion():int
++mostrarReceta():void
+
+_______________________________________
+
+ingrediente
+-nombre(string)
+-cantidad(int)
+-unidad(sting)
+--------------------------------------
++ingrediente(string,float,String)
++setNombre(String):void
++getNombre():String
++setCantidad(int):void
++getCantidad():int
++setUnidad(String):void
++getUnidad():String

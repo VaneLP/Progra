@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="arreglos">
+      <change afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/Tercera_Parte/ejer10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/Tercera_Parte/ejer11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/Tercera_Parte/ejer6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/Tercera_Parte/ejer7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/Tercera_Parte/ejer8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/Tercera_Parte/ejer9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/Tercera_Parte/enunciado 6" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicios/tema8/src/ArrayList/Factura.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/ArrayList/Factura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicios/tema8/src/ArrayList/LineaFactura.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/ArrayList/LineaFactura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicios/tema8/src/ArrayList/ejer4.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/ArrayList/ejer4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicios/UD8_Ejercicios_v02.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios/UD8_Ejercicios_v02.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

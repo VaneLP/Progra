@@ -1,4 +1,4 @@
-package Tercera_Parte;
+package Diez;
 /*Implementa un programa que cree una matriz de tamaño F x C (estos valores se
 introducirán como parámetros en la línea de comandos) y la rellene con números
 enteros aleatorios entre 1 y 20. Luego pedirá por teclado un número V y mostrará por

@@ -5,15 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="arreglos">
-      <change afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/Tercera_Parte/ejer10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/Tercera_Parte/ejer11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/Tercera_Parte/ejer6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/Tercera_Parte/ejer7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/Tercera_Parte/ejer8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/Tercera_Parte/ejer9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/Tercera_Parte/enunciado 6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/EticalBank/CuentaBancaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/EticalBank/EticalBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/EticalBank/enunciado 7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/Receta/Ingredientes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/Receta/Receta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/Receta/ejer6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicios/UD8_Ejercicios_v02.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios/UD8_Ejercicios_v02.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicios/tema8/src/Tercera_Parte/ejer10.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/Diez/ejer10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicios/tema8/src/Tercera_Parte/ejer11.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/Once/ejer11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicios/tema8/src/Tercera_Parte/ejer6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicios/tema8/src/Tercera_Parte/ejer7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicios/tema8/src/Tercera_Parte/ejer8.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/LaTiendaDelBarrio/ejer8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicios/tema8/src/Tercera_Parte/ejer9.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/JuandoAl/ejer9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicios/tema8/src/Tercera_Parte/enunciado 6" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/Receta/enunciado 6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicios/tema8/src/Tercera_Parte/enunciado 9" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/JuandoAl/enunciado 9" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicios/tema8/src/Tercera_Parte/ununciado 8" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/LaTiendaDelBarrio/ununciado 8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progra/ArrayList/Factura.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progra/ArrayList/Factura.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progra/ArrayList/LineaFactura.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progra/ArrayList/LineaFactura.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progra/ArrayList/ejer3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progra/ArrayList/ejer3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Progra/ArrayList/ejer4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progra/ArrayList/ejer4.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +50,23 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Vane/Documents/GitHub/Progra/Ejercicios/tema8/src/Receta"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vane\Documents\GitHub\Progra\Ejercicios\tema8\src\Receta" />
+      <recent name="C:\Users\Vane\Documents\GitHub\Progra\Ejercicios\tema8\src\Tercera_Parte" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vane\Documents\GitHub\Progra\Ejercicios\tema8\src\JuandoAl" />
+      <recent name="C:\Users\Vane\Documents\GitHub\Progra\Ejercicios\tema8\src\LaTiendaDelBarrio" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="arreglos">
-      <change afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/EticalBank/CuentaBancaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/EticalBank/EticalBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/EticalBank/enunciado 7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/Receta/Ingredientes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/Receta/Receta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/Receta/ejer6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicios/tema8/src/Tercera_Parte/ejer10.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/Diez/ejer10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicios/tema8/src/Tercera_Parte/ejer11.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/Once/ejer11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicios/tema8/src/Tercera_Parte/ejer6.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicios/tema8/src/Tercera_Parte/ejer7.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicios/tema8/src/Tercera_Parte/ejer8.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/LaTiendaDelBarrio/ejer8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicios/tema8/src/Tercera_Parte/ejer9.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/JuandoAl/ejer9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicios/tema8/src/Tercera_Parte/enunciado 6" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/Receta/enunciado 6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicios/tema8/src/Tercera_Parte/enunciado 9" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/JuandoAl/enunciado 9" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicios/tema8/src/Tercera_Parte/ununciado 8" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/LaTiendaDelBarrio/ununciado 8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Progra/ArrayList/Factura.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progra/ArrayList/Factura.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Progra/ArrayList/LineaFactura.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progra/ArrayList/LineaFactura.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Progra/ArrayList/ejer3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progra/ArrayList/ejer3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Progra/ArrayList/ejer4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Progra/ArrayList/ejer4.class" afterDir="false" />
-    </list>
+    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="Ejercicios 6 y 7" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674816762637</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Ejercicios 6 y 7">
+      <created>1675017678678</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1675017678678</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,6 +176,7 @@
     <MESSAGE value="continuacion ejercicios arraylist" />
     <MESSAGE value="continuacion 2 ejercicios arraylist" />
     <MESSAGE value="arreglos" />
-    <option name="LAST_COMMIT_MESSAGE" value="arreglos" />
+    <MESSAGE value="Ejercicios 6 y 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios 6 y 7" />
   </component>
 </project>

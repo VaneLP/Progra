@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="ejer4">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="Ejercicios 6 y 7" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,12 +29,23 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Vane/Documents/GitHub/Progra/Ejercicios/tema8/src/Receta"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vane\Documents\GitHub\Progra\Ejercicios\tema8\src\Receta" />
+      <recent name="C:\Users\Vane\Documents\GitHub\Progra\Ejercicios\tema8\src\Tercera_Parte" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vane\Documents\GitHub\Progra\Ejercicios\tema8\src\JuandoAl" />
+      <recent name="C:\Users\Vane\Documents\GitHub\Progra\Ejercicios\tema8\src\LaTiendaDelBarrio" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -109,12 +118,12 @@
       <option name="project" value="LOCAL" />
       <updated>1674816762637</updated>
     </task>
-    <task id="LOCAL-00010" summary="ejer4">
-      <created>1674819789189</created>
+    <task id="LOCAL-00010" summary="Ejercicios 6 y 7">
+      <created>1675017678678</created>
       <option name="number" value="00010" />
       <option name="presentableId" value="LOCAL-00010" />
       <option name="project" value="LOCAL" />
-      <updated>1674819789189</updated>
+      <updated>1675017678678</updated>
     </task>
     <option name="localTasksCounter" value="11" />
     <servers />
@@ -167,7 +176,7 @@
     <MESSAGE value="continuacion ejercicios arraylist" />
     <MESSAGE value="continuacion 2 ejercicios arraylist" />
     <MESSAGE value="arreglos" />
-    <MESSAGE value="ejer4" />
-    <option name="LAST_COMMIT_MESSAGE" value="ejer4" />
+    <MESSAGE value="Ejercicios 6 y 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios 6 y 7" />
   </component>
 </project>

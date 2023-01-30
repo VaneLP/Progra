@@ -9,6 +9,8 @@ public class Tienda {
     public void menu(){
         Scanner entrada= new Scanner(System.in);
         int n=0, id, cant;
+        double precioTotal;
+        String nombre;
 
         do{
             System.out.printf("%n_______________________________"+
@@ -28,6 +30,9 @@ public class Tienda {
                     System.out.printf("1. Mostrar articulos"+
                                     "/n=======================");
 
+                    for (int i =0;i<Articulo.getListaArticulos().size();i++){
+                        System.out.println(Articulo.getListaArticulos().get(i));
+                    }
                     break;
 
                 case 2:
@@ -39,57 +44,39 @@ public class Tienda {
                     System.out.print("Introduce la canridad de articulos deseados: ");
                     cant= entrada.nextInt();
 
+                    System.out.println("Introduce tu nombre: ");
+                    nombre= entrada.next();
 
+                    precioTotal = cant*ç
 
+                    if (confirmar()){
+                        System.out.println("Compra realizada con exito");
+                    }
                     break;
 
                 case 3:
                     System.out.printf("3. Compra a proveedor"+
-                                    "/n=========================");
+                                    "/n========================="+
+                                    "/nIntroduce el identificador del producto (ID): ");
 
+                    id = entrada.nextInt();
+
+                    System.out.print("Introduce la canridad de articulos deseados: ");
+                    cant= entrada.nextInt();
+
+                    System.out.println("Introduce tu nombre: ");
+                    nombre= entrada.next();
+
+                    if (confirmar()){
+                        System.out.println("Compra realizada con exito");
+                    }
                     break;
 
                 case 4:
                     System.out.printf("4. Gestionar articulos"+
                                     "/n=========================");
-                    do{
-                        System.out.printf("/nSeleccione la operacion que desea realizar: "+
-                            "/n1. Añadir articulo"+
-                            "/n2. Editar articulo"+
-                            "/n3. Eliminar articulo"+
-                            "/n4. Volver"+
-                            "%n_______________________________"+
-                            "/nOpcion: ");
-                    n=entrada.nextInt();
-                    System.out.println("_______________________________");
 
-                        switch (n){
-                            case 1:
-                                System.out.printf("1. Añadir articulo"+
-                                        "/n============");
-
-                                break;
-
-                            case 2:
-                                System.out.printf("2. Editar articulo"+
-                                        "/n============");
-
-                                break;
-
-                            case 3:
-                                System.out.printf("3. Eliminar articulo"+
-                                        "/n============");
-
-                                break;
-
-                            case 4:
-                                System.out.printf("4. Volver"+
-                                                "/n============"+
-                                                "/nVolviendo al menu principal...");
-                                break;
-                        }
-                    }while(n!=4);
-
+                    menu2();
                     break;
 
                 case 5:
@@ -102,4 +89,63 @@ public class Tienda {
 
         }while(n!=5);
     }
+
+    public static boolean confirmar () {
+        Scanner entrada = new Scanner(System.in);
+        String continuar;
+
+        System.out.printf("¿Deseas confirmar el pedido? (Escriba T/t o F/f)" +
+                "%nRespuesta: ");
+        continuar = entrada.next();
+
+        if (continuar.equals("F") || continuar.equals("f")) {
+            return false;
+        }
+
+        return true;
+    }
+
+    public void menu2(){
+        Scanner entrada= new Scanner(System.in);
+        int n;
+
+        do{
+            System.out.printf("/nSeleccione la operacion que desea realizar: "+
+                    "/n1. Añadir articulo"+
+                    "/n2. Editar articulo"+
+                    "/n3. Eliminar articulo"+
+                    "/n4. Volver"+
+                    "%n_______________________________"+
+                    "/nOpcion: ");
+            n=entrada.nextInt();
+            System.out.println("_______________________________");
+
+            switch (n){
+                case 1:
+                    System.out.printf("1. Añadir articulo"+
+                            "/n============");
+
+                    break;
+
+                case 2:
+                    System.out.printf("2. Editar articulo"+
+                            "/n============");
+
+                    break;
+
+                case 3:
+                    System.out.printf("3. Eliminar articulo"+
+                            "/n============");
+
+                    break;
+
+                case 4:
+                    System.out.printf("4. Volver"+
+                            "/n============"+
+                            "/nVolviendo al menu principal...");
+                    break;
+            }
+        }while(n!=4);
+    }
+
 }

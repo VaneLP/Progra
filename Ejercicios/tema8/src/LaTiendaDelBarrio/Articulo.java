@@ -1,5 +1,7 @@
 package LaTiendaDelBarrio;
 
+import java.util.ArrayList;
+
 public class Articulo {
     //atributos
     private static int id;
@@ -7,6 +9,7 @@ public class Articulo {
     private double precioVenta, precioCompra;
     private final static int iva=21;
     private String nombre;
+    private static ArrayList <Articulo> listaArticulos = new ArrayList<>();
 
     //constructor
     public Articulo (String nombre, double precioVenta, double precioCompra, int stock){
@@ -55,6 +58,16 @@ public class Articulo {
         return nombre;
     }
 
+    //lista articulo
+    public static ArrayList<Articulo> getListaArticulos() {
+        return listaArticulos;
+    }
+    public static void setListaArticulos(ArrayList<Articulo> listaArticulos) {
+        Articulo.listaArticulos = listaArticulos;
+    }
+
+
+
     //metodos
     public boolean venderCliente (int cantidad){
         if(stock>0 && cantidad>0 && cantidad<stock){
@@ -72,6 +85,15 @@ public class Articulo {
         }
         System.err.println("No se puede realizar la accion solicitada");
         return false;
+    }
+
+    //creamos un metodo en el que le pasamos como parametro un objeto y lo añadimos a la arraylist
+    public void anyadirArticulo(Articulo arti){
+        this.listaArticulos.add(arti);
+    }
+    //Creamos un nuevo articulo con las atributos asignadas
+    public void anyadirArticulo(String nombre, double precioVenta, double precioCompra, int stock){
+        anyadirArticulo(new Articulo(nombre,precioVenta,precioCompra,stock));
     }
 
     @Override

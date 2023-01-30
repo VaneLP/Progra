@@ -109,7 +109,7 @@ public class EticalBank {
                     break;
 
                 case 8:
-                    System.out.printf("7. Salir"+
+                    System.out.printf("8. Salir"+
                             "%n======================");
                     break;
             }

@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="Ejercicios 6 y 7">
+    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="correcciones">
+      <change afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/LaTiendaDelBarrio/Tienda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicios/tema8/src/LaTiendaDelBarrio/ejer8.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/LaTiendaDelBarrio/ejer8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicios/tema8/src/Receta/enunciado 6" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/Receta/enunciado 6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicios/tema8/src/EticalBank/EticalBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/EticalBank/EticalBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicios/tema8/src/LaTiendaDelBarrio/ejer8.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/LaTiendaDelBarrio/Articulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicios/tema8/src/LaTiendaDelBarrio/ununciado 8" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/LaTiendaDelBarrio/ununciado 8" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675017678678</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="correcciones">
+      <created>1675064488127</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1675064488127</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,6 +190,7 @@
     <MESSAGE value="continuacion 2 ejercicios arraylist" />
     <MESSAGE value="arreglos" />
     <MESSAGE value="Ejercicios 6 y 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ejercicios 6 y 7" />
+    <MESSAGE value="correcciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="correcciones" />
   </component>
 </project>

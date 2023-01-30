@@ -3,6 +3,7 @@ anexos abajo). Una vez creadas las clases. Implementa un método main que introd
 por teclado los valores de los atributos para crear una receta. Se preguntará cuántos
 ingredientes lleva la receta. Una vez introducidos los valores mostrar la receta.
 
+_______________________________________
 receta
 -nombre(string)
 -elaboracion(sting)
@@ -17,9 +18,9 @@ receta
 +setduracion(int):void
 +getDuracion():int
 +mostrarReceta():void
-
 _______________________________________
 
+_______________________________________
 ingrediente
 -nombre(string)
 -cantidad(int)
@@ -32,3 +33,4 @@ ingrediente
 +getCantidad():int
 +setUnidad(String):void
 +getUnidad():String
+_______________________________________

@@ -1,6 +1,7 @@
 package Diez;
 
 import java.util.Scanner;
+import java.util.concurrent.ThreadLocalRandom;
 
 /*Implementa un programa que cree una matriz de tamaño F x C (estos valores se
 introducirán como parámetros en la línea de comandos) y la rellene con números
@@ -29,7 +30,19 @@ public class ejer10 {
         int[][] matriz = new int [f][c];
 
         for (int i=0;i< matriz.length; i++){
-            for (int j=0)
+            for (int j=0;j<matriz[i].length;j++){
+                matriz[i][j]= ThreadLocalRandom.current().nextInt(1,20+1);
+            }
         }
+
+        for (int[] mostrar1 : matriz) {
+            System.out.println();
+            for (int mostrar2 : mostrar1) {
+                System.out.println( mostrar2 + " ");
+            }
+        }
+
+        System.out.println("Dime ");
+
     }
 }

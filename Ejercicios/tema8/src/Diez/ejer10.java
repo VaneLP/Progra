@@ -1,4 +1,7 @@
 package Diez;
+
+import java.util.Scanner;
+
 /*Implementa un programa que cree una matriz de tamaño F x C (estos valores se
 introducirán como parámetros en la línea de comandos) y la rellene con números
 enteros aleatorios entre 1 y 20. Luego pedirá por teclado un número V y mostrará por
@@ -15,4 +18,18 @@ Fila 1: 2
 Fila 2: 0
 Fila 3: 3*/
 public class ejer10 {
+    public static void main(String[] args) {
+        Scanner entrada= new Scanner(System.in);
+
+        System.out.println(" Introduce un valor para F");
+        int f = entrada.nextInt();
+        System.out.println("Introduce un valor para C");
+        int c = entrada.nextInt();
+
+        int[][] matriz = new int [f][c];
+
+        for (int i=0;i< matriz.length; i++){
+            for (int j=0)
+        }
+    }
 }

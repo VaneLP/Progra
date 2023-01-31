@@ -47,7 +47,7 @@ public class Tienda {
                     System.out.println("Introduce tu nombre: ");
                     nombre= entrada.next();
 
-                    precioTotal = cant*ç
+                    //precio total
 
                     if (confirmar()){
                         System.out.println("Compra realizada con exito");
@@ -66,6 +66,8 @@ public class Tienda {
 
                     System.out.println("Introduce tu nombre: ");
                     nombre= entrada.next();
+
+                    //precio total
 
                     if (confirmar()){
                         System.out.println("Compra realizada con exito");
@@ -107,8 +109,9 @@ public class Tienda {
 
     public void menu2(){
         Scanner entrada= new Scanner(System.in);
-        int n;
-
+        int n, stock;
+        double precioVenta,precioCompra;
+        String nombre;
         do{
             System.out.printf("/nSeleccione la operacion que desea realizar: "+
                     "/n1. Añadir articulo"+
@@ -124,7 +127,11 @@ public class Tienda {
                 case 1:
                     System.out.printf("1. Añadir articulo"+
                             "/n============");
-
+                    nombre= entrada.next();
+                    precioVenta=entrada.nextDouble();
+                    precioCompra= entrada.nextDouble();
+                    stock= entrada.nextInt();
+                    Articulo.getListaArticulos().add(new Articulo(nombre,precioVenta,precioCompra,stock));
                     break;
 
                 case 2:
@@ -136,7 +143,8 @@ public class Tienda {
                 case 3:
                     System.out.printf("3. Eliminar articulo"+
                             "/n============");
-
+//                    for (;;)
+//                    Articulo.getListaArticulos().remove();
                     break;
 
                 case 4:

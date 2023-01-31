@@ -24,6 +24,7 @@ public class ejer11 {
             }
         }
 
+
         for (int[] mostrar1: matriz) {
             System.out.println();
             for (int mostrar2 : mostrar1) {

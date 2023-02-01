@@ -17,12 +17,21 @@ public class ejer9 {
 
     public static ArrayList lineas (int[][] matriz){
         ArrayList<int[]> lista= new ArrayList<>();
+        boolean lineaSinCero;
 
         for (int[] mostrar1 : matriz) {
-            System.out.println();
+
+            lineaSinCero=true;
 
             for (Integer mostrar2 : mostrar1) {
-                System.out.print(mostrar2 + " ");
+                if(mostrar2==0) {
+                    lineaSinCero = false;
+                }
+            }
+
+            if (lineaSinCero) {
+                System.out.print(Arrays.toString(mostrar1) + " ");
+                System.out.println();
             }
 
         }

@@ -43,7 +43,23 @@ public class ejer10 {
         }
 
         System.out.println();
-        System.out.println("Dime ");
+        System.out.println("Dime un numero para ver si es multiplo en alguna fila:");
+        int n = entrada.nextInt();
+
+        int cont;
+
+        for (int[] mostrar1 : matriz) {
+            cont=0;
+
+            for (int mostrar2 : mostrar1) {
+                if(mostrar2%n==0){
+                    cont++;
+                }
+            }
+
+            System.out.println("Fila: "+cont);
+
+        }
 
     }
 }

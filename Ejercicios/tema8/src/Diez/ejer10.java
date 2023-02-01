@@ -38,10 +38,11 @@ public class ejer10 {
         for (int[] mostrar1 : matriz) {
             System.out.println();
             for (int mostrar2 : mostrar1) {
-                System.out.println( mostrar2 + " ");
+                System.out.print( mostrar2 + " ");
             }
         }
 
+        System.out.println();
         System.out.println("Dime ");
 
     }

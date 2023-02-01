@@ -48,6 +48,11 @@ public class Tienda {
                     nombre= entrada.next();
 
                     //precio total
+                    for (Articulo articulo : Articulo.getListaArticulos()) {
+                        if (id==articulo.getId()){
+                            System.out.println(articulo.getPrecioVenta()*cant);
+                        }
+                    }
 
                     if (confirmar()){
                         System.out.println("Compra realizada con exito");
@@ -68,6 +73,11 @@ public class Tienda {
                     nombre= entrada.next();
 
                     //precio total
+                    for (Articulo articulo : Articulo.getListaArticulos()) {
+                        if (id==articulo.getId()){
+                            System.out.println(articulo.getPrecioCompra()*cant);
+                        }
+                    }
 
                     if (confirmar()){
                         System.out.println("Compra realizada con exito");
@@ -88,7 +98,6 @@ public class Tienda {
                     break;
 
             }
-
         }while(n!=5);
     }
 
@@ -109,9 +118,10 @@ public class Tienda {
 
     public void menu2(){
         Scanner entrada= new Scanner(System.in);
-        int n, stock;
+        int n, stock, id;
         double precioVenta,precioCompra;
         String nombre;
+
         do{
             System.out.printf("/nSeleccione la operacion que desea realizar: "+
                     "/n1. Añadir articulo"+
@@ -126,25 +136,57 @@ public class Tienda {
             switch (n){
                 case 1:
                     System.out.printf("1. Añadir articulo"+
-                            "/n============");
+                            "/n============"+
+                            "/nIntroduce tu nombre:");
                     nombre= entrada.next();
+
+                    System.out.println("Introduce el precio de venta");
                     precioVenta=entrada.nextDouble();
+
+                    System.out.println("Introduce el precio de compra:");
                     precioCompra= entrada.nextDouble();
+
+                    System.out.println("Introduce el stock:");
                     stock= entrada.nextInt();
+
                     Articulo.getListaArticulos().add(new Articulo(nombre,precioVenta,precioCompra,stock));
                     break;
 
                 case 2:
                     System.out.printf("2. Editar articulo"+
-                            "/n============");
+                            "/n============"+
+                            "/nIntroduce la ID del articulo que deseas editar: ");
 
+                   id= entrada.nextInt();
+
+                    for (Articulo articulo : Articulo.getListaArticulos()) {
+                        if (id==articulo.getId()){
+                            System.out.println("Introduce el precio de venta");
+                            precioVenta=entrada.nextDouble();
+                            articulo.setPrecioVenta(precioVenta);
+
+                            System.out.println("Introduce el precio de compra:");
+                            precioCompra= entrada.nextDouble();
+                            articulo.setPrecioCompra(precioCompra);
+
+                            System.out.println("Introduce el stock:");
+                            stock= entrada.nextInt();
+                            articulo.setStock(stock);
+                        }
+                    }
                     break;
 
                 case 3:
                     System.out.printf("3. Eliminar articulo"+
-                            "/n============");
-//                    for (;;)
-//                    Articulo.getListaArticulos().remove();
+                            "/n============"+
+                            "/nIntroduce el ID del articulo que deseas eliminar");
+                    id=entrada.nextInt();
+
+                    for (Articulo articulo : Articulo.getListaArticulos()) {
+                        if (id==articulo.getId()){
+                            System.out.println(Articulo.getListaArticulos().remove(articulo));
+                        }
+                    }
                     break;
 
                 case 4:

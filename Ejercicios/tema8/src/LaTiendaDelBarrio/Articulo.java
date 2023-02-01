@@ -33,7 +33,7 @@ public class Articulo {
     public double getPrecioVenta() {
         return precioVenta;
     }
-    public void setPrecioVenta(int precioVenta) {
+    public void setPrecioVenta(double precioVenta) {
         this.precioVenta = precioVenta;
     }
 
@@ -41,7 +41,7 @@ public class Articulo {
     public double getPrecioCompra() {
         return precioCompra;
     }
-    public void setPrecioCompra(int precioCompra) {
+    public void setPrecioCompra(double precioCompra) {
         this.precioCompra = precioCompra;
     }
 

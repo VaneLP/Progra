@@ -24,11 +24,25 @@ public class ejer11 {
             }
         }
 
+        int cont;
+        boolean  lineaSinCero;
+
         for (int[] mostrar1: matriz) {
+            cont=0;
+            lineaSinCero=true;
+
             System.out.println();
             for (int mostrar2 : mostrar1) {
-                System.out.print(mostrar2 + " ");
+                if(mostrar2==0){
+                    lineaSinCero=false;
+                    cont++;
+                }
             }
+
+            if(lineaSinCero){
+                System.out.println("Fila con: "+cont);
+            }
+
         }
 
 

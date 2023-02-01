@@ -57,7 +57,7 @@ public class ejer10 {
                 }
             }
 
-            System.out.println("Fila: "+cont);
+            System.out.println("Fila con: "+cont);
 
         }
 

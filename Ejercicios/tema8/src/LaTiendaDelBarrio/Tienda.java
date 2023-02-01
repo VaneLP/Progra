@@ -29,7 +29,7 @@ public class Tienda {
             switch (n){
                 case 1:
                     System.out.printf("1. Mostrar articulos"+
-                                    "/n=======================");
+                                    "%n=======================");
 
                     for (int i =0;i<Articulo.getListaArticulos().size();i++){
                         System.out.println(Articulo.getListaArticulos().get(i));
@@ -38,8 +38,8 @@ public class Tienda {
 
                 case 2:
                     System.out.printf("2. Venta a cliente"+
-                                    "/n======================="+
-                                    "/nIntroduce el identificador del producto (ID): ");
+                                    "%n======================="+
+                                    "%nIntroduce el identificador del producto (ID): ");
                     id = entrada.nextInt();
 
                     System.out.print("Introduce la canridad de articulos deseados: ");
@@ -62,8 +62,8 @@ public class Tienda {
 
                 case 3:
                     System.out.printf("3. Compra a proveedor"+
-                                    "/n========================="+
-                                    "/nIntroduce el identificador del producto (ID): ");
+                                    "%n========================="+
+                                    "%nIntroduce el identificador del producto (ID): ");
 
                     id = entrada.nextInt();
 
@@ -87,15 +87,15 @@ public class Tienda {
 
                 case 4:
                     System.out.printf("4. Gestionar articulos"+
-                                    "/n=========================");
+                                    "%n=========================");
 
                     menu2();
                     break;
 
                 case 5:
                     System.out.printf("5. Salir"+
-                                    "/n============"+
-                                    "/nSaliendo...");
+                                    "%n============"+
+                                    "%nSaliendo...");
                     break;
 
             }
@@ -124,21 +124,21 @@ public class Tienda {
         String nombre;
 
         do{
-            System.out.printf("/nSeleccione la operacion que desea realizar: "+
-                    "/n1. Añadir articulo"+
-                    "/n2. Editar articulo"+
-                    "/n3. Eliminar articulo"+
-                    "/n4. Volver"+
+            System.out.printf("%nSeleccione la operacion que desea realizar: "+
+                    "%n1. Añadir articulo"+
+                    "%n2. Editar articulo"+
+                    "%n3. Eliminar articulo"+
+                    "%n4. Volver"+
                     "%n_______________________________"+
-                    "/nOpcion: ");
+                    "%nOpcion: ");
             n=entrada.nextInt();
             System.out.println("_______________________________");
 
             switch (n){
                 case 1:
                     System.out.printf("1. Añadir articulo"+
-                            "/n============"+
-                            "/nIntroduce tu nombre:");
+                            "%n============"+
+                            "%nIntroduce tu nombre:");
                     nombre= entrada.next();
 
                     System.out.println("Introduce el precio de venta");
@@ -155,8 +155,8 @@ public class Tienda {
 
                 case 2:
                     System.out.printf("2. Editar articulo"+
-                            "/n============"+
-                            "/nIntroduce la ID del articulo que deseas editar: ");
+                            "%n============"+
+                            "%nIntroduce la ID del articulo que deseas editar: ");
 
                    id= entrada.nextInt();
 
@@ -179,8 +179,8 @@ public class Tienda {
 
                 case 3:
                     System.out.printf("3. Eliminar articulo"+
-                            "/n============"+
-                            "/nIntroduce el ID del articulo que deseas eliminar");
+                            "%n============"+
+                            "%nIntroduce el ID del articulo que deseas eliminar");
                     id=entrada.nextInt();
 
                     for (Articulo articulo : Articulo.getListaArticulos()) {
@@ -192,8 +192,8 @@ public class Tienda {
 
                 case 4:
                     System.out.printf("4. Volver"+
-                            "/n============"+
-                            "/nVolviendo al menu principal...");
+                            "%n============"+
+                            "%nVolviendo al menu principal...");
                     break;
             }
         }while(n!=4);

@@ -4,9 +4,10 @@ import java.util.Scanner;
 
 public class Tienda {
     public static void main(String[] args) {
-
+        menu();
     }
-    public void menu(){
+
+    public static void menu(){
         Scanner entrada= new Scanner(System.in);
         int n=0, id, cant;
         double precioTotal;
@@ -116,7 +117,7 @@ public class Tienda {
         return true;
     }
 
-    public void menu2(){
+    public static void menu2(){
         Scanner entrada= new Scanner(System.in);
         int n, stock, id;
         double precioVenta,precioCompra;

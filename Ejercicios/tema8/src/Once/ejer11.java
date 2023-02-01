@@ -46,5 +46,15 @@ public class ejer11 {
         }
 
 
+
+        /*contar diagonal izq y drch y gana el jugado 0 si en todos los puntos gana el 0 y viceversa
+        0,0|1  |2
+        1  |1,1|-
+        2  |-  |2,2
+
+        */
+
+
+
     }
 }

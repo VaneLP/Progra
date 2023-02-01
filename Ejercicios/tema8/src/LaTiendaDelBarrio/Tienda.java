@@ -13,6 +13,7 @@ public class Tienda {
         double precioTotal;
         String nombre;
 
+        anyadirArticulo();
         do{
             System.out.printf("%n_______________________________"+
                     "%nSeleeciona la operacion que deseas realizar:"+
@@ -42,21 +43,21 @@ public class Tienda {
                                     "%nIntroduce el identificador del producto (ID): ");
                     id = entrada.nextInt();
 
-                    System.out.print("Introduce la canridad de articulos deseados: ");
+                    System.out.print("Introduce la cantidad de articulos deseados: ");
                     cant= entrada.nextInt();
 
-                    System.out.println("Introduce tu nombre: ");
+                    System.out.print("Introduce tu nombre: ");
                     nombre= entrada.next();
 
                     //precio total
                     for (Articulo articulo : Articulo.getListaArticulos()) {
                         if (id==articulo.getId()){
-                            System.out.println(articulo.getPrecioVenta()*cant);
+                            System.out.println("Precio total: "+articulo.getPrecioVenta()*cant);
+                            if (confirmar()){
+                                System.out.println("Compra realizada con exito");
+                                articulo.venderCliente(cant);
+                            }
                         }
-                    }
-
-                    if (confirmar()){
-                        System.out.println("Compra realizada con exito");
                     }
                     break;
 
@@ -67,21 +68,21 @@ public class Tienda {
 
                     id = entrada.nextInt();
 
-                    System.out.print("Introduce la canridad de articulos deseados: ");
+                    System.out.print("Introduce la cantidad de articulos deseados: ");
                     cant= entrada.nextInt();
 
-                    System.out.println("Introduce tu nombre: ");
+                    System.out.print("Introduce tu nombre: ");
                     nombre= entrada.next();
 
                     //precio total
                     for (Articulo articulo : Articulo.getListaArticulos()) {
                         if (id==articulo.getId()){
-                            System.out.println(articulo.getPrecioCompra()*cant);
+                            System.out.println("Precio total: "+articulo.getPrecioCompra()*cant);
+                            if (confirmar()){
+                                System.out.println("Compra realizada con exito");
+                                articulo.comprarProve(cant);
+                            }
                         }
-                    }
-
-                    if (confirmar()){
-                        System.out.println("Compra realizada con exito");
                     }
                     break;
 
@@ -138,16 +139,16 @@ public class Tienda {
                 case 1:
                     System.out.printf("1. Añadir articulo"+
                             "%n============"+
-                            "%nIntroduce tu nombre:");
+                            "%nIntroduce el nombre del articulo: ");
                     nombre= entrada.next();
 
-                    System.out.println("Introduce el precio de venta");
+                    System.out.println("Introduce el precio de venta: ");
                     precioVenta=entrada.nextDouble();
 
-                    System.out.println("Introduce el precio de compra:");
+                    System.out.println("Introduce el precio de compra: ");
                     precioCompra= entrada.nextDouble();
 
-                    System.out.println("Introduce el stock:");
+                    System.out.println("Introduce el stock: ");
                     stock= entrada.nextInt();
 
                     Articulo.getListaArticulos().add(new Articulo(nombre,precioVenta,precioCompra,stock));
@@ -162,15 +163,15 @@ public class Tienda {
 
                     for (Articulo articulo : Articulo.getListaArticulos()) {
                         if (id==articulo.getId()){
-                            System.out.println("Introduce el precio de venta");
+                            System.out.println("Introduce el precio de venta: ");
                             precioVenta=entrada.nextDouble();
                             articulo.setPrecioVenta(precioVenta);
 
-                            System.out.println("Introduce el precio de compra:");
+                            System.out.println("Introduce el precio de compra: ");
                             precioCompra= entrada.nextDouble();
                             articulo.setPrecioCompra(precioCompra);
 
-                            System.out.println("Introduce el stock:");
+                            System.out.println("Introduce el stock: ");
                             stock= entrada.nextInt();
                             articulo.setStock(stock);
                         }
@@ -180,7 +181,7 @@ public class Tienda {
                 case 3:
                     System.out.printf("3. Eliminar articulo"+
                             "%n============"+
-                            "%nIntroduce el ID del articulo que deseas eliminar");
+                            "%nIntroduce el ID del articulo que deseas eliminar: ");
                     id=entrada.nextInt();
 
                     for (Articulo articulo : Articulo.getListaArticulos()) {
@@ -197,6 +198,16 @@ public class Tienda {
                     break;
             }
         }while(n!=4);
+    }
+
+    public static void anyadirArticulo(){
+        Articulo a1 =new Articulo("patata", 0.80,0.60,100);
+        Articulo a2 =new Articulo("pizza", 1.80,1,50);
+        Articulo a3 =new Articulo("queso", 1,0.60,200);
+
+        a1.anyadirArticulo(a1);
+        a2.anyadirArticulo(a2);
+        a3.anyadirArticulo(a3);
     }
 
 }

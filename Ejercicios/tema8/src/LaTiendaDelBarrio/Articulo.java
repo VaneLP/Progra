@@ -4,7 +4,8 @@ import java.util.ArrayList;
 
 public class Articulo {
     //atributos
-    private static int id;
+    private static int idTodos;
+    private int id;
     private int stock;
     private double precioVenta, precioCompra;
     private final static int iva=21;
@@ -15,12 +16,14 @@ public class Articulo {
     public Articulo (String nombre, double precioVenta, double precioCompra, int stock){
         if (precioVenta>0 && precioCompra>0 && stock>=0){
             this.nombre = nombre;
-            this.id = Articulo.id + 1;
+            this.id = idTodos + 1;
+            idTodos=id;
             this.precioVenta = precioVenta;
             this.precioCompra = precioCompra;
             this.stock = stock;
+        }else {
+            System.err.println("ERROR al instanciar el Articulo...");
         }
-        System.err.println("ERROR al instanciar el Articulo...");
     }
 
     //getters y setters
@@ -98,7 +101,7 @@ public class Articulo {
 
     @Override
     public String toString() {
-        return "Articulo" +
+        return "\nArticulo" +
                 "\n______________________"+
                 "\nID: "+ id +
                 "\nNombre: "+ nombre+

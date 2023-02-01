@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="edits 2.1">
+    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="arreglillos2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ejercicios/tema8/src/LaTiendaDelBarrio/Articulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/LaTiendaDelBarrio/Articulo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ejercicios/tema8/src/LaTiendaDelBarrio/Tienda.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/LaTiendaDelBarrio/Tienda.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,14 +33,14 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/user/Documents/GitHub/Progra",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Documents/GitHub/Progra&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Vane\Documents\GitHub\Progra\Ejercicios\tema8\src\Receta" />
@@ -185,7 +186,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675241453361</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="arreglillos">
+      <created>1675244103918</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1675244103918</updated>
+    </task>
+    <task id="LOCAL-00020" summary="arreglillos2">
+      <created>1675244185620</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1675244185620</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -244,6 +259,8 @@
     <MESSAGE value="edits" />
     <MESSAGE value="edits 2.0" />
     <MESSAGE value="edits 2.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="edits 2.1" />
+    <MESSAGE value="arreglillos" />
+    <MESSAGE value="arreglillos2" />
+    <option name="LAST_COMMIT_MESSAGE" value="arreglillos2" />
   </component>
 </project>

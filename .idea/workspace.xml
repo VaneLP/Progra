@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="c">
+    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="correciones">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicios/tema8/src/Diez/ejer10.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/Diez/ejer10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ejercicios/tema8/src/Once/ejer11.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ejercicios/tema8/src/Once/ejer11.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675321925302</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="correciones">
+      <created>1675323386972</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1675323386972</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -301,6 +306,7 @@
     <MESSAGE value="arreglos ejer 8" />
     <MESSAGE value="explicacion 11" />
     <MESSAGE value="c" />
-    <option name="LAST_COMMIT_MESSAGE" value="c" />
+    <MESSAGE value="correciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="correciones" />
   </component>
 </project>

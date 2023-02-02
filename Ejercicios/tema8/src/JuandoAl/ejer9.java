@@ -12,11 +12,12 @@ public class ejer9 {
         for (int[] mostrar1 : lineas) {
             System.out.println(Arrays.toString(mostrar1));
         }
-    }
 
+    }
 
     public static ArrayList lineas (int[][] matriz){
         ArrayList<int[]> lista= new ArrayList<>();
+
         boolean lineaSinCero;
 
         for (int[] mostrar1 : matriz) {

@@ -22,32 +22,37 @@ public class ejer10 {
     public static void main(String[] args) {
         Scanner entrada= new Scanner(System.in);
 
-        System.out.println(" Introduce un valor para F");
-        int f = entrada.nextInt();
+        System.out.println("Introduce un valor para F");
+        int f = Integer.parseInt(args[0]);//primer valor para la linea de comandos
         System.out.println("Introduce un valor para C");
-        int c = entrada.nextInt();
+        int c = Integer.parseInt(args[1]);//segundo valor para la linea de comandos
 
         int[][] matriz = new int [f][c];
 
+        //añadir a la matriz los numeros aleatorios
         for (int i=0;i< matriz.length; i++){
             for (int j=0;j<matriz[i].length;j++){
                 matriz[i][j]= ThreadLocalRandom.current().nextInt(1,20+1);
             }
         }
 
+        //mostramos la matriz
         for (int[] mostrar1 : matriz) {
-            System.out.println();
+
             for (int mostrar2 : mostrar1) {
                 System.out.print( mostrar2 + " ");
             }
+            System.out.println();
         }
 
+        //pedimos el numero para ver si es multiplo
         System.out.println();
         System.out.println("Dime un numero para ver si es multiplo en alguna fila:");
         int n = entrada.nextInt();
 
-        int cont;
+        int cont, cont2=1;
 
+        //mostramos las coincidencias
         for (int[] mostrar1 : matriz) {
             cont=0;
 
@@ -57,7 +62,7 @@ public class ejer10 {
                 }
             }
 
-            System.out.println("Fila con: "+cont);
+            System.out.println("Fila "+(cont2++)+": "+cont);
 
         }
 

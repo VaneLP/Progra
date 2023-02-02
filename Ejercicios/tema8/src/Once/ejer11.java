@@ -14,8 +14,10 @@ Por ejemplo, dada esta matriz, mostrará Lineas 0: 2 Lineas 1: 0 Gana 0
 public class ejer11 {
     public static void main(String[] args) {
         int[][] matriz = new int[3][3];
+
         int nAle;
 
+        //asignamos numero aleatorios a la matriz
         for (int i=0;i<matriz.length;i++){
             for(int j=0;j<matriz[i].length;j++){
                 nAle= ThreadLocalRandom.current().nextInt(0,1+1);
@@ -24,14 +26,16 @@ public class ejer11 {
             }
         }
 
+
         int cont;
         boolean  lineaSinCero;
+
 
         for (int[] mostrar1: matriz) {
             cont=0;
             lineaSinCero=true;
-
             System.out.println();
+
             for (int mostrar2 : mostrar1) {
                 if(mostrar2==0){
                     lineaSinCero=false;

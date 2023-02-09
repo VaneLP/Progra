@@ -7,6 +7,10 @@
       <sourceFolder url="file://$MODULE_DIR$/Ejercicios/tema8/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/untitled/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Ejercicios/trabajo1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/temas/Tema6/ejercicios t.6/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/temas/tema 4/ejercicios t.4/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/temas/tema5/ejercicios t.5/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/temas/tema7/ejercicios t.7/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/temas/tema8/ejercicios t.8/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/.idea" />
     </content>

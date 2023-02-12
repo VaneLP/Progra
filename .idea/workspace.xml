@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="correciones">
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/ejercicio guiado/src/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/ejercicio guiado/src/AnimalAcuatico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/ejercicio guiado/src/AnimalTerrestre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/ejercicio guiado/src/Zoo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Progra.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Progra.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/ejercicio guiado/src/AnimalMarino.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/ejercicio guiado/src/ProgramaZoo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/ejercicio guiado/src/TipoAgua.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/ejercicio guiado/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/ejercicio guiado/src/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/ejercicio guiado/src/AnimalAcuatico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/ejercicio guiado/src/AnimalTerrestre.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/ejercicio guiado/src/AnimalTerrestre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/ejercicio guiado/src/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/ejercicio guiado/src/Zoo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -35,14 +39,14 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Documents/GitHub/Progra&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/user/Documents/GitHub/Progra",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Vane\Documents\GitHub\Progra\Ejercicios\tema8\src\Receta" />
@@ -52,6 +56,9 @@
       <recent name="C:\Users\Vanessa\Documents\GitHub\Progra\temas\tema9\ejercicios t.9\ejercicio guiado" />
       <recent name="C:\Users\Vane\Documents\GitHub\Progra\Ejercicios\tema8\src\JuandoAl" />
       <recent name="C:\Users\Vane\Documents\GitHub\Progra\Ejercicios\tema8\src\LaTiendaDelBarrio" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
   </component>
   <component name="RunManager">

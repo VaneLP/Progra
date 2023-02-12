@@ -38,5 +38,12 @@ public class Zoo {
         return -1;
     }
 
+    public void listaAnimales() {
+        System.out.println("Animales en el Zoo");
+        for (Animal a: listaAnimales) {
+            System.out.println(a);
+        }
+    }
+
 
 }

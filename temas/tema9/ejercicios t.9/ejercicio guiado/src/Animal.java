@@ -34,5 +34,6 @@ public abstract class Animal {
         return this.nombre.equals(((Animal)obj).nombre);
     }
 
+    public abstract void ejercicio();
 
 }

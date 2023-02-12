@@ -1,4 +1,4 @@
-public class AnimalMarino extends Animal {
+public class AnimalMarino extends Animal implements Nadador {
     private TipoAgua tipoAgua;
     private int velocidad;
 
@@ -25,5 +25,14 @@ public class AnimalMarino extends Animal {
         this.velocidad = velocidad;
     }
 
+    @Override
+    public void ejercicio() {
+        System.out.println("El animal marino hace ejercicio");
+    }
 
+    @Override
+    public int nadar(int metros) {
+        double metrosSegundo=this.velocidad / 0.27777778;
+        return (int)(metros*metrosSegundo);
+    }
 }

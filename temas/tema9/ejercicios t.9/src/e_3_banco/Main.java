@@ -18,6 +18,9 @@ public class Main {
         c1.traspasar(c2);
 
         //calcula los intereses
+        c1.calcularIntereses();
+        c2.calcularIntereses();
+        c3.calcularIntereses();
 
         //muéstralos por pantalla
         c1.consultar();

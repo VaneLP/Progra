@@ -29,6 +29,10 @@ public abstract class CuentaBancaria {
         this.saldo = saldo;
     }
 
+    //interes anual basico
+    public static double getInteresAnualBasico(){
+        return interesAnualBasico;
+    }
 
     //metodos
     public void consultar(){

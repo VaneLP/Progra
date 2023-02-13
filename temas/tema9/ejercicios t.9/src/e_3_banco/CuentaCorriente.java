@@ -9,7 +9,7 @@ public class CuentaCorriente extends CuentaBancaria{
     //metodos
     @Override
     public void calcularIntereses() {
-        int suma= getSaldo()+CuentaBancaria.;
+        double suma= getSaldo()+CuentaBancaria.getInteresAnualBasico();
     }
 
 }

@@ -4,32 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="ejercicio guiado terminado">
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/Preguntas" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_2_mascotas/Aves.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_2_mascotas/Canario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_2_mascotas/ColorCanario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_2_mascotas/ColorGato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_2_mascotas/Estado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_2_mascotas/Gato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_2_mascotas/Inventario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_2_mascotas/Loro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_2_mascotas/Mascotas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_2_mascotas/Perro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_2_mascotas/Pico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_2_mascotas/Raza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_3_banco/CuentaAhorro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_3_banco/CuentaBancaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_3_banco/CuentaCorriente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_3_banco/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema 4/ejercicios t.4/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema5/ejercicios t.5/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_1_astros/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_1_astros/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_2_mascotas/enun2" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_2_mascotas/enun2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_3_banco/enun3" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_3_banco/enun3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/trabajo1/trabajo/src/Main.java" beforeDir="false" />
-    </list>
+    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="ejercicio 1 y 2 terminado. 3 casi" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -293,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676228193968</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="ejercicio 1 y 2 terminado. 3 casi">
+      <created>1676309777015</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1676309777015</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -361,6 +343,7 @@
     <MESSAGE value="correciones" />
     <MESSAGE value="ejercicio guiado" />
     <MESSAGE value="ejercicio guiado terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="ejercicio guiado terminado" />
+    <MESSAGE value="ejercicio 1 y 2 terminado. 3 casi" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 1 y 2 terminado. 3 casi" />
   </component>
 </project>

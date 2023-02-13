@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="arreglos 2">
-      <change beforePath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_2_mascotas/Inventario.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_2_mascotas/Inventario.java" afterDir="false" />
+    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="arreglooooooooos 2.0">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -284,7 +284,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676310208530</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="arreglos 2">
+      <created>1676310410270</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1676310410270</updated>
+    </task>
+    <task id="LOCAL-00030" summary="arreglooooooooos 2.0">
+      <created>1676310519479</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1676310519479</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -354,6 +368,7 @@
     <MESSAGE value="ejercicio guiado terminado" />
     <MESSAGE value="ejercicio 1 y 2 terminado. 3 casi" />
     <MESSAGE value="arreglos 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="arreglos 2" />
+    <MESSAGE value="arreglooooooooos 2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="arreglooooooooos 2.0" />
   </component>
 </project>

@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="arreglooooooooos 2.0">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_3_banco/CuentaAhorro.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_3_banco/CuentaAhorro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_3_banco/CuentaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_3_banco/CuentaBancaria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_3_banco/CuentaCorriente.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_3_banco/CuentaCorriente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_3_banco/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_3_banco/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="ejer 3 terminado" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -309,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676312901899</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="ejer 3 terminado">
+      <created>1676313551086</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1676313551086</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -355,7 +356,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="fin ejercicio prueba" />
     <MESSAGE value="fin ejercicio prueba 2" />
     <MESSAGE value="borrar test" />
     <MESSAGE value="continuacion ejercicios arraylist" />
@@ -380,6 +380,7 @@
     <MESSAGE value="ejercicio 1 y 2 terminado. 3 casi" />
     <MESSAGE value="arreglos 2" />
     <MESSAGE value="arreglooooooooos 2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="arreglooooooooos 2.0" />
+    <MESSAGE value="ejer 3 terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejer 3 terminado" />
   </component>
 </project>

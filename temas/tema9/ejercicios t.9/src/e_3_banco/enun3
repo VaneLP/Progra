@@ -1,8 +1,11 @@
 Vamos a hacer una aplicación que simule el funcionamiento de un banco.
 
-Crea una clase CuentaBancaria con los atributos: iban y saldo. Implementa métodos para:
+Crea una clase CuentaBancaria con los atributos: iban y saldo.
+
+Implementa métodos para:
 •Consultar los atributos.
-•Ingresar dinero.•Retirar dinero.
+•Ingresar dinero.
+•Retirar dinero.
 •Traspasar dinero de una cuenta a otra.
 
 Para los tres últimos métodos puede utilizarse internamente un método privado más general llamado
@@ -14,8 +17,9 @@ puede ser constante.
 La clase tiene que ser abstracta y debe tener un método calcularIntereses() que se dejará sin implementar.
 También puede ser útil implementar un método para mostrar los datos de la cuenta.
 
-De esta clase heredarán dos subclases: CuentaCorriente y CuentaAhorro. La diferencia entre ambas será
-la manera de calcular los intereses:
+De esta clase heredarán dos subclases: CuentaCorriente y CuentaAhorro.
+
+La diferencia entre ambas será la manera de calcular los intereses:
 •A la primera se le incrementará el saldo teniendo en cuenta el interés anual básico.
 •La segunda tendrá una constante de clase llamada saldoMinimo. Si no se llega a este saldo el interés
 será la mitad del interés básico. Si se supera el saldo mínimo el interés aplicado será el doble del

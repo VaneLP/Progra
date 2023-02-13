@@ -3,7 +3,7 @@ animales existentes en una tienda de mascotas.
 
 Esta clase debe cumplir con los siguientes requisitos:
 •En la tienda existirán 4 tipos de animales: perros, gatos, loros y canarios.
-•Los animales deben almacenarse en un ArrayList privado dentro de la claseInventario.
+•Los animales deben almacenarse en un ArrayList privado dentro de la clase Inventario.
 •La clase debe permitir realizar las siguientes acciones:
     ◦Mostrar la lista de animales (solo tipo y nombre, 1 línea por animal).
     ◦Mostrar todos los datos de un animal concreto.
@@ -13,6 +13,7 @@ Esta clase debe cumplir con los siguientes requisitos:
     ◦Vaciar el inventario.
 
 Implementa las demás clases necesarias para la clase Inventario.
+
 El diagrama UML sería:
 
             Clase abstracta
@@ -28,14 +29,14 @@ El diagrama UML sería:
                             morir()
                             hablar()
 
-
+                                                            clase abstracta
 perro                          gato                              aves
 -----                          -----                             ------
 raza                           color                             pico
 pulgas                         peloLargo                         vuela
 ---------                      -----------                       -------
 muestra()                      muestra()                         volar()
-habla()                        habla
+habla()                        habla()
 
                                                         loro                    canario
                                                         -----                   --------

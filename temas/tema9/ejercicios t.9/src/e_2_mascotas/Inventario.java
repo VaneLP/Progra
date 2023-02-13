@@ -31,6 +31,11 @@ public class Inventario {
         Mascotas loro= new Loro("Paco", "1/2/2000", Estado.VIVO,23,true,Pico.CORTO,"argentina",true);
         Mascotas canario= new Canario("Pollo","2/2/2012", Estado.MUERTO, 5,false,Pico.CORTO,ColorCanario.AMARILLOS,false);
 
+        lista.add(perro);
+        lista.add(gato);
+        lista.add(loro);
+        lista.add(canario);
+
         //Eliminar animales del inventario.
         lista.remove(2);
 

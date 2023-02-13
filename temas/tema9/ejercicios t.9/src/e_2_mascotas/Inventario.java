@@ -40,7 +40,7 @@ public class Inventario {
         lista.remove(2);
 
         //Vaciar el inventario.
-        lista.removeAll(lista);
+        lista.clear();
 
     }
 }

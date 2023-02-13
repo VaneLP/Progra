@@ -9,7 +9,9 @@ public class Inventario {
         ArrayList<Mascotas> lista = new ArrayList<>();
 
         //Mostrar la lista de animales (solo tipo y nombre, 1 línea por animal).
-
+        for (Mascotas mascota : lista) {
+            System.out.println(mascota.getNombre()+" "+mascota.getClass());
+        }
 
         //Mostrar todos los datos de un animal concreto.
         String nombre="Yako";

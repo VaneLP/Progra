@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="ejercicio guiado terminado" />
+    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="ejercicio guiado terminado">
+      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_1_astros/Astros.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_1_astros/Planetas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_1_astros/Satelites.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_1_astros/enun1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_1_astros/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_2_mascotas/enun2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_3_banco/enun3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_4_empresaYempleados/enun4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_5_vehiculos/enun5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_6_figuras/enun6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_7_monopoly/enun7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Progra.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Progra.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema 3/ejercicios t.3/ejer1.psc" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema 3/ejercicios t.3/ejer1.psc" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +29,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -26,6 +41,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KlPPbJ8sDOqGoFbonhJst06vW8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
@@ -33,14 +51,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/user/Documents/GitHub/Progra",
+    "last_opened_file_path": "C:/Users/Vanessa/Documents/GitHub/Progra/temas/tema9/ejercicios t.9/src",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vanessa\Documents\GitHub\Progra\temas\tema9\ejercicios t.9\src" />
       <recent name="C:\Users\Vane\Documents\GitHub\Progra\Ejercicios\tema8\src\Receta" />
       <recent name="C:\Users\Vane\Documents\GitHub\Progra\Ejercicios\tema8\src\Tercera_Parte" />
     </key>
@@ -50,6 +70,9 @@
       <recent name="C:\Users\Vane\Documents\GitHub\Progra\Ejercicios\tema8\src\LaTiendaDelBarrio" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
@@ -305,6 +328,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="fin ejercicio prueba" />
     <MESSAGE value="fin ejercicio prueba 2" />
     <MESSAGE value="borrar test" />

@@ -1,0 +1,39 @@
+Vamos a implementar dos clases que permitan gestionar datos de empresas y susempleados.
+
+Los empleados tienen las siguientes características:
+•Un empleado tiene nombre, DNI, sueldo bruto (mensual), edad, teléfono y dirección.
+•El nombre y DNI de un empleado no pueden variar.
+•Es obligatorio que todos los empleados tengan al menos definido su nombre, DNI y el sueldo bruto. Los
+demás datos no son obligatorios.
+•Será necesario un método para imprimir por pantalla la información de un empleado.
+•Será necesario un método para calcular el sueldo neto de un empleado. El sueldo neto se calcula
+descontando del sueldo bruto un porcentaje que depende del IRPF.El porcentaje del IRPF depende del
+sueldo bruto anual del empleado (sueldo brutox 12 pagas).(*)
+Sueldo bruto anual         IRPF
+Inferior a 12.000€         20%
+De 12.000 a 25.000€        30%
+Más de 25.000€             40%
+
+Por ejemplo, un empleado con un sueldo bruto anual de 17.000€ tendrá un 30% de IRPF.
+Para calcular su sueldo neto mensual se descontará un 30% a su sueldo bruto mensual.
+
+Las empresas tienen las siguientes características:
+•Una empresa tiene nombre y CIF (datos que no pueden variar), además deteléfono, dirección y empleados.
+Cuando se crea una nueva empresa esta carecede empleados.
+•Serán necesarios métodos para:
+    ◦Añadir y eliminar empleados a la empresa.
+    ◦Mostrar por pantalla la información de todos los empleados.
+    ◦Mostrar por pantalla el DNI, sueldo bruto y neto de todos los empleados.
+    ◦Calcular la suma total de sueldos brutos de todos los empleados.
+    ◦Calcular la suma total de sueldos netos de todos los empleados.
+
+Implementa las clases Empleado y Empresa con los atributos oportunos, un constructor,los getters/setters
+oportunos y los métodos indicados. Puedes añadir más métodos si loves necesario. Estas clases no deben
+realizar ningún tipo de entrada por teclado.
+
+Implementa también una clase Programa con una función main para realizar pruebas:Crear una o varias
+empresas, crear empleados, añadir y eliminar empleados a las empresas, listar todos los empleados,
+mostrar el total de sueldos brutos y netos, etc.
+
+(*) El IRPF realmente es más complejo pero se ha simplificado para no complicar demasiado este
+ejercicio.

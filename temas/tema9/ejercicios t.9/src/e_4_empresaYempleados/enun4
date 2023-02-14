@@ -1,4 +1,4 @@
-Vamos a implementar dos clases que permitan gestionar datos de empresas y susempleados.
+Vamos a implementar dos clases que permitan gestionar datos de empresas y sus empleados.
 
 Los empleados tienen las siguientes características:
 •Un empleado tiene nombre, DNI, sueldo bruto (mensual), edad, teléfono y dirección.
@@ -9,6 +9,7 @@ demás datos no son obligatorios.
 •Será necesario un método para calcular el sueldo neto de un empleado. El sueldo neto se calcula
 descontando del sueldo bruto un porcentaje que depende del IRPF.El porcentaje del IRPF depende del
 sueldo bruto anual del empleado (sueldo brutox 12 pagas).(*)
+
 Sueldo bruto anual         IRPF
 Inferior a 12.000€         20%
 De 12.000 a 25.000€        30%

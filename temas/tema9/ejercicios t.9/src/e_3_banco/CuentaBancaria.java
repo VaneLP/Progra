@@ -48,7 +48,9 @@ public abstract class CuentaBancaria {
     }
 
     public  double traspasar (CuentaBancaria nueva){
-        return nueva.saldo+this.saldo;
+        nueva.setSaldo(this.saldo);
+        this.saldo=0;
+        return nueva.saldo;
     }
 
     public abstract void calcularIntereses();

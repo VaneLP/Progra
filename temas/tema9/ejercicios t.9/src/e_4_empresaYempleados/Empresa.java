@@ -62,19 +62,27 @@ public class Empresa {
         listaEmpleados.remove(e);
     }
 
-    public String mostrarDNI(){
+    public void mostrarDNI(String nombre){
         for (Empleados empleado : listaEmpleados) {
-            if()
-            empleado.getDni();
+            if(empleado.getName().equals(nombre))
+                System.out.printf(empleado.getDni());
         }
     }
 
-    public void calcularSumaTotalSueldosBrutos(){
+    public void calcularSumaTotalSueldosBruto(){
+        double suma=0;
 
+        for (Empleados empleado : listaEmpleados) {
+            suma = suma + empleado.getSueldoBruto();
+        }
     }
 
     public void calcularSumaTotalSueldosNetos(){
+        double suma=0;
 
+        for (Empleados empleado : listaEmpleados) {
+            suma = suma + empleado.calcularSueldoNeto(empleado.getSueldoBruto());
+        }
     }
 
 }

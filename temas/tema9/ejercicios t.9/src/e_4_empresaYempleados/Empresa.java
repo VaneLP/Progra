@@ -54,14 +54,27 @@ public class Empresa {
     }
 
     //metodos
-    public void anyadirEmpleado(){
+    public void anyadirEmpleado(Empleados e){
+        listaEmpleados.add(e);
+    }
+
+    public void eliminarEmpleado(Empleados e){
+        listaEmpleados.remove(e);
+    }
+
+    public String mostrarDNI(){
+        for (Empleados empleado : listaEmpleados) {
+            if()
+            empleado.getDni();
+        }
+    }
+
+    public void calcularSumaTotalSueldosBrutos(){
 
     }
 
-    public void eliminarEmpleado(){
+    public void calcularSumaTotalSueldosNetos(){
 
     }
-
-
 
 }

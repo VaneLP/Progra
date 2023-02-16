@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="falta main del 4, pero terminado">
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_5_vehiculos/Acuatico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_5_vehiculos/Aereos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_5_vehiculos/Aviones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_5_vehiculos/Barcos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_5_vehiculos/Coches.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_5_vehiculos/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_5_vehiculos/Helicoptero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_5_vehiculos/Modelo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_5_vehiculos/Motos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_5_vehiculos/Submarinos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_5_vehiculos/Terrestre.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_5_vehiculos/Vehiculos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_5_vehiculos/enun5" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_5_vehiculos/enun5" afterDir="false" />
-    </list>
+    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="ejercicio 5" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -346,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676457669417</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="ejercicio 5">
+      <created>1676533996298</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1676533996298</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -392,7 +384,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="continuacion 2 ejercicios arraylist" />
     <MESSAGE value="arreglos" />
     <MESSAGE value="Ejercicios 6 y 7" />
     <MESSAGE value="correcciones" />
@@ -417,6 +408,7 @@
     <MESSAGE value="correcciones y empezado ejer 4" />
     <MESSAGE value="siguiendo ejer 4" />
     <MESSAGE value="falta main del 4, pero terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="falta main del 4, pero terminado" />
+    <MESSAGE value="ejercicio 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 5" />
   </component>
 </project>

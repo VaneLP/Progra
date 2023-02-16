@@ -21,5 +21,9 @@ public class Acuatico extends Vehiculos{
     }
 
     //metodos
+    @Override
+    public void imprimir() {
+        System.out.println("Vehiculo acuatico");
+    }
 
 }

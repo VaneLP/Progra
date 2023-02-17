@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="ejercicio 6 terminado" />
+    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="empezado ejer7">
+      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicio clase/src/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicio clase/src/JuegoTablero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicio clase/src/Peon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicio clase/src/Pieza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicio clase/src/Torre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Progra.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Progra.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Class" />
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
       </list>
     </option>
   </component>
@@ -352,7 +360,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676626312387</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="empezado ejer7">
+      <created>1676628559921</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1676628559921</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -398,7 +413,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="correcciones" />
     <MESSAGE value="ejercicio 8" />
     <MESSAGE value="avances" />
     <MESSAGE value="progress" />
@@ -423,6 +437,7 @@
     <MESSAGE value="ejercicio 5" />
     <MESSAGE value="ejercicio 5 terminado falta main" />
     <MESSAGE value="ejercicio 6 terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 6 terminado" />
+    <MESSAGE value="empezado ejer7" />
+    <option name="LAST_COMMIT_MESSAGE" value="empezado ejer7" />
   </component>
 </project>

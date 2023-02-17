@@ -15,9 +15,9 @@ Es muy aconsejable hacer el diseño UML antes de empezar a programar.
     modelo                              modelo                              modelo
     imprimir                            imprimir                            imprimir
 
-COCHES              MOTOS         BARCOS           SUBMARINOS             AVIONES     HELICOPTEROS
-------              -----         ------           ----------             -------     -------------
-aireAc(boolean)     color         motor(boolean)   profunMax              maxVuelo    numHelices
+COCHES              MOTOS         BARCOS           SUBMARINOS             AVIONES         HELICOPTEROS
+------              -----         ------           ----------             -------         -------------
+aireAc(boolean)     color         motor(boolean)   profunMax              timemaxVuelo    numHelices
 
 Debes crear varias clases para un software de una empresa de transporte. Implementala jerarquía de
 clases necesaria para cumplir los siguientes criterios:

@@ -23,12 +23,12 @@ public class Motos extends Terrestre{
     @Override
     public void imprimir() {
         super.imprimir();
-        System.out.printf("Moto"+
-                "--------"+
-                "Matricula: "+getMatricula()+
-                "Modelo: "+getModelo()+
-                "Numero de ruedas: "+getNumRuedas()+
-                "Color: "+ color);
+        System.out.printf("\nMoto"+
+                "\n--------"+
+                "\nMatricula: "+getMatricula()+
+                "\nModelo: "+getModelo()+
+                "\nNumero de ruedas: "+getNumRuedas()+
+                "\nColor: "+ color);
     }
 
 }

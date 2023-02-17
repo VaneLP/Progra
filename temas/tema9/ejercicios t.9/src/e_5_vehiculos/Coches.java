@@ -23,11 +23,11 @@ public class Coches extends Terrestre{
     @Override
     public void imprimir() {
         super.imprimir();
-        System.out.printf("Coche"+
-                        "--------"+
-                        "Matricula: "+getMatricula()+
-                        "Modelo: "+getModelo()+
-                        "Numero de ruedas: "+getNumRuedas()+
-                        "Aire acondicionado: "+ aireAcondicionado);
+        System.out.printf("\nCoche"+
+                        "\n--------"+
+                        "\nMatricula: "+getMatricula()+
+                        "\nModelo: "+getModelo()+
+                        "\nNumero de ruedas: "+getNumRuedas()+
+                        "\nAire acondicionado: "+ aireAcondicionado);
     }
 }

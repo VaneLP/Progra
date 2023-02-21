@@ -8,10 +8,7 @@ public interface JuegoTablero {
      * @param indice Pasara un indice numerico a su letra correspondiente del tablero
      * @return una letra
      */
-    char indiceAPosicion(int indice){
-        String letras = "ABCDEFGH";
-        return letras.charAt(indice);
-    }
+    char indiceAPosicion(int indice);
 
     /**
      * @param indice pasará un índice numérico a su posición numérica del tablero

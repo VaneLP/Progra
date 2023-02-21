@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="empezado ejer7">
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicio clase/src/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicio clase/src/JuegoTablero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicio clase/src/Peon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicio clase/src/Pieza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicio clase/src/Torre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Progra.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Progra.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="ejercicio ajedrez">
+      <change beforePath="$PROJECT_DIR$/temas/tema9/ejercicio clase/src/JuegoTablero.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema9/ejercicio clase/src/JuegoTablero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -367,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676628559921</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="ejercicio ajedrez">
+      <created>1676634173941</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1676634173941</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -413,7 +414,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ejercicio 8" />
     <MESSAGE value="avances" />
     <MESSAGE value="progress" />
     <MESSAGE value="edits" />
@@ -438,6 +438,7 @@
     <MESSAGE value="ejercicio 5 terminado falta main" />
     <MESSAGE value="ejercicio 6 terminado" />
     <MESSAGE value="empezado ejer7" />
-    <option name="LAST_COMMIT_MESSAGE" value="empezado ejer7" />
+    <MESSAGE value="ejercicio ajedrez" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicio ajedrez" />
   </component>
 </project>

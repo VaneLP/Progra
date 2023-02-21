@@ -13,34 +13,34 @@ public class Peon extends Pieza implements JuegoTablero{
             mover(x,y);
         }
     }
-
-    @Override
-    public int filas() {
-        return 0;
-    }
-
-    @Override
-    public char columnas() {
-        return 0;
-    }
-
-    @Override
-    public char indiceAPosicion(int indice) {
-        return 0;
-    }
-
-    @Override
-    public int indiceAPosicionN(int indice) {
-        return 0;
-    }
-
-    @Override
-    public int posicionAIndice(char posicion) {
-        return 0;
-    }
-
-    @Override
-    public int posicionAIndice(int posicion) {
-        return 0;
-    }
+//
+//    @Override
+//    public int filas() {
+//        return 0;
+//    }
+//
+//    @Override
+//    public char columnas() {
+//        return 0;
+//    }
+//
+//    @Override
+//    public char indiceAPosicion(int indice) {
+//        return 0;
+//    }
+//
+//    @Override
+//    public int indiceAPosicionN(int indice) {
+//        return 0;
+//    }
+//
+//    @Override
+//    public int posicionAIndice(char posicion) {
+//        return 0;
+//    }
+//
+//    @Override
+//    public int posicionAIndice(int posicion) {
+//        return 0;
+//    }
 }

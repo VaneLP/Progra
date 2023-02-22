@@ -2,21 +2,11 @@ package Maraton_1;
 
 public class Triangulo extends Figura2D{
     //atributos
-    private EstiloTriangulo estilo;
-
-    //getter y setters
-    //estilo
-    public EstiloTriangulo getEstilo() {
-        return estilo;
-    }
-
-    public void setEstilo(EstiloTriangulo estilo) {
-        this.estilo = estilo;
-    }
+    public String estilo= "";
 
     //metodos
     public double area(){
-        return (ancho*altoo)/2;
+        return (ancho*alto)/2;
     }
 
     public void verEstilo(){

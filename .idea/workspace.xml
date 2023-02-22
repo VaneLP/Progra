@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="ejercicio ajedrez arreglos interfaz">
-      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_1/EstiloTriangulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_1/Figura2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_1/Programa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_1/Triangulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_1/enunciado1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/ud9_MaratónEjercicios_v01.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Progra.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Progra.iml" afterDir="false" />
+    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="ejercicio 1 maraton terminado">
+      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_2/Figura2D_v2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_2/Programa_v2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_2/Triangulo_v2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_2/enunciado2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_3/Figura2D_v3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_3/Programa_v3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_3/Triangulo_v3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_3/enunciado3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_1/EstiloTriangulo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_1/Figura2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_1/Figura2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_1/Programa.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_1/Programa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_1/Triangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_1/Triangulo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,17 +48,19 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vanessa/Documents/GitHub/Progra/temas/tema9/ejercicios t.9/src&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Vanessa/Documents/GitHub/Progra/temas/tema9/Maraton/src/Maraton_3",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vanessa\Documents\GitHub\Progra\temas\tema9\Maraton\src\Maraton_3" />
+      <recent name="C:\Users\Vanessa\Documents\GitHub\Progra\temas\tema9\Maraton\src\Maraton_2" />
       <recent name="C:\Users\Vanessa\Documents\GitHub\Progra\temas\tema9\ejercicios t.9\src" />
       <recent name="C:\Users\Vane\Documents\GitHub\Progra\Ejercicios\tema8\src\Receta" />
       <recent name="C:\Users\Vane\Documents\GitHub\Progra\Ejercicios\tema8\src\Tercera_Parte" />
@@ -382,7 +389,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677056822134</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="ejercicio 1 maraton terminado">
+      <created>1677058733822</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1677058733822</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -428,7 +442,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="progress" />
     <MESSAGE value="edits" />
     <MESSAGE value="edits 2.0" />
     <MESSAGE value="edits 2.1" />
@@ -453,6 +466,7 @@
     <MESSAGE value="empezado ejer7" />
     <MESSAGE value="ejercicio ajedrez" />
     <MESSAGE value="ejercicio ajedrez arreglos interfaz" />
-    <option name="LAST_COMMIT_MESSAGE" value="ejercicio ajedrez arreglos interfaz" />
+    <MESSAGE value="ejercicio 1 maraton terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 1 maraton terminado" />
   </component>
 </project>

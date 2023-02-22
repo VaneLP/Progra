@@ -1,24 +1,24 @@
-package Maraton_1;
+package Maraton_2;
 
 import java.util.Scanner;
 
-public class Programa {
+public class Programa_v2 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
 
-        Triangulo t1= new Triangulo();
+        Triangulo_v2 t1= new Triangulo_v2();
 
         System.out.println("dime el ancho");
         int anch = entrada.nextInt();
-        t1.ancho=anch;
+        t1.setAncho(anch);
 
         System.out.println("dime el alto");
         int alt = entrada.nextInt();
-        t1.alto=alt;
+        t1.setAlto(alt);
 
         System.out.println("dime como es tu triangulo");
         String esti = entrada.next();
-        t1.estilo=esti;
+        t1.setEstilo(esti);
 
         System.out.println("----------------------");
 

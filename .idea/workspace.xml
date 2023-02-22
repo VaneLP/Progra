@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="ejercicio 1 maraton terminado">
-      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_2/Figura2D_v2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_2/Programa_v2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_2/Triangulo_v2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_2/enunciado2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_3/Figura2D_v3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_3/Programa_v3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_3/Triangulo_v3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_3/enunciado3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_1/EstiloTriangulo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_1/Figura2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_1/Figura2D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_1/Programa.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_1/Programa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_1/Triangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_1/Triangulo.java" afterDir="false" />
-    </list>
+    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="maraton avanazado hasta el 3 y ediciones" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -396,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677058733822</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="maraton avanazado hasta el 3 y ediciones">
+      <created>1677063733995</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1677063733995</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -442,7 +435,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="edits" />
     <MESSAGE value="edits 2.0" />
     <MESSAGE value="edits 2.1" />
     <MESSAGE value="arreglillos" />
@@ -467,6 +459,7 @@
     <MESSAGE value="ejercicio ajedrez" />
     <MESSAGE value="ejercicio ajedrez arreglos interfaz" />
     <MESSAGE value="ejercicio 1 maraton terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 1 maraton terminado" />
+    <MESSAGE value="maraton avanazado hasta el 3 y ediciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="maraton avanazado hasta el 3 y ediciones" />
   </component>
 </project>

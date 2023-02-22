@@ -1,6 +1,6 @@
 import java.awt.*;
 
-public abstract class Pieza {
+public abstract class Pieza implements JuegoTablero{
     //atributos
     private Color color;
     private Point posicion;
@@ -73,5 +73,33 @@ public abstract class Pieza {
     }
 
     public abstract void mover(int x, int y);
+
+    //motodos interfaz
+    @Override
+    public char indiceAPosicion(int indice) {
+        String cadena="abcdefgh";
+        return cadena.charAt(indice);
+    }
+
+    @Override
+    public int indiceAPosicionN(int indice) {
+        return indice+1;
+    }
+
+    @Override
+    public int posicionAIndice(char posicion) {
+        if(String.valueOf(posicion).matches("[a-h]"))
+            return "abcdefgh".indexOf(posicion);
+        else
+            return -1;
+    }
+
+    @Override
+    public int posicionAIndice(int posicion) {
+        if (posicion>=1 && posicion<=8)
+            return posicion-1;
+        else
+            return -1;
+    }
 
 }

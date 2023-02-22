@@ -1,6 +1,6 @@
 import java.awt.*;
 
-public class Torre extends Pieza implements JuegoTablero{
+public class Torre extends Pieza {
     //constructor
 
     public Torre(Color color, Point posicion) {
@@ -15,33 +15,5 @@ public class Torre extends Pieza implements JuegoTablero{
         }
     }
 
-//    @Override
-//    public int filas() {
-//        return 0;
-//    }
-//
-//    @Override
-//    public char columnas() {
-//        return 0;
-//    }
-//
-//    @Override
-//    public char indiceAPosicion(int indice) {
-//        return 0;
-//    }
-//
-//    @Override
-//    public int indiceAPosicionN(int indice) {
-//        return 0;
-//    }
-//
-//    @Override
-//    public int posicionAIndice(char posicion) {
-//        return 0;
-//    }
-//
-//    @Override
-//    public int posicionAIndice(int posicion) {
-//        return 0;
-//    }
+
 }

@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="maraton avanazado hasta el 3 y ediciones">
-      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_4/Figura2D_v4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_4/Programa_v4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_4/Triangulo_v4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_5/Figura2D_v5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_5/Programa_v5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_5/Triangulo_v5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_6/Figura2D_v6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_6/Programa_v6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_6/TrianColor_v6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_6/Triangulo_v6.java" afterDir="false" />
+    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="maraton avanazado hasta el 6 y ediciones">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_3/Figura2D_v3.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_3/Figura2D_v3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_3/Triangulo_v3.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_3/Triangulo_v3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -404,7 +392,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677063733995</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="maraton avanazado hasta el 6 y ediciones">
+      <created>1677236498893</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1677236498893</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -450,7 +445,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="edits 2.0" />
     <MESSAGE value="edits 2.1" />
     <MESSAGE value="arreglillos" />
     <MESSAGE value="arreglillos2" />
@@ -475,6 +469,7 @@
     <MESSAGE value="ejercicio ajedrez arreglos interfaz" />
     <MESSAGE value="ejercicio 1 maraton terminado" />
     <MESSAGE value="maraton avanazado hasta el 3 y ediciones" />
-    <option name="LAST_COMMIT_MESSAGE" value="maraton avanazado hasta el 3 y ediciones" />
+    <MESSAGE value="maraton avanazado hasta el 6 y ediciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="maraton avanazado hasta el 6 y ediciones" />
   </component>
 </project>

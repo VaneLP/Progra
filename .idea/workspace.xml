@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="maraton avanazado hasta el 3 y ediciones" />
+    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="maraton avanazado hasta el 3 y ediciones">
+      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_4/Figura2D_v4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_4/Programa_v4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_4/Triangulo_v4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_5/Figura2D_v5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_5/Programa_v5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_5/Triangulo_v5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_6/Figura2D_v6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_6/Programa_v6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_6/TrianColor_v6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_6/Triangulo_v6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_3/Figura2D_v3.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_3/Figura2D_v3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_3/Triangulo_v3.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_3/Triangulo_v3.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,17 +53,18 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Vanessa/Documents/GitHub/Progra/temas/tema9/Maraton/src/Maraton_3",
+    "full.screen.before.presentation.mode": "false",
+    "last_opened_file_path": "C:/Users/Vanessa/Documents/GitHub/Progra/temas/tema9/Maraton/src/Maraton_6",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vanessa\Documents\GitHub\Progra\temas\tema9\Maraton\src\Maraton_6" />
+      <recent name="C:\Users\Vanessa\Documents\GitHub\Progra\temas\tema9\Maraton\src\Maraton_5" />
+      <recent name="C:\Users\Vanessa\Documents\GitHub\Progra\temas\tema9\Maraton\src\Maraton_4" />
       <recent name="C:\Users\Vanessa\Documents\GitHub\Progra\temas\tema9\Maraton\src\Maraton_3" />
       <recent name="C:\Users\Vanessa\Documents\GitHub\Progra\temas\tema9\Maraton\src\Maraton_2" />
-      <recent name="C:\Users\Vanessa\Documents\GitHub\Progra\temas\tema9\ejercicios t.9\src" />
-      <recent name="C:\Users\Vane\Documents\GitHub\Progra\Ejercicios\tema8\src\Receta" />
-      <recent name="C:\Users\Vane\Documents\GitHub\Progra\Ejercicios\tema8\src\Tercera_Parte" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Vanessa\Documents\GitHub\Progra\temas\tema9\ejercicios t.9\ejercicio guiado" />

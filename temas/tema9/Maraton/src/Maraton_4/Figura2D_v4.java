@@ -1,13 +1,18 @@
-package Maraton_3;
+package Maraton_4;
 
-public class Figura2D_v3 {
+public class Figura2D_v4 {
     //atributos
     private double ancho;
     private double alto;
 
     //constructor
-    public Figura2D_v3() {
+    public Figura2D_v4() {
     }
+    public Figura2D_v4(double ancho, double alto) {
+        this.ancho = ancho;
+        this.alto = alto;
+    }
+
 
     //getter y setters
     //ancho

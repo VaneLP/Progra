@@ -1,12 +1,22 @@
-package Maraton_3;
+package Maraton_6;
 
-public class Figura2D_v3 {
+public class Figura2D_v6 {
     //atributos
     private double ancho;
     private double alto;
 
     //constructor
-    public Figura2D_v3() {
+    public Figura2D_v6() {
+        this.ancho=0;
+        this.alto=0;
+    }
+    public Figura2D_v6(double ancho, double alto) {
+        this.ancho = ancho;
+        this.alto = alto;
+    }
+    public Figura2D_v6(double igualBaseAltura){
+        this.ancho=igualBaseAltura;
+        this.alto=igualBaseAltura;
     }
 
     //getter y setters

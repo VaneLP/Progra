@@ -1,4 +1,4 @@
-package ejer6;
+package ejer7;
 
 public class Gato {
     //atributos

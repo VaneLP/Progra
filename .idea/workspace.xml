@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="ejercicio 5 terminado">
-      <change afterPath="$PROJECT_DIR$/temas/tema10/src/ejer6/Progrma.java" afterDir="false" />
+    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="ejercicio 6 empezado">
+      <change afterPath="$PROJECT_DIR$/temas/tema10/src/ejer7/Gato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema10/src/ejer7/Progrma.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema10/src/ejer6/Ejer6.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema10/src/ejer6/Gato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema10/src/ejer6/Gato.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema10/src/ejer6/Gato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema10/src/ejer6/Progrma.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema10/src/ejer6/Progrma.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema10/src/ejer7/Ejer7.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,26 +41,26 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vanessa/Documents/GitHub/Progra/temas/tema9/Maraton/src/Maraton_6&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "full.screen.before.presentation.mode": "false",
+    "last_opened_file_path": "D:/##Documentos/Progra/temas/tema10/src/ejer7",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\##Documentos\Progra\temas\tema10\src\ejer7" />
       <recent name="C:\Users\Vanessa\Documents\GitHub\Progra\temas\tema9\Maraton\src\Maraton_6" />
       <recent name="C:\Users\Vanessa\Documents\GitHub\Progra\temas\tema9\Maraton\src\Maraton_5" />
       <recent name="C:\Users\Vanessa\Documents\GitHub\Progra\temas\tema9\Maraton\src\Maraton_4" />
       <recent name="C:\Users\Vanessa\Documents\GitHub\Progra\temas\tema9\Maraton\src\Maraton_3" />
-      <recent name="C:\Users\Vanessa\Documents\GitHub\Progra\temas\tema9\Maraton\src\Maraton_2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Vanessa\Documents\GitHub\Progra\temas\tema9\ejercicios t.9\ejercicio guiado" />
@@ -418,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677508761909</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="ejercicio 6 empezado">
+      <created>1677510097691</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1677510097691</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -464,7 +474,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="arreglillos2" />
     <MESSAGE value="arreglos ejer 8" />
     <MESSAGE value="explicacion 11" />
     <MESSAGE value="c" />
@@ -489,6 +498,7 @@
     <MESSAGE value="maraton avanazado hasta el 6 y ediciones" />
     <MESSAGE value="ejercicios tema nuevo" />
     <MESSAGE value="ejercicio 5 terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 5 terminado" />
+    <MESSAGE value="ejercicio 6 empezado" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 6 empezado" />
   </component>
 </project>

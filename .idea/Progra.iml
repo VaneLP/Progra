@@ -17,6 +17,7 @@
       <sourceFolder url="file://$MODULE_DIR$/temas/tema9/ejercicios t.9/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/temas/tema9/ejercicio clase/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/temas/tema9/Maraton/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/temas/tema10/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/.idea" />
     </content>
     <orderEntry type="inheritedJdk" />

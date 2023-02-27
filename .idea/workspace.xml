@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="maraton avanazado hasta el 6 y ediciones" />
+    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="maraton avanazado hasta el 6 y ediciones">
+      <change afterPath="$PROJECT_DIR$/temas/tema10/src/UD10_Ejercicios_v02.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema10/src/ejer1/Ejer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema10/src/ejer2/Ejer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema10/src/ejer3/Ejer3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema10/src/ejer4/Ejer4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Progra.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Progra.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_1/enunciado1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_2/enunciado2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_3/enunciado3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_6/Programa_v6.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_6/Programa_v6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_6/TrianColor_v6.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema9/Maraton/src/Maraton_6/TrianColor_v6.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,16 +47,16 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "full.screen.before.presentation.mode": "false",
-    "last_opened_file_path": "C:/Users/Vanessa/Documents/GitHub/Progra/temas/tema9/Maraton/src/Maraton_6",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vanessa/Documents/GitHub/Progra/temas/tema9/Maraton/src/Maraton_6&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Vanessa\Documents\GitHub\Progra\temas\tema9\Maraton\src\Maraton_6" />

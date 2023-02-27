@@ -9,4 +9,13 @@ public class TrianColor_v6 extends Triangulo_v6{
         super(estilo, alto, ancho);
         this.color = color;
     }
+
+    //getters y setters
+    public String getColor() {
+        return color;
+    }
+    public void setColor(String color) {
+        this.color = color;
+    }
+
 }

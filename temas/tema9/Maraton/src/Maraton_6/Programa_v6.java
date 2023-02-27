@@ -28,12 +28,12 @@ public class Programa_v6 {
         t1.verEstilo();
         System.out.println("Area: "+t1.area());
 
-        System.out.println("---------- Triangulo 2 ------------");
-
-        t2.verDim();
-        System.out.println("");
-        t2.verEstilo();
-        System.out.println("Area: "+t2.area());
+//        System.out.println("---------- Triangulo 2 ------------");
+//
+//        t2.verDim();
+//        System.out.println("");
+//        t2.verEstilo();
+//        System.out.println("Area: "+t2.area());
 
     }
 }

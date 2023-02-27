@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="ejercicio 6 empezado">
-      <change afterPath="$PROJECT_DIR$/temas/tema10/src/ejer7/Gato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema10/src/ejer7/Progrma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema10/src/ejer6/Gato.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema10/src/ejer6/Gato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema10/src/ejer6/Progrma.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema10/src/ejer6/Progrma.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema10/src/ejer7/Ejer7.java" beforeDir="false" />
-    </list>
+    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="ejercicio 6 y 7 terminado" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -428,7 +421,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677510097691</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="ejercicio 6 y 7 terminado">
+      <created>1677512030276</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1677512030276</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -474,7 +474,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="arreglos ejer 8" />
     <MESSAGE value="explicacion 11" />
     <MESSAGE value="c" />
     <MESSAGE value="correciones" />
@@ -499,6 +498,7 @@
     <MESSAGE value="ejercicios tema nuevo" />
     <MESSAGE value="ejercicio 5 terminado" />
     <MESSAGE value="ejercicio 6 empezado" />
-    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 6 empezado" />
+    <MESSAGE value="ejercicio 6 y 7 terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 6 y 7 terminado" />
   </component>
 </project>

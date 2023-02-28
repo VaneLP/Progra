@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="ejercicio 6 y 7 terminado">
-      <change afterPath="$PROJECT_DIR$/temas/tema10/src/ejer8/AvisarHaciendaExcepcion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema10/src/ejer8/CuentaBancaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema10/src/ejer8/CuentaExcepcion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema10/src/ejer8/EticalBank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema10/src/UD10_Ejercicios_v02.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema10/src/UD10_Ejercicios_v02.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema10/src/ejer8/Ejer8.java" beforeDir="false" />
-    </list>
+    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="ejercicio 8 terminado" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -441,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677512030276</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="ejercicio 8 terminado">
+      <created>1677574037406</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1677574037406</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -487,7 +486,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="explicacion 11" />
     <MESSAGE value="c" />
     <MESSAGE value="correciones" />
     <MESSAGE value="ejercicio guiado" />
@@ -512,6 +510,7 @@
     <MESSAGE value="ejercicio 5 terminado" />
     <MESSAGE value="ejercicio 6 empezado" />
     <MESSAGE value="ejercicio 6 y 7 terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 6 y 7 terminado" />
+    <MESSAGE value="ejercicio 8 terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicio 8 terminado" />
   </component>
 </project>

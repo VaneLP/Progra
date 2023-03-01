@@ -3,7 +3,7 @@ package ejer9;
 public abstract class Publicacion {
     //atributos
     static int idGlobal=1;
-    int idUnico;
+    final int idUnico;
 
     //constructor
     public Publicacion() {

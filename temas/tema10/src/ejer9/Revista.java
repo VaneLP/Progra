@@ -1,5 +1,7 @@
 package ejer9;
 
+import ejer9.Excepciones.PublicationException;
+
 public class Revista{
     //atributos
     private final String issn;
@@ -7,15 +9,14 @@ public class Revista{
     private final int numero;
 
     //constructor
-    public Revista(String issn, String nombre, int numero) {
+    public Revista(String issn, String nombre, int numero) throws PublicationException {
         if(issn.matches("[0-9]{8}")) {
             this.issn = issn;
             this.nombre = nombre;
             this.numero = numero;
         }
         else{
-            this.issn=null;
-            this.nombre=null;
+            throw new PublicationException();
         }
     }
 

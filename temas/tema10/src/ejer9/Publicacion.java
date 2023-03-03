@@ -1,6 +1,6 @@
 package ejer9;
 
-public abstract class Publicacion {
+public abstract class Publicacion implements Comparable<Publicacion> {
     //atributos
     static int idGlobal=1;
     final int idUnico;
@@ -13,5 +13,11 @@ public abstract class Publicacion {
 
     //metodo
     public abstract String mostrarEnLinea();
+    //el profe lo hace con void
+
+    @Override
+    public int compareTo(Publicacion publi){
+        return  0;
+    }
 
 }

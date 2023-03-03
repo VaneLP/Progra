@@ -2,10 +2,10 @@ package ejer9.Excepciones;
 
 public class ValorIncorrecto extends Exception{
     //atributo
-    private int nuevo;
+    private final String nuevo;
 
     //constructor
-    public ValorIncorrecto(int nuevo) {
+    public ValorIncorrecto(String nuevo) {
         this.nuevo = nuevo;
     }
 

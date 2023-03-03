@@ -15,7 +15,7 @@ public class Biblioteca {
         listaPublicaciones.add(publi);
     }
 
-    public void anyadirLibro(String isbn, String titulo, String autor) {
+    public void anyadirLibro(String isbn, String titulo, Autor autor) {
         try{
             Libro libri= new Libro(isbn, titulo,autor);
         }

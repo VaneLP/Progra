@@ -6,24 +6,16 @@ import ejer9.Excepciones.ValorIncorrecto;
 public class Libro extends Publicacion{
     //atributos
     private final String isbn;
-    private final String titulo, autor;
+    private final String titulo;
+    private final Autor autor;
     private int numeroEjemplares;
 
     //constructor
-    public Libro(String isbn, String titulo, String autor) throws PublicationException {
-        if(isbn.matches("[0-9]{13}")) {
-            this.isbn = isbn;
-            this.titulo = titulo;
-            this.autor = autor;
-            this.numeroEjemplares =1;
-        }
-        else {
-            throw new PublicationException();
-        }
-
+    public Libro(String isbn, String titulo, Autor autor) throws PublicationException {
+        this(isbn,titulo,autor,1);
     }
 
-    public Libro(String isbn, String titulo, String autor,int numeroEjemplares) throws PublicationException{
+    public Libro(String isbn, String titulo, Autor autor,int numeroEjemplares) throws PublicationException{
         if(isbn.matches("[0-9]{13}")) {
             this.isbn = isbn;
             this.titulo = titulo;
@@ -47,7 +39,7 @@ public class Libro extends Publicacion{
     }
 
     //autor
-    public String getAutor() {
+    public Autor getAutor() {
         return autor;
     }
 
@@ -56,10 +48,10 @@ public class Libro extends Publicacion{
         return numeroEjemplares;
     }
     public void setNumeroEjemplares(int numeroEjemplares) throws ValorIncorrecto{
-        if(numeroEjemplares>0)
+        if(numeroEjemplares>=0)
             this.numeroEjemplares = numeroEjemplares;
         else
-            throw new ValorIncorrecto(0);
+            throw new ValorIncorrecto("0");
     }
 
     //metodos

@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="continuacion ejercicio 9">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema10/src/ejer9/Autor.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema10/src/ejer9/Autor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema10/src/ejer9/Biblioteca.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema10/src/ejer9/Biblioteca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema10/src/ejer9/Excepciones/ValorIncorrecto.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema10/src/ejer9/Excepciones/ValorIncorrecto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema10/src/ejer9/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema10/src/ejer9/Libro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema10/src/ejer9/Publicacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema10/src/ejer9/Publicacion.java" afterDir="false" />
-    </list>
+    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="correciones" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,13 +96,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674546174903</updated>
-    </task>
-    <task id="LOCAL-00005" summary="continuacion 2 ejercicios arraylist">
-      <created>1674761782191</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1674761782191</updated>
     </task>
     <task id="LOCAL-00006" summary="continuacion 2 ejercicios arraylist">
       <created>1674761950642</created>
@@ -447,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677841277716</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="correciones">
+      <created>1677844115777</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1677844115777</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -493,7 +486,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="ejercicio guiado" />
     <MESSAGE value="ejercicio guiado terminado" />
     <MESSAGE value="ejercicio 1 y 2 terminado. 3 casi" />
     <MESSAGE value="arreglos 2" />
@@ -518,6 +510,7 @@
     <MESSAGE value="ejercicio 8 terminado" />
     <MESSAGE value="empezado ejercicio 9" />
     <MESSAGE value="continuacion ejercicio 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="continuacion ejercicio 9" />
+    <MESSAGE value="correciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="correciones" />
   </component>
 </project>

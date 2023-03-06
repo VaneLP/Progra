@@ -4,7 +4,7 @@ import ejer9.Excepciones.PublicationException;
 
 import java.util.Objects;
 
-public class Revista extends Publicacion implements Comparable<Revista>{
+public class Revista extends Publicacion{
     //atributos
     private final String issn, nombre;
     private final int numero;
@@ -41,7 +41,7 @@ public class Revista extends Publicacion implements Comparable<Revista>{
     @Override
     public String mostrarEnLinea() {
         return String.format("%15s, %15s, %15s, %15s","ID|", "issn|","nombre|","numero|"+
-                "%15s, %15s, %15s, %15s",this.idUnico,this.issn,this.nombre,this.numero);
+                "%15d, %15d, %15s, %15d",this.idUnico,this.issn,this.nombre,this.numero);
     }
 
     @Override
@@ -57,9 +57,14 @@ public class Revista extends Publicacion implements Comparable<Revista>{
         return Objects.hash(issn, nombre);
     }
 
-    @Override
-    public int compareTo(Revista r) {
-        return nombre.compareTo(r.getNombre());
-    }
+//    @Override
+//    public int compareTo(Revista r) {
+//        int resultado= this.nombre.compareTo(r.nombre); //comparamos por nombre
+//
+//        if (resultado==0) //si los nombre son iguales
+//                resultado=this.issn.compareTo(r.issn); //comparamos por el issn, porque al ser objetos tenemos varios atributos por los que los podemos ordenar
+//
+//        return resultado;
+//    }
 
 }

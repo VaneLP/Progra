@@ -1,7 +1,9 @@
 package ejer9;
 
-public record Autor(String nombre, String psudonimo) {
-    //el record es equivalente a lo de abajo, pero en registro
+import java.util.Objects;
+
+public record Autor(String nombre, String psudonimo) implements Comparable<Autor>{
+    //el record es equivalente a lo de abajo (donde todos sus atributos son finales), pero en registro
 
     /*
     //atributos
@@ -26,4 +28,21 @@ public record Autor(String nombre, String psudonimo) {
     }
     */
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Autor autor = (Autor) o;
+        return Objects.equals(nombre, autor.nombre) && Objects.equals(psudonimo, autor.psudonimo);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(nombre, psudonimo);
+    }
+
+    @Override
+    public int compareTo(Autor o) {
+        return 0;
+    }
 }

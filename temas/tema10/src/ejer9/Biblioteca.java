@@ -80,11 +80,10 @@ public class Biblioteca {
         listaPublicaciones.addAll(revistas);
     }
 
-    public void mostrarLineas(){
+    public void mostrarLineas() {
         for (Publicacion listaPublicacion : listaPublicaciones) {
-            System.out.println(listaPublicacion);
+            listaPublicacion.mostrarEnLinea();
         }
-
     }
 
 }

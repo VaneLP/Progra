@@ -37,7 +37,7 @@ public class FlotaVehiculos {
         int[] arraycoches= new int[flota.size()];
 
         for(int i=0; i<arraycoches.length;i++){
-            if(c.equals())
+//            if(c.equals())
                 arraycoches[i]=i++;
         }
 

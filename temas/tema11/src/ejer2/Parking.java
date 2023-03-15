@@ -1,6 +1,5 @@
-package ejer1;
+package ejer2;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Scanner;
 
@@ -57,7 +56,7 @@ public class Parking {
 
     public static void aparcar(String matricula){
         if(listaMatriculas.size()<=10) {
-            listaMatriculas.addFirst(matricula);
+            listaMatriculas.push(matricula);
         }
         else {
             System.out.println("EL parking esta lleno");
@@ -66,8 +65,8 @@ public class Parking {
 
     public static void desarparcar(){
         if(listaMatriculas.size()!=0) {
-            System.out.println(listaMatriculas.getFirst());
-            listaMatriculas.removeFirst();
+            System.out.println(listaMatriculas.pop());
+            //para mostrar unicamente podiamos usar pekk()
         }
         else{
             System.out.println("Parking vacio");

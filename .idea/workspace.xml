@@ -4,17 +4,6 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="correciones 2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema11/src/UD11_Ejercicios_v02.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema11/src/UD11_Ejercicios_v02.pdf" afterDir="false" />
-=======
-    <list default="true" id="8110c5ef-0104-4e1b-b21b-c6e762929777" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/temas/tema11/src/ejer2/Parking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema11/src/ejer1/Parking.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema11/src/ejer1/Parking.java" afterDir="false" />
->>>>>>> c79e0092e9ff929f94fbcea8c961441c5fec6c6a
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

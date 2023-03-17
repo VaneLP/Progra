@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="3a387aa1-e594-4b0a-a85a-11defb76c1b7" name="Changes" comment="correciones 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/temas/tema11/src/UD11_Ejercicios_v02.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema11/src/UD11_Ejercicios_v02.pdf" afterDir="false" />
+=======
+    <list default="true" id="8110c5ef-0104-4e1b-b21b-c6e762929777" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/temas/tema11/src/ejer2/Parking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema11/src/ejer1/Parking.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema11/src/ejer1/Parking.java" afterDir="false" />
+>>>>>>> c79e0092e9ff929f94fbcea8c961441c5fec6c6a
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,24 +45,16 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream
-    &quot;last_opened_file_path&quot;: &quot;D:/##Documentos/Progra/temas/tema10/src/ejer7&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-=======
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vanessa/Documents/GitHub/Progra/temas/tema9/Maraton/src/Maraton_6&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; Stashed changes
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Vanessa\Documents\GitHub\Progra\temas\tema10\src\ejer8" />
@@ -72,6 +72,7 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ejer2" />
       <recent name="" />
     </key>
   </component>

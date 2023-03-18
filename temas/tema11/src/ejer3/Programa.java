@@ -9,11 +9,11 @@ public class Programa {
         HashSet<Persona> listaPersonas = new HashSet<>();
 
         //creamos personas
-        Persona p1 = new Persona("Maria","maria@gmail.com", LocalDate.of(1996,07,25),123456789);
-        Persona p2 = new Persona("Pepe","pepe@gmail.com",LocalDate.of(2020,12,01),123456789);
-        Persona p3 = new Persona("Jose","jose@gmail.com",LocalDate.of(2022,02,14),123456789);
-        Persona p4 = new Persona("Josefa","josefa@gmail.com",LocalDate.of(1994,03,30),123456789);
-        Persona p5 = new Persona("Josefa","josefa@gmail.com",LocalDate.of(1994,03,30),123456789);
+        Persona p1 = new Persona("Maria","maria@gmail.com", LocalDate.of(1996,7,25),123456789);
+        Persona p2 = new Persona("Pepe","pepe@gmail.com",LocalDate.of(2020,12,1),123456789);
+        Persona p3 = new Persona("Jose","jose@gmail.com",LocalDate.of(2022,2,14),123456789);
+        Persona p4 = new Persona("Josefa","josefa@gmail.com",LocalDate.of(1994,3,30),123456789);
+        Persona p5 = new Persona("Josefa","josefa@gmail.com",LocalDate.of(1994,3,30),123456789);
 
         //añadimos las personas al HashSet
         listaPersonas.add(p1);

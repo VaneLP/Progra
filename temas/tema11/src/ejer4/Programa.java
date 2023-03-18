@@ -1,12 +1,13 @@
-package ejer3;
+package ejer4;
 
 import java.time.LocalDate;
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 
 public class Programa {
     public static void main(String[] args) {
         //creamos el HashSet
-        HashSet<Persona> listaPersonas = new HashSet<>();
+        LinkedHashSet<Persona> listaPersonas = new LinkedHashSet<>();
 
         //creamos personas
         Persona p1 = new Persona("Maria","maria@gmail.com", LocalDate.of(1996,07,25),123456789);
@@ -50,9 +51,7 @@ public class Programa {
         System.out.println("El nombre de la perona mayor es:"+nombreMayor);
 
         /*
-        R1 = si una persona esta repetida no se añade a la lista
-        R2 = Si tiene un orden, se ordenan por la fecha de nacimiento, aun que no deberian ya que los
-        HashSet no tienen una ordenacion
+        R = Se ordenan segun como hemos ido añadiendo los elementos
         */
     }
 }

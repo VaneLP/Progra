@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="terminado 6">
-      <change afterPath="$PROJECT_DIR$/temas/tema11/src/ejer7/Programa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema11/src/ejer8/Programa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema11/src/ejer6/Programa.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema11/src/ejer6/Programa.java" afterDir="false" />
-    </list>
+    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="terminado 7 y 8" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679303469211</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="terminado 7 y 8">
+      <created>1679337881426</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679337881426</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +100,7 @@
     <MESSAGE value="ejer terminados" />
     <MESSAGE value="empezado ejer 6" />
     <MESSAGE value="terminado 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="terminado 6" />
+    <MESSAGE value="terminado 7 y 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="terminado 7 y 8" />
   </component>
 </project>

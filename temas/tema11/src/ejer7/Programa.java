@@ -1,8 +1,7 @@
-package ejer6;
+package ejer7;
 
 import java.util.HashMap;
 import java.util.Scanner;
-import java.util.TreeMap;
 
 public class Programa {
     public static void main(String[] args) {
@@ -22,7 +21,7 @@ public class Programa {
                     "\n1. Añadir jugador"+
                     "\n2. Eliminar jugador"+
                     "\n3. Consultar salario"+
-                    "\n4. Incrementar salario"+
+                    "\n4. Introducir salario"+
                     "\n5. Salir"+
                     "\nOpcion:");
 
@@ -56,11 +55,14 @@ public class Programa {
                     break;
 
                 case 4:
-                    System.out.println("4. Incrementar salario"+
+                    System.out.println("4. Introducir salario"+
                             "\nDime el nombre del jugador que deseas incrementar el sueldo");
                     nombre= entrada.next();
 
-                    incrementarSalario(nombre);
+                    System.out.println("Dime el salario que deseas introducir");
+                    salario= entrada.nextDouble();
+
+                    introducirSalario(nombre,salario);
                     break;
                 case 5:
                     System.out.printf("5. Saliendo"+
@@ -72,7 +74,10 @@ public class Programa {
     }
 
     public static void anyadirJugador(String nombre, double salario){
-        plantillaJugadores.put(nombre,salario);
+        if(plantillaJugadores.size()<=25)
+            plantillaJugadores.put(nombre,salario);
+        else
+            System.err.println("Plantilla llena");
     }
 
     public static void eliminarJugador(String nombre){
@@ -85,8 +90,17 @@ public class Programa {
         }
     }
 
-    public static void incrementarSalario(String nombre){
-        plantillaJugadores.put(nombre, plantillaJugadores.get(nombre)*1.10);
+    public static void introducirSalario(String nombre,double salario){
+        plantillaJugadores.put(nombre, plantillaJugadores.get(nombre)+salario);
+
+        for (String s : plantillaJugadores.keySet()) {
+            //si el salario del jugador X es mayor al salario introducido -6000 Y si el salario
+            //del jugador X es menor al salario +6000 al introducido
+            if(plantillaJugadores.get(s)>(salario-6000) && plantillaJugadores.get(s)<(salario+6000)){
+                    //imprimimos por pantalla el jugador que tienen un salario parecido al introducido
+                    System.out.println(s);
+            }
+        }
     }
 
 }

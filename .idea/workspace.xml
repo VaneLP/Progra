@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="terminado 6" />
+    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="terminado 6">
+      <change afterPath="$PROJECT_DIR$/temas/tema11/src/ejer7/Programa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema11/src/ejer8/Programa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema11/src/ejer6/Programa.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema11/src/ejer6/Programa.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +45,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Vane\Documents\Progra\temas\tema11\src\ejer5" />
       <recent name="C:\Users\Vane\Documents\Progra\temas\tema11\src\ejer4" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ejer7" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

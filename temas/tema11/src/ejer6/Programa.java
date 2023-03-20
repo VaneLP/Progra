@@ -85,8 +85,8 @@ public class Programa {
         }
     }
 
-    public static double incrementarSalario(String nombre){
-        plantillaJugadores.equals(nombre);
+    public static void incrementarSalario(String nombre){
+        plantillaJugadores.put(nombre, plantillaJugadores.get(nombre)*1.10);
     }
 
 }

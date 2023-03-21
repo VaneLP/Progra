@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="terminado 7 y 8" />
+    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="terminado 7 y 8">
+      <change afterPath="$PROJECT_DIR$/temas/tema11/src/ejer10/Persona_v2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema11/src/ejer10/Programa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema11/src/ejer9/Programa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema11/src/ejer6/Programa.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema11/src/ejer6/Programa.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +48,7 @@
       <recent name="C:\Users\Vane\Documents\Progra\temas\tema11\src\ejer4" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ejer10" />
       <recent name="ejer7" />
     </key>
   </component>

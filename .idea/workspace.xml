@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="correccion">
+      <change afterPath="$PROJECT_DIR$/temas/tema11/src/ejer13/Programa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema11/src/ejer8/Programa.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema11/src/ejer8/Programa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +45,7 @@
       <recent name="C:\Users\Vane\Documents\Progra\temas\tema11\src\ejer4" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ejer13" />
       <recent name="ejer10" />
       <recent name="ejer7" />
     </key>
@@ -100,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679475969855</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="correccion">
+      <created>1679477811842</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679477811842</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -41,12 +41,12 @@ public class Programa {
         TreeMap<Integer,Integer> listaTemp = new TreeMap<>();
         //k= tº, v=dias
 
-        //hacemos un iter para añadir todas las temp y si no tienen un valor lo creamos
+        //hacemos un foreach para añadir todas las temp y si no tienen un valor lo creamos
         for (int temp : temperaturas) {
             if(listaTemp.containsKey(temp))
                 listaTemp.put(temp,listaTemp.get(temp)+1);
             else
-                listaTemp.put(temp,0);
+                listaTemp.put(temp,1);
         }
 
         //mostrarlo

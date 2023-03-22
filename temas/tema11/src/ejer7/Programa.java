@@ -90,6 +90,10 @@ public class Programa {
         }
     }
 
+    public static void incrementarSalario(String nombre){
+        plantillaJugadores.put(nombre, plantillaJugadores.get(nombre)*1.10);
+    }
+
     public static void introducirSalario(String nombre,double salario){
         plantillaJugadores.put(nombre, plantillaJugadores.get(nombre)+salario);
 

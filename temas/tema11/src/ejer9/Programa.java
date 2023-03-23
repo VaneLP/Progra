@@ -39,6 +39,5 @@ public class Programa {
             if(temp==10 || temp==30)
                 System.out.println("La temperatura "+temp+ " se repite " + listaTemp.get(temp));
         }
-
     }
 }

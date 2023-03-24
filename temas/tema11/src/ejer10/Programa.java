@@ -1,20 +1,19 @@
 package ejer10;
 
 import java.time.LocalDate;
-import java.util.LinkedHashSet;
 import java.util.TreeSet;
 
 public class Programa {
     public static void main(String[] args) {
-        //creamos el HashSet
-        TreeSet<Persona_v2> listaPersonas = new TreeSet<>();
+        //creamos el treeset
+        TreeSet<Persona_v3> listaPersonas = new TreeSet<>();
 
         //creamos personas
-        Persona_v2 p1 = new Persona_v2("Maria","maria@gmail.com", LocalDate.of(1996,07,25),123456789);
-        Persona_v2 p2 = new Persona_v2("Pepe","pepe@gmail.com",LocalDate.of(2020,12,01),123456789);
-        Persona_v2 p3 = new Persona_v2("Jose","jose@gmail.com",LocalDate.of(2022,02,14),123456789);
-        Persona_v2 p4 = new Persona_v2("Josefa","josefa@gmail.com",LocalDate.of(1994,03,30),123456789);
-        Persona_v2 p5 = new Persona_v2("Josefa","josefa@gmail.com",LocalDate.of(1994,03,30),123456789);
+        Persona_v3 p1 = new Persona_v3("Maria","maria@gmail.com", LocalDate.of(1996,07,25),123456789);
+        Persona_v3 p2 = new Persona_v3("Pepe","pepe@gmail.com",LocalDate.of(2020,12,01),123456789);
+        Persona_v3 p3 = new Persona_v3("Jose","jose@gmail.com",LocalDate.of(2022,02,14),123456789);
+        Persona_v3 p4 = new Persona_v3("Josefa","josefa@gmail.com",LocalDate.of(1994,03,30),123456789);
+        Persona_v3 p5 = new Persona_v3("Josefa","josefa@gmail.com",LocalDate.of(1994,03,30),123456789);
 
         //añadimos las personas al HashSet
         listaPersonas.add(p1);
@@ -24,9 +23,12 @@ public class Programa {
         listaPersonas.add(p5);
 
         //mostramos la lista
-        for (Persona_v2 listaPersona : listaPersonas) {
-            System.out.println(listaPersona);
-        }
+        System.out.println(listaPersonas);
+
+        /*
+        * R1= sale un aviso de que no es compareble y por tanto no se ordena
+        * r2= Si eliminamos el hashcode y el equals no funcionara igualmente, hay que añadirle el compareTo()
+        */
 
     }
 }

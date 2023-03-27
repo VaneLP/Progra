@@ -22,8 +22,12 @@ public class Programa {
         listaPersonas.add(p4);
         listaPersonas.add(p5);
 
+        for (Persona_v3 listaPersona : listaPersonas) {
+            System.out.println(listaPersona);
+        }
+
         //mostramos la lista
-        System.out.println(listaPersonas);
+//        System.out.println(listaPersonas);
 
         /*
         * R1= sale un aviso de que no es compareble y por tanto no se ordena

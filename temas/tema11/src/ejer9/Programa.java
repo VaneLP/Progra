@@ -31,13 +31,14 @@ public class Programa {
             if(listaTemp.containsKey(temp))
                 listaTemp.put(temp,listaTemp.get(temp)+1);
             else
-                listaTemp.put(temp,0);
+                listaTemp.put(temp,1);
         }
 
         //mostrarlo
-        for (Integer temp : listaTemp.keySet()) {
-            if(temp==10 || temp==30)
-                System.out.println("La temperatura "+temp+ " se repite " + listaTemp.get(temp));
-        }
+//        for (Integer temp : listaTemp.keySet()) {
+//            if(temp==10 || temp==30)
+//                System.out.println("La temperatura "+temp+ " se repite " + listaTemp.get(temp));
+//        }
+        System.out.println("min:" + listaTemp.firstKey()+": "+listaTemp.firstEntry() + " max:" + listaTemp.lastKey()+": " +listaTemp.lastEntry());
     }
 }

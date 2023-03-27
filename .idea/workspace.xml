@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="intento 13" />
+    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="intento 13">
+      <change afterPath="$PROJECT_DIR$/temas/tema11/src/ejer12/Persona_v3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema11/src/ejer12/Programa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema11/src/ejer10/Persona_v3.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema11/src/ejer10/Persona_v3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema11/src/ejer10/Programa.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema11/src/ejer10/Programa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema11/src/ejer11/Programa.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema11/src/ejer11/Programa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema11/src/ejer9/Programa.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema11/src/ejer9/Programa.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,15 +37,16 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vane/Documents/Progra/temas/tema11/src/ejer5&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Vanessa/Documents/GitHub/Progra/temas/tema11/src/ejer12"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vanessa\Documents\GitHub\Progra\temas\tema11\src\ejer12" />
       <recent name="C:\Users\Vane\Documents\Progra\temas\tema11\src\ejer5" />
       <recent name="C:\Users\Vane\Documents\Progra\temas\tema11\src\ejer4" />
     </key>

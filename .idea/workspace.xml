@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="intento 13">
-      <change afterPath="$PROJECT_DIR$/temas/tema11/src/ejer12/Persona_v3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema11/src/ejer12/Programa.java" afterDir="false" />
+    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="coreccion de errores">
+      <change afterPath="$PROJECT_DIR$/temas/tema11/src/ejerAgendaTelefonica/Agenda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema11/src/ejerAgendaTelefonica/Registro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema11/src/ejerAgendaTelefonica/Uso_Agenda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema11/src/ejerAgendaTelefonica/enunciado" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema11/src/ejer10/Persona_v3.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema11/src/ejer10/Persona_v3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema11/src/ejer10/Programa.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema11/src/ejer10/Programa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema11/src/ejer11/Programa.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema11/src/ejer11/Programa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema11/src/ejer9/Programa.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema11/src/ejer9/Programa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679482420679</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="coreccion de errores">
+      <created>1679902050284</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1679902050284</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +149,7 @@
     <MESSAGE value="mas ejers" />
     <MESSAGE value="correccion" />
     <MESSAGE value="intento 13" />
-    <option name="LAST_COMMIT_MESSAGE" value="intento 13" />
+    <MESSAGE value="coreccion de errores" />
+    <option name="LAST_COMMIT_MESSAGE" value="coreccion de errores" />
   </component>
 </project>

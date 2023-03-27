@@ -1,0 +1,39 @@
+La agenda telefónica
+
+Vamos a realizar un programa para gestionar una agenda telefónica.
+Las clases que vamos a tener son:
+
+Registro. Para guardar la información de cada entrada de la agenda,
+guardaremos el nombre y el teléfono. Necesitaremos el constructor
+y los métodos para acceder y modificar los datos ya que deben
+estar encapsulados.
+
+Agenda. Clase que va a contener todos los registros de nuestra
+agenda. No vamos a controlar entradas repetidas.
+
+Uso_Agenda. Clase principal de nuestro programa, tendrá un menú
+para poder elegir las opciones de nuestra agenda:
+
+1. Mostrar Agenda
+2. Añadir entrada
+3. Buscar por nombre
+4. Buscar por número
+5. Borrar por nombre
+6. Borrar por número
+7. Ordenar por nombre
+0. Salir
+
+Crea los métodos necesarios en la clase Agenda para llevar a cabo las tareas del menú.
+1. Mostrará todos las entradas de la agenda o "La agenda está vacía"
+si no tiene
+2. Pedirá el nombre y el teléfono para añadir esos datos en la agenda
+3. Pedirá que se introduzca un nombre y mostrará todas las entradas
+de la agenda que contengan ese nombre
+4. Pedirá que se introduzca un teléfono y mostrará todas las entradas
+de la agenda que contengan ese número
+5. Pedirá que se introduzca un nombre y borrará todas las entradas
+de la agenda que contengan ese nombre
+6. Pedirá que se introduzca un teléfono y borrará todas las entradas
+de la agenda que contengan ese teléfono
+7. Mostrará todas las entradas de la agenda (o "La agenda está vacía")
+ordenados por nombre ascendente

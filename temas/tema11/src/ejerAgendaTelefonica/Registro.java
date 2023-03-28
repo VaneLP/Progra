@@ -1,6 +1,6 @@
 package ejerAgendaTelefonica;
 
-public class Registro {
+public class Registro implements Comparable<Registro>{
     //atributos
     private String nombre, telefono;
 
@@ -27,4 +27,8 @@ public class Registro {
         this.telefono = telefono;
     }
 
+    @Override
+    public int compareTo(Registro r) {
+        return this.nombre.compareTo(r.getNombre());
+    }
 }

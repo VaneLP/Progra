@@ -27,6 +27,14 @@ public class Registro implements Comparable<Registro>{
         this.telefono = telefono;
     }
 
+    //metodos
+
+    @Override
+    public String toString() {
+        return "nombre='" + nombre + '\'' +
+                ", telefono='" + telefono + '\'';
+    }
+
     @Override
     public int compareTo(Registro r) {
         return this.nombre.compareTo(r.getNombre());

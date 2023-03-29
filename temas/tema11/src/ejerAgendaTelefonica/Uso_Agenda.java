@@ -117,7 +117,7 @@ public class Uso_Agenda {
      */
     public static void buscarNombre(String nombre){
         for (Registro r : Agenda.listaAgenda) {
-            if(r.getNombre().equals(nombre))
+            if(r.getNombre().contains(nombre))
                 System.out.println(r);
         }
     }
@@ -128,7 +128,7 @@ public class Uso_Agenda {
      */
     public static void buscarNumero(String telefono){
         for (Registro r : Agenda.listaAgenda) {
-            if(r.getTelefono().equals(telefono))
+            if(r.getTelefono().contains(telefono))
                 System.out.println(r);
         }
     }
@@ -141,7 +141,7 @@ public class Uso_Agenda {
         Iterator<Registro> iter= (Agenda.listaAgenda).iterator();
 
         while (iter.hasNext()){
-            if(iter.next().getNombre().equals(nombre))
+            if(iter.next().getNombre().contains(nombre))
                 iter.remove();
         }
     }
@@ -154,7 +154,7 @@ public class Uso_Agenda {
         Iterator<Registro> iter= (Agenda.listaAgenda).iterator();
 
         while (iter.hasNext()){
-            if(iter.next().getTelefono().equals(telefono))
+            if(iter.next().getTelefono().contains(telefono))
                 iter.remove();
         }
     }

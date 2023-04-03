@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="correccion errores">
-      <change beforePath="$PROJECT_DIR$/.idea/Progra.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Progra.iml" afterDir="false" />
-    </list>
+    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="correccion errores" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

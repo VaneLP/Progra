@@ -39,14 +39,14 @@ public class Grupo {
     /**
      * @return devolverá una lista de los magos del grupo
      */
-    public List<Mago> dameMagos(){
-        List<Mago> listaMagos = new ArrayList<>();
-        for (Personaje personaje : miembrosGrupo) {
-            if(miembrosGrupo.getClass())
-        }
-
-            return listaMagos;
-    }
+//    public List<Mago> dameMagos(){
+//        List<Mago> listaMagos = new ArrayList<>();
+//        for (Personaje personaje : miembrosGrupo) {
+//            if(miembrosGrupo.getClass())
+//        }
+//
+//            return listaMagos;
+//    }
 
     /**
      * pondrá en retirada a todos los miembros del grupo. Mostrando por pantalla
@@ -81,9 +81,9 @@ public class Grupo {
      * eliminará todos aquellos Trolls que están muertos.
      * @return Devolverá el número de Trolls que ha eliminado.
      */
-    public int limpiarGrupo(){
-
-    }
+//    public int limpiarGrupo(){
+//
+//    }
 
     /**
      * mostrará por pantalla todos los miembros del grupo junto con el valor

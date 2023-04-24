@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Scanner;
 
-public class ejer1 {
+public class EjerA1 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         String ruta;

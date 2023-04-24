@@ -7,29 +7,29 @@ public class EjerA3 {
     public static void main(String[] args) {
         //cambiar nombres
         //DOCUMENTOS
-        File documentos = new File("C:\\Users\\Vanessa\\Documents\\GitHub\\Progra\\temas\\tema12\\documentos");
+        File documentos = new File("temas\\tema12\\documentos");
         System.out.println(documentos.getPath());
 
-        System.out.println(documentos.renameTo(new File("C:\\Users\\Vanessa\\Documents\\GitHub\\Progra\\temas\\tema12\\DOCS")));
+        System.out.println(documentos.renameTo(new File("temas\\tema12\\DOCS")));
 
         //FOTOGRAFIAS
-        File fotografias = new File("C:\\Users\\Vanessa\\Documents\\GitHub\\Progra\\temas\\tema12\\documentos\\Fotografias");
+        File fotografias = new File("temas\\tema12\\DOCS\\Fotografias");
         System.out.println(fotografias.getPath());
 
-        System.out.println(fotografias.renameTo(new File("C:\\Users\\Vanessa\\Documents\\GitHub\\Progra\\temas\\tema12\\documentos\\FOTOS")));
+        System.out.println(fotografias.renameTo(new File("temas\\tema12\\DOCS\\FOTOS")));
 
         //LIBROS
-        File libros = new File("C:\\Users\\Vanessa\\Documents\\GitHub\\Progra\\temas\\tema12\\documentos\\Libros");
+        File libros = new File("temas\\tema12\\DOCS\\Libros");
         System.out.println(libros.getPath());
 
-        System.out.println(libros.renameTo(new File("C:\\Users\\Vanessa\\Documents\\GitHub\\Progra\\temas\\tema12\\documentos\\LECTURAS")));
+        System.out.println(libros.renameTo(new File("temas\\tema12\\DOCS\\LECTURAS")));
 
         System.out.println("-----------");
 
         //cambiar el nombre de todos los archivos de fotos y lecturas quitando extension
         //FOTOS
 
-        File fotosRenombrar = new File("C:\\Users\\Vanessa\\Documents\\GitHub\\Progra\\temas\\tema12\\documentos\\FOTOS");
+        File fotosRenombrar = new File("temas\\tema12\\DOCS\\FOTOS");
         //creamos un array de file
         File[] listaFotos = fotosRenombrar.listFiles();
 
@@ -43,7 +43,7 @@ public class EjerA3 {
             //pasamos a un stringBuilder la cadena de texto anterior
             StringBuilder imagenRenombrada = new StringBuilder(imagenActual);
             //eliminamos empezando al final de la cadena de texto original hasta -4 caracteres que seria hasta el .
-            imagenRenombrada.delete(listaFotos[i].getPath().length()-4,listaFotos[i].getPath().length()-1);
+            imagenRenombrada.delete(listaFotos[i].getPath().length()-4,listaFotos[i].getPath().length());
 
             System.out.println(imagenRenombrada);
 
@@ -55,7 +55,7 @@ public class EjerA3 {
         System.out.println("-------");
         //LIBROS
 
-        File librosRenombrar = new File("C:\\Users\\Vanessa\\Documents\\GitHub\\Progra\\temas\\tema12\\documentos\\LECTURAS");
+        File librosRenombrar = new File("temas\\tema12\\DOCS\\LECTURAS");
         //creamos un array de file
         File[] listaLibros = librosRenombrar.listFiles();
 
@@ -69,7 +69,7 @@ public class EjerA3 {
             //pasamos a un stringBuilder la cadena de texto anterior
             StringBuilder libroRenombrada = new StringBuilder(libroActual);
             //eliminamos empezando al final de la cadena de texto original hasta -4 caracteres que seria hasta el .
-            libroRenombrada.delete(listaLibros[i].getPath().length()-4,listaLibros[i].getPath().length()-1);
+            libroRenombrada.delete(listaLibros[i].getPath().length()-4,listaLibros[i].getPath().length());
 
             System.out.println(libroRenombrada);
 

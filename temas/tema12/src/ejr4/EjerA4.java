@@ -5,27 +5,30 @@ import java.io.File;
 public class EjerA4 {
     public static void main(String[] args) {
         //crear carpeta mis cosas
-        File misCosas = new File("C:\\Users\\Vanessa\\Documents\\GitHub\\Progra\\temas\\tema12\\DOCS\\Mis Cosas");
+        File misCosas = new File("temas\\tema12\\DOCS\\Mis Cosas");
 
         System.out.println("Mis cosas añadida: "
                 +misCosas.mkdir());
 
         //crear carpeta alfabeto
-        File alfabeto = new File("C:\\Users\\Vanessa\\Documents\\GitHub\\Progra\\temas\\tema12\\DOCS\\Alfabeto");
+        File alfabeto = new File("temas\\tema12\\DOCS\\Alfabeto");
 
         System.out.println("Alfabeto añadido: "
                 +alfabeto.mkdir());
 
+
+        //--------------------
+
         //mover carpeta fotografias y libros dentro de mis cosas
-        File fotografias = new File("C:\\Users\\Vanessa\\Documents\\GitHub\\Progra\\temas\\tema12\\DOCS\\FOTOS");
+        File fotografias = new File("temas\\tema12\\DOCS\\FOTOS");
 
         System.out.println("Movido: "
-                +fotografias.renameTo(new File("C:\\Users\\Vanessa\\Documents\\GitHub\\Progra\\temas\\tema12\\FOTOS\\Mis Cosas")));
+                +fotografias.renameTo(new File("temas\\tema12\\DOCS\\Mis Cosas\\FOTOS")));
 
-        File libros = new File("C:\\Users\\Vanessa\\Documents\\GitHub\\Progra\\temas\\tema12\\DOCS\\LECTURAS");
+        File libros = new File("temas\\tema12\\DOCS\\LECTURAS");
 
         System.out.println("Movido: "
-                +libros.renameTo(new File("C:\\Users\\Vanessa\\Documents\\GitHub\\Progra\\temas\\tema12\\DOCS\\Mis Cosas")));
+                +libros.renameTo(new File("temas\\tema12\\DOCS\\Mis Cosas\\LECTURAS")));
 
         //Dentro de la carpeta alfabeto crear carpeta para cada letra del alfabeto
 
@@ -39,7 +42,7 @@ public class EjerA4 {
             alfa= (char) i;
 
             //creamos la carpeta
-            File carpetasAlfabeto =new File("C:\\Users\\Vanessa\\Documents\\GitHub\\Progra\\temas\\tema12\\documentos\\DOCS\\Alfabeto\\" + alfa);
+            File carpetasAlfabeto =new File("temas\\tema12\\DOCS\\Alfabeto\\" + alfa);
 
             System.out.println("Carpeta añadida: "
                     +carpetasAlfabeto.mkdir());

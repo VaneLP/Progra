@@ -17,7 +17,7 @@ public class EjerA1 {
             ruta = entrada.nextLine();
 
             //creamos el File y le pasamos como parametro la ruta que queremos comprobar
-            File f =new File(ruta);
+            File f = new File(ruta);
 
             //capturamos la excepcion
             try {
@@ -29,74 +29,69 @@ public class EjerA1 {
 
             System.out.println("----------");
 
-        }while(!ruta.equals(""));
+        } while (!ruta.equals(""));
 
     }
 
 
     public static void muestraInfoRuta(File ruta) throws FileNotFoundException {
-         if(!ruta.exists())
+        if (!ruta.exists())
             throw new FileNotFoundException("Ruta no encontrada/no existe");
 
-
-        if(ruta.isFile())
-             System.out.println("[A] "+ruta.getName());
+        //archivos de FUERA
+        if (ruta.isFile())
+            System.out.println("[A] " + ruta.getName());
 
 //         else if (ruta.isDirectory()){
-             //asi mostramos lo dos directorios y archivos
+            //asi mostramos lo dos directorios y archivos
 //             for (File file : lista) {
 //                 System.out.println(file);
 //             }
 
-            if (ruta.isDirectory()){
-                //array para la lista de los archivos de la ruta
-                File[] lista = ruta.listFiles();
+        //directorios de FUERA
+        else if (ruta.isDirectory()) {
+            //array para la lista de los archivos de la ruta
+            File[] lista = ruta.listFiles();
 
-                //arraylist de ficheros para ordenarlos
-                ArrayList<File> listaOrdenada =new ArrayList<>();
+            //arraylist de ficheros para ordenarlos
+            ArrayList<File> listaOrdenada = new ArrayList<>();
 
-                //para los archivos de DENTRO
-                //metemos toddo lo de la array al arrayList
-                for (File meter : lista) {
-                    listaOrdenada.add(meter);
-                }
+            //para los archivos de DENTRO
+            //metemos toddo lo de la array al arrayList
+            for (File meter : lista) {
+                listaOrdenada.add(meter);
+            }
 
-                //ordenar con una clase anonima que con un comparator me compare:
-                listaOrdenada.sort(new Comparator<File>() {
-                    @Override
-                    public int compare(File archivo1, File archivo2) {
-                        //si ambos son arvhivos
-                        if (archivo1.isFile() && archivo2.isFile())
-                            return 0;
+            //ordenar con una clase anonima que con un comparator me compare:
+            listaOrdenada.sort(new Comparator<File>() {
+                @Override
+                public int compare(File archivo1, File archivo2) {
+                    //si ambos son arvhivos
+                    if (archivo1.isFile() && archivo2.isFile())
+                        return 0;
 
                         //el 1 es un archivo 2 es directorio
-                        else if (archivo1.isFile() && !archivo2.isFile())
-                            return 1;
+                    else if (archivo1.isFile() && !archivo2.isFile())
+                        return 1;
 
                         //el 1 es directorio y el 2 si
-                        else if (!archivo1.isFile() && archivo2.isFile())
-                            return -1;
+                    else if (!archivo1.isFile() && archivo2.isFile())
+                        return -1;
 
                         //si ninguno es un archivo
-                        else
-                            return 0;
-                    }
-                });
-
-                //mostramos
-                for (File file : listaOrdenada) {
-                    if(file.isFile())
-                        System.out.println("[A] "+file.getName());
-                    else if (file.isDirectory())
-                        System.out.println("[*] "+file.getName());
+                    else
+                        return 0;
                 }
-            }
+            });
 
-            //esto sigue siendo para los archivos de FUERA
-            else if(ruta.isFile()){
-                    System.out.println("[A] "+ruta.getName());
-
+            //mostramos
+            for (File file : listaOrdenada) {
+                if (file.isFile())
+                    System.out.println("[A] " + file.getName());
+                else if (file.isDirectory())
+                    System.out.println("[*] " + file.getName());
             }
+        }
 
     }
 }

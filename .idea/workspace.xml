@@ -6,25 +6,37 @@
   <component name="ChangeListManager">
     <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="correccion errores">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/Fotografias/astronauta.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/Fotografias/bisontes.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/Fotografias/boxeo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/Fotografias/brooklyn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/Fotografias/desigualdad.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/Fotografias/einstein.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/Fotografias/hubble.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/Fotografias/negro.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/Fotografias/reina.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/Fotografias/titanic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/Fotografias/tsunami.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/Fotografias/warishell.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/Libros/coplas_manrique.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/Libros/fuenteovejuna_lopevega.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/Libros/lazarillo.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/Libros/quijote_cervantes.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/Libros/vida_unamuno.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/src/ejr3/EjerA3.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema12/src/ejr3/EjerA3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/FOTOS/astronag" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/FOTOS/bisong" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/FOTOS/bog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/FOTOS/brookg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/FOTOS/desigualg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/FOTOS/einstg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/FOTOS/hubg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/FOTOS/neg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/FOTOS/reg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/FOTOS/titag" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/FOTOS/tsung" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/FOTOS/warishg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/LECTURAS/coplas_manrit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/LECTURAS/fuenteovejuna_lopevt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/LECTURAS/lazarit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/LECTURAS/quijote_cervant" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/LECTURAS/vida_unamt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/alumnos_notas.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/datos.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/datos_personas.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/datos_personas.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/diccionario.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/enteros.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/frases.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/numeros.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/pi-million.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/usa_apellidos.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/usa_nombres.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/documentos/usa_personas.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/temas/tema12/src/ejr4/EjerA4.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema12/src/ejr4/EjerA4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/src/ejr4/pruebas.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema12/src/ejr4/pruebas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

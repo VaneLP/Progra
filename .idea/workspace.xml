@@ -4,41 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="correccion errores">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/DOCS/FOTOS/astronag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/DOCS/FOTOS/bisong" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/DOCS/FOTOS/bog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/DOCS/FOTOS/brookg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/DOCS/FOTOS/desigualg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/DOCS/FOTOS/einstg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/DOCS/FOTOS/hubg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/DOCS/FOTOS/neg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/DOCS/FOTOS/reg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/DOCS/FOTOS/titag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/DOCS/FOTOS/tsung" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/DOCS/FOTOS/warishg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/DOCS/LECTURAS/coplas_manrit" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/DOCS/LECTURAS/fuenteovejuna_lopevt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/DOCS/LECTURAS/lazarit" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/DOCS/LECTURAS/quijote_cervant" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/DOCS/LECTURAS/vida_unamt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/DOCS/alumnos_notas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema12/DOCS/alumnos_notas.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/DOCS/datos.csv" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema12/DOCS/datos.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/DOCS/datos_personas.csv" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema12/DOCS/datos_personas.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/DOCS/diccionario.txt" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema12/DOCS/diccionario.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/DOCS/frases.txt" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema12/DOCS/frases.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/DOCS/numeros.txt" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema12/DOCS/numeros.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/DOCS/pi-million.txt" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema12/DOCS/pi-million.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/DOCS/usa_apellidos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema12/DOCS/usa_apellidos.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/DOCS/usa_nombres.txt" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema12/DOCS/usa_nombres.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/DOCS/usa_personas.txt" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema12/DOCS/usa_personas.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/src/ejr1/EjerA1.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema12/src/ejr1/EjerA1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/src/ejr3/EjerA3.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema12/src/ejr3/EjerA3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/src/ejr4/EjerA4.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema12/src/ejr4/EjerA4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/src/ejr4/pruebas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/src/ejr5/EjerA5.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema12/src/ejr5/EjerA5.java" afterDir="false" />
-    </list>
+    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="correccion errores y ejercicio 5" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -176,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680078746665</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="correccion errores y ejercicio 5">
+      <created>1682351821001</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1682351821001</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,6 +175,7 @@
     <MESSAGE value="ejer agenda" />
     <MESSAGE value="agenda terminada" />
     <MESSAGE value="correccion errores" />
-    <option name="LAST_COMMIT_MESSAGE" value="correccion errores" />
+    <MESSAGE value="correccion errores y ejercicio 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="correccion errores y ejercicio 5" />
   </component>
 </project>

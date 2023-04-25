@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="correccion">
-      <change afterPath="$PROJECT_DIR$/temas/tema12/src/ejerA/casoPractico/pruebas.java" afterDir="false" />
+    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="caso practico A">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/temas/tema12/src/ejerA/casoPractico/MiniFileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema12/src/ejerA/casoPractico/MiniFileManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/temas/tema12/src/ejerA/casoPractico/MiniTerminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema12/src/ejerA/casoPractico/MiniTerminal.java" afterDir="false" />
@@ -154,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682351821001</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="caso practico A">
+      <created>1682442104092</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1682442104092</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,6 +187,7 @@
     <MESSAGE value="agenda terminada" />
     <MESSAGE value="correccion errores" />
     <MESSAGE value="correccion errores y ejercicio 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="correccion errores y ejercicio 5" />
+    <MESSAGE value="caso practico A" />
+    <option name="LAST_COMMIT_MESSAGE" value="caso practico A" />
   </component>
 </project>

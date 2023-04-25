@@ -3,28 +3,37 @@ package ejerA.casoPractico;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-
+/*
+todo: PREGUNTAR AL PROFE NO GUARDA LAS RUTAS
+*/
 public class MiniTerminal {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
-        String comando, txt, rutaString;
+        String comando, txt, rutaString="";
         MiniFileManager fm = new MiniFileManager();
 
         do {
             System.out.print("""
+                             -----------------------------------
                              Si necesitas ayuda escribe 'help'.
                              Si deseas salirte escribe 'exit'.
                              
                              Pon el comando que deseas utilizar:
-                             
                              """);
-            txt = entrada.next();
+            txt = entrada.nextLine();
 
-            //guardamos el comando
-            comando = txt.substring(0, txt.indexOf(' ')-1);
+            int espacio = txt.indexOf(' ');
 
-            //guardamos la ruta
-            rutaString = txt.substring(txt.indexOf(' ')+1);
+            if(espacio == -1) {
+                comando = txt;
+            }
+            else {
+                //guardamos el comando
+                comando = txt.substring(0, espacio);
+
+                //guardamos la ruta
+                rutaString = txt.substring(espacio);
+            }
 
             System.out.println("-----------------------------------");
 
@@ -70,7 +79,7 @@ public class MiniTerminal {
                 case "mkdir":
 
                     //guardamos la ultima palabra que sera el nombre del archivo que queremos crear
-                    String archivo = rutaString.substring(rutaString.lastIndexOf('/')+1);
+                    String archivo = rutaString.substring(rutaString.lastIndexOf('/'));
                     fm.creaeDirec(archivo);
                     break;
                 //--------------
@@ -84,10 +93,10 @@ public class MiniTerminal {
                     break;
                 //--------------
                 case "mv":
-                    String ruta1String = txt.substring(txt.indexOf(' ')+1);
+                    String ruta1String = txt.substring(txt.indexOf(' '));
                     File f1 = new File(ruta1String);
 
-                    String ruta2String = txt.substring(txt.lastIndexOf(' ')+1);
+                    String ruta2String = txt.substring(txt.lastIndexOf(' '));
                     File f2 = new File(ruta2String);
 
                     try {

@@ -8,7 +8,7 @@ import java.util.Date;
 
 public class MiniFileManager {
     //atributos
-    File rutaGuardada;
+    File rutaGuardada= new File("C:/");
 
     //metodos
     /**

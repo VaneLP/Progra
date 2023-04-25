@@ -1,4 +1,4 @@
-package ejr3;
+package ejerA.ejr3;
 
 import java.io.File;
 import java.util.ArrayList;

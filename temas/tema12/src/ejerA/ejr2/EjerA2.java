@@ -1,4 +1,4 @@
-package ejr2;
+package ejerA.ejr2;
 
 import java.io.File;
 import java.io.FileNotFoundException;

@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="correccion errores y ejercicio 5">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/src/ejr1/EjerA1.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema12/src/ejr1/EjerA1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/src/ejr2/EjerA2.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema12/src/ejr2/EjerA2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/src/ejr3/EjerA3.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema12/src/ejr3/EjerA3.java" afterDir="false" />
+    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="correccion">
+      <change beforePath="$PROJECT_DIR$/temas/tema12/src/ejr1/EjerA1.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema12/src/ejerA/ejr1/EjerA1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/src/ejr2/EjerA2.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema12/src/ejerA/ejr2/EjerA2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/src/ejr3/EjerA3.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema12/src/ejerA/ejr3/EjerA3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/src/ejr4/EjerA4.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema12/src/ejerA/ejr4/EjerA4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/src/ejr5/EjerA5.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema12/src/ejerA/ejr5/EjerA5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -14,10 +14,7 @@ public class MiniFileManager {
     /**
      * pwd: Muestra cual es la carpeta actual
      */
-    public void mostrarCarpetaActu () throws FileNotFoundException{
-        if(!rutaGuardada.exists())
-            throw new FileNotFoundException("Ruta no encontrada/no existe");
-
+    public void mostrarCarpetaActu (){
         System.out.println(rutaGuardada.getPath());
     }
 
@@ -25,14 +22,14 @@ public class MiniFileManager {
      * cd <DIR>: Cambia la carpeta actual a ‘DIR’. Con .. cambia a la carpeta superior
      */
     public void  cambiaCarpetaActuADir(File ruta) throws FileNotFoundException{
-        if(!rutaGuardada.exists())
+        if(!ruta.exists())
             throw new FileNotFoundException("Ruta no encontrada/no existe");
 
         else if(ruta.equals(".."))
             rutaGuardada.getParent();
 
         else
-            rutaGuardada.renameTo(ruta);
+            rutaGuardada=ruta;
 
     }
 
@@ -40,10 +37,7 @@ public class MiniFileManager {
      * ls: Muestra la lista de directorios y archivos de la carpeta actual (primero directorios,
      * luego archivos, ambos ordenados alfabéticamente)
      */
-    public void  mostrarListaDirecYArchi() throws FileNotFoundException{
-        if(!rutaGuardada.exists())
-            throw new FileNotFoundException("Ruta no encontrada/no existe");
-
+    public void  mostrarListaDirecYArchi(){
         //para los archivos de FUERA
         if(rutaGuardada.isFile())
             System.out.println(rutaGuardada.getName());
@@ -98,10 +92,7 @@ public class MiniFileManager {
     /**
      * ll: Como ls pero muestra también el tamaño y la fecha de última modificación
      */
-    public void  mostrarTamanyoYFecha() throws FileNotFoundException{
-        if(!rutaGuardada.exists())
-            throw new FileNotFoundException("Ruta no encontrada/no existe");
-
+    public void  mostrarTamanyoYFecha(){
         //para los archivos de FUERA
         if(rutaGuardada.isFile())
             System.out.println(rutaGuardada.getName());

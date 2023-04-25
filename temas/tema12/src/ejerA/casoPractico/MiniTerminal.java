@@ -3,9 +3,7 @@ package ejerA.casoPractico;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
-/*
-todo: PREGUNTAR AL PROFE NO GUARDA LAS RUTAS
-*/
+
 public class MiniTerminal {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
@@ -32,7 +30,7 @@ public class MiniTerminal {
                 comando = txt.substring(0, espacio);
 
                 //guardamos la ruta
-                rutaString = txt.substring(espacio);
+                rutaString = txt.substring(espacio+1);
             }
 
             System.out.println("-----------------------------------");
@@ -40,11 +38,7 @@ public class MiniTerminal {
             switch (comando){
                 case "pwd":
 
-                    try {
                         fm.mostrarCarpetaActu();
-                    } catch (FileNotFoundException e) {
-                        System.out.println(e.getMessage());
-                    }
                     break;
                 //--------------
                 case "cd":
@@ -60,26 +54,19 @@ public class MiniTerminal {
                 //--------------
                 case "ls":
 
-                    try {
                         fm.mostrarListaDirecYArchi();
-                    } catch (FileNotFoundException e) {
-                        System.out.println(e.getMessage());
-                    }
                     break;
                 //--------------
                 case "ll":
 
-                    try {
                         fm.mostrarTamanyoYFecha();
-                    } catch (FileNotFoundException e) {
-                        System.out.println(e.getMessage());
-                    }
                     break;
                 //--------------
                 case "mkdir":
 
                     //guardamos la ultima palabra que sera el nombre del archivo que queremos crear
-                    String archivo = rutaString.substring(rutaString.lastIndexOf('/'));
+                    String archivo = rutaString.substring(rutaString.lastIndexOf('\\')+1);
+
                     fm.creaeDirec(archivo);
                     break;
                 //--------------
@@ -93,10 +80,10 @@ public class MiniTerminal {
                     break;
                 //--------------
                 case "mv":
-                    String ruta1String = txt.substring(txt.indexOf(' '));
+                    String ruta1String = txt.substring(txt.indexOf(' ')+1);
                     File f1 = new File(ruta1String);
 
-                    String ruta2String = txt.substring(txt.lastIndexOf(' '));
+                    String ruta2String = txt.substring(txt.lastIndexOf(' ')+1);
                     File f2 = new File(ruta2String);
 
                     try {

@@ -91,6 +91,8 @@ public class EjerA1 {
                 else if (file.isDirectory())
                     System.out.println("[*] " + file.getName());
             }
+
+            /*tambien recorriendo dos veces la lisra, una para directorios y otra para los archivoss*/
         }
 
     }

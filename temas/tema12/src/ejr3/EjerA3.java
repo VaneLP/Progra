@@ -53,6 +53,8 @@ public class EjerA3 {
 
 
         System.out.println("-------");
+
+
         //LIBROS
 
         File librosRenombrar = new File("temas\\tema12\\DOCS\\LECTURAS");
@@ -76,5 +78,13 @@ public class EjerA3 {
             System.out.print("Libro renombrada: ");
             System.out.println(listaLibros[i].renameTo(new File(libroRenombrada.toString())));
         }
+
+
+
+        /*
+        Tambien con substring
+        String nuevoNombre=f.getName().substring(0,f.getName().lastIndexOf('.'));
+        f.renameTo(new File(f.getParent()+"/"+nuevonombre));
+        */
     }
 }

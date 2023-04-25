@@ -124,11 +124,6 @@ public class EjerA2 {
 
         }
 
-        //esto sigue siendo para los archivos de FUERA
-        else if(ruta.isFile()){
-            System.out.println("[A] "+ruta.getName());
-
-        }
 
     }
 

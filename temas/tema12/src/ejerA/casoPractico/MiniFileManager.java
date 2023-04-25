@@ -8,49 +8,50 @@ import java.util.Date;
 
 public class MiniFileManager {
     //atributos
-
+    File rutaGuardada;
 
     //metodos
     /**
      * pwd: Muestra cual es la carpeta actual
      */
-    public void mostrarCarpetaActu (File ruta) throws FileNotFoundException{
-        if(!ruta.exists())
+    public void mostrarCarpetaActu () throws FileNotFoundException{
+        if(!rutaGuardada.exists())
             throw new FileNotFoundException("Ruta no encontrada/no existe");
 
-        System.out.println(ruta.getPath());
+        System.out.println(rutaGuardada.getPath());
     }
 
     /**
      * cd <DIR>: Cambia la carpeta actual a ‘DIR’. Con .. cambia a la carpeta superior
      */
     public void  cambiaCarpetaActuADir(File ruta) throws FileNotFoundException{
-        if(!ruta.exists())
+        if(!rutaGuardada.exists())
             throw new FileNotFoundException("Ruta no encontrada/no existe");
 
         else if(ruta.equals(".."))
-            ruta.getParent();
+            rutaGuardada.getParent();
 
         else
-            ruta.renameTo(ruta);
+            rutaGuardada.renameTo(ruta);
+
     }
 
     /**
-     * ls: Muestra la lista de directorios y archivos de la carpeta actual (primerodirectorios,
+     * ls: Muestra la lista de directorios y archivos de la carpeta actual (primero directorios,
      * luego archivos, ambos ordenados alfabéticamente)
      */
-    public void  mostrarListaDirecYArchi(File ruta) throws FileNotFoundException{
-        if(!ruta.exists())
+    public void  mostrarListaDirecYArchi() throws FileNotFoundException{
+        if(!rutaGuardada.exists())
             throw new FileNotFoundException("Ruta no encontrada/no existe");
 
         //para los archivos de FUERA
-        if(ruta.isFile())
-            System.out.println(ruta.getName());
+        if(rutaGuardada.isFile())
+            System.out.println(rutaGuardada.getName());
 
         //para las carpetas de FUERA
-        if (ruta.isDirectory()){
+        if (rutaGuardada.isDirectory()){
             //array para la lista de los archivos de la ruta
-            File[] lista = ruta.listFiles();
+            File[] lista = rutaGuardada.listFiles();
 
             //arraylist de ficheros para ordenarlos
             ArrayList<File> listaOrdenada =new ArrayList<>();
@@ -97,18 +98,18 @@ public class MiniFileManager {
     /**
      * ll: Como ls pero muestra también el tamaño y la fecha de última modificación
      */
-    public void  mostrarTamanyoYFecha(File ruta) throws FileNotFoundException{
-        if(!ruta.exists())
+    public void  mostrarTamanyoYFecha() throws FileNotFoundException{
+        if(!rutaGuardada.exists())
             throw new FileNotFoundException("Ruta no encontrada/no existe");
 
         //para los archivos de FUERA
-        if(ruta.isFile())
-            System.out.println(ruta.getName());
+        if(rutaGuardada.isFile())
+            System.out.println(rutaGuardada.getName());
 
         //Para las carpetas de FUERA
-        if (ruta.isDirectory()) {
+        if (rutaGuardada.isDirectory()) {
             //array para la lista de los archivos de la ruta
-            File[] lista = ruta.listFiles();
+            File[] lista = rutaGuardada.listFiles();
 
             //arraylist de ficheros para ordenarlos
             ArrayList<File> listaOrdenada = new ArrayList<>();
@@ -162,24 +163,55 @@ public class MiniFileManager {
     /**
      * mkdir <DIR>: Crea el directorio ‘DIR’ en la carpeta actual
      */
-    public void  creaeDirec(File ruta){
-        System.out.println("Carpeta añadido: " + ruta.mkdir());
+    public void  creaeDirec(String carpeta){
+        //modifico la ruta que ya teniamos le añadimos las barras porque no se ponenen solas y le añadimos la carpeta
+        //que queremos crear nueva
+        File creacion = new File(rutaGuardada + "\\" + carpeta);
+
+        //creamos la carpeta
+        System.out.println("¿Carpeta añadida? " + creacion.mkdir());
     }
 
     /**
-     * rm <FILE>: Borra ‘FILE’. Si es una carpeta, borrará primero sus archivos y luego lacarpeta.
+     * rm <FILE>: Borra ‘FILE’. Si es una carpeta, borrará primero sus archivos y luego la carpeta.
      * Si tiene subcarpetas, las dejará intactas y mostrará un aviso al usuario
      */
-    public void  borrar(){
+    public void  borrar() throws Exception{
+        //si es un archivo
+        if(rutaGuardada.isFile()) {
+            //eliminamos
+            System.out.println("¿El archivo a podido eliminarse? "+ rutaGuardada.delete());
+        }
 
+        //si es una carpeta
+        else{
+            //array para la lista de los archivos de la ruta
+            File[] lista = rutaGuardada.listFiles();
+
+            //mostramos
+            for (File file : lista) {
+                if (file.isFile())
+                    System.out.println("¿El archivo a podido eliminarse? "+ file.delete());
+
+                else
+                    throw new Exception("AVISO: 'Imposible borrar la carpeta actual, esta tiene subcarpetas dentro.'");
+            }
+
+            System.out.println("¿El directorio a podido eliminarse? "+ rutaGuardada.delete());
+        }
     }
 
     /**
      * mv <FILE1> <FILE2>: Mueve o renombra ‘FILE1’ a ‘FILE2’
      */
-    public void  mueveORenombra(){
+    public void  mueveORenombra(File f1, File f2) throws FileNotFoundException{
+        if(!f1.exists())
+            throw new FileNotFoundException("Ruta 1 no encontrada/no existe");
 
+        else if(!f2.exists())
+            throw new FileNotFoundException("Ruta 2 no encontrada/no existe");
+
+        System.out.println("¿Se a podido mover o renombrar? "+ f1.renameTo(f2));
     }
-
 
 }

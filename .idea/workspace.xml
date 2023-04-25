@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="correccion">
-      <change afterPath="$PROJECT_DIR$/temas/tema12/src/ejerA/casoPractico/MiniFileManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema12/src/ejerA/casoPractico/MiniTerminal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema12/src/ejerA/casoPractico/pruebas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/src/ejerA/casoPractico/MiniFileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema12/src/ejerA/casoPractico/MiniFileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/src/ejerA/casoPractico/MiniTerminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema12/src/ejerA/casoPractico/MiniTerminal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

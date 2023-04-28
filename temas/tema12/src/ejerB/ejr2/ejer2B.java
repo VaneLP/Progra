@@ -17,13 +17,14 @@ public class ejer2B {
                 String[] partes = linea.split(" ");
                 System.out.printf("%nNombre: %s %nApellido: %s %n", partes[0], partes[1]);
 
-                for(int i = Integer.parseInt(partes[3]); i == partes.length; i++){
+                for(int i = Integer.parseInt(partes[2]); i <= partes.length; i++){
+                    System.out.println(i);
                     notas = notas + i;
                     cont++;
                 }
                 media=notas/cont;
 
-                System.out.println("Nota media:"+media);
+                System.out.println("Nota media: "+media);
                 System.out.println("-------------");
             }
 

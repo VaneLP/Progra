@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="arreglado">
-      <change afterPath="$PROJECT_DIR$/temas/tema12/src/ejerB/ejr2/Alumno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema12/src/ejerB/ejr2/ejer2B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/src/ejerB/ejr1/Ejer1B.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema12/src/ejerB/ejr1/Ejer1B.java" afterDir="false" />
-    </list>
+    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="ejercicios" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -176,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682445822114</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="ejercicios">
+      <created>1682678793367</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1682678793367</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,6 +208,7 @@
     <MESSAGE value="caso practico A" />
     <MESSAGE value="NO FUNCIONA" />
     <MESSAGE value="arreglado" />
-    <option name="LAST_COMMIT_MESSAGE" value="arreglado" />
+    <MESSAGE value="ejercicios" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicios" />
   </component>
 </project>

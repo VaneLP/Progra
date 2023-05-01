@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="ejercicios">
-      <change afterPath="$PROJECT_DIR$/temas/tema12/src/ejerB/ejr3/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema12/src/ejerB/ejr3/ejer3B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema12/src/ejerB/ejr4/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema12/src/ejerB/ejr4/ejer4B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema12/src/ejerB/ejr5/ejer5B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema12/src/ejerB/ejr6/ejer6B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema12/src/ejerB/ejr7/ejer7B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema12/src/ejerB/ejr8/ejer8B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema12/src/ejerB/ejr2/ejer2B.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema12/src/ejerB/ejr2/ejer2B.java" afterDir="false" />
-    </list>
+    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="ejercicios pregrsion" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -191,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682678793367</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="ejercicios pregrsion">
+      <created>1682950215437</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1682950215437</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,6 +218,7 @@
     <MESSAGE value="NO FUNCIONA" />
     <MESSAGE value="arreglado" />
     <MESSAGE value="ejercicios" />
-    <option name="LAST_COMMIT_MESSAGE" value="ejercicios" />
+    <MESSAGE value="ejercicios pregrsion" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicios pregrsion" />
   </component>
 </project>

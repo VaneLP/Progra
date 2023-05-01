@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="ejercicios">
+      <change afterPath="$PROJECT_DIR$/temas/tema12/src/ejerB/ejr3/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema12/src/ejerB/ejr3/ejer3B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema12/src/ejerB/ejr4/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema12/src/ejerB/ejr4/ejer4B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema12/src/ejerB/ejr5/ejer5B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema12/src/ejerB/ejr6/ejer6B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema12/src/ejerB/ejr7/ejer7B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema12/src/ejerB/ejr8/ejer8B.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/src/ejerB/ejr2/ejer2B.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema12/src/ejerB/ejr2/ejer2B.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,25 +40,27 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vanessa/Documents/GitHub/Progra/temas/tema12/src&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Vane/Documents/Progra/temas/tema12/src"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vane\Documents\Progra\temas\tema12\src" />
       <recent name="C:\Users\Vanessa\Documents\GitHub\Progra\temas\tema12\src" />
       <recent name="C:\Users\Vanessa\Documents\GitHub\Progra\temas\tema11\src\ejer12" />
       <recent name="C:\Users\Vane\Documents\Progra\temas\tema11\src\ejer5" />
       <recent name="C:\Users\Vane\Documents\Progra\temas\tema11\src\ejer4" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="ejer11" />
-      <recent name="ejer10" />
-      <recent name="ejer13" />
-      <recent name="ejer7" />
+      <recent name="ejerB.ejr4" />
+      <recent name="ejerB.ejr8" />
+      <recent name="ejerB.ejr7" />
+      <recent name="ejerB.ejr6" />
+      <recent name="ejerB.ejr5" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -212,16 +223,5 @@
     <MESSAGE value="arreglado" />
     <MESSAGE value="ejercicios" />
     <option name="LAST_COMMIT_MESSAGE" value="ejercicios" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/temas/tema12/src/ejerB/ejr2/ejer2B.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

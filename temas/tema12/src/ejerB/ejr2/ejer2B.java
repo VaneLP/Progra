@@ -15,9 +15,13 @@ public class ejer2B {
         File f = new File("temas\\tema12\\DOCS\\alumnos_notas.txt");
         int notas,media,cont;
 
+        //para leer el fichero
         try(Scanner entrada = new Scanner(f)){
+            //mientras que queden lineas que continue
             while (entrada.hasNextLine()){
+                //para leer la linea
                 linea= entrada.nextLine();
+
 
                 String[] partes = linea.split(" ");
                 notas=0;cont=0;

@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="correcciones" />
+    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="correcciones">
+      <change afterPath="$PROJECT_DIR$/temas/tema12/src/ejerB/ejr10/ejer10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema12/src/ejerB/ejr9/ejer9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Progra.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Progra.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/src/ejerB/ejr5/ejer5B.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema12/src/ejerB/ejr5/ejer5B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/src/ejerB/ejr7/ejer7B.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema12/src/ejerB/ejr7/ejer7B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema12/src/ejerB/ejr8/ejer8B.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema12/src/ejerB/ejr8/ejer8B.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

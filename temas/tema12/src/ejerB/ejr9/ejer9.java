@@ -14,7 +14,7 @@ public class ejer9 {
 
         //PARA LEER LOS DATOS DE UN ARCHIVO SERIALIZADO
         try(FileInputStream fis= new FileInputStream("temas\\tema12\\DOCS\\datos_personas.bin");
-            BufferedInputStream bufis = new BufferedInputStream(fis);
+            BufferedInputStream bufis = new BufferedInputStream(fis);//memoria intermedia
             ObjectInputStream ois = new ObjectInputStream(bufis) ){
 
             ArrayList<Persona> listaPersonas =new ArrayList<>();

@@ -59,7 +59,8 @@ public class ejer8B {
                     pw.println(personita.getDni()+";"+personita.getNombre()+";"+personita.getApellidos()+";"+personita.getEdad());
             }
 
-        } catch (FileNotFoundException e) {
+        }
+        catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         }
     }

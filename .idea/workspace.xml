@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="correcciones">
+    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="Apuntes de clase">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema13/src/ApuntesClase.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema13/src/ApuntesClase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema13/src/PrimerFormularioLanzador.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema13/src/PrimerFormularioLanzador.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683183225334</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Apuntes de clase">
+      <created>1683702154380</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1683702154380</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -246,6 +251,7 @@
     <MESSAGE value="ejercicios pregrsion" />
     <MESSAGE value="terminado ejer" />
     <MESSAGE value="correcciones" />
-    <option name="LAST_COMMIT_MESSAGE" value="correcciones" />
+    <MESSAGE value="Apuntes de clase" />
+    <option name="LAST_COMMIT_MESSAGE" value="Apuntes de clase" />
   </component>
 </project>

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="Correcion">
-      <change beforePath="$PROJECT_DIR$/temas/tema13/src/ejercicio1_apuntes/Ejercicio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema13/src/ejercicio1_apuntes/Ejercicio1.java" afterDir="false" />
-    </list>
+    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="Correcion" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -229,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683719168151</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Correcion">
+      <created>1683720472159</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1683720472159</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

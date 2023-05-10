@@ -87,7 +87,7 @@ public class Ejercicio1 extends JFrame{
                     //como ejercicio 1 extiende de JFrame no nos hace falta crear un nuevo JFrame
                     //entonces solo tenemos que crear un nuevo objeto de la clase Ejercicios1
                     Ejercicio1 ventana = new Ejercicio1("Selector Color");
-
+                    ventana.setResizable(false);
 
                 } catch (Exception e) {
                     throw new RuntimeException(e);

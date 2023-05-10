@@ -43,7 +43,7 @@ public class Ejercicio1 extends JFrame{
         r.addChangeListener(new ChangeListener() {
             @Override
             public void stateChanged(ChangeEvent e) {
-                color.setBackground(Color.RED);
+                color.setBackground(new Color(r.getValue(), g.getValue(),b.getValue()));
                 rojoNum.setText(String.valueOf(r.getValue()));
             }
         });
@@ -52,7 +52,7 @@ public class Ejercicio1 extends JFrame{
         g.addChangeListener(new ChangeListener() {
             @Override
             public void stateChanged(ChangeEvent e) {
-                color.setBackground(Color.GREEN);
+                color.setBackground(new Color(r.getValue(), g.getValue(),b.getValue()));
                 verdeNum.setText(String.valueOf(g.getValue()));
             }
         });
@@ -61,10 +61,13 @@ public class Ejercicio1 extends JFrame{
         b.addChangeListener(new ChangeListener() {
             @Override
             public void stateChanged(ChangeEvent e) {
-                color.setBackground(Color.BLUE);
+                color.setBackground(new Color(r.getValue(), g.getValue(),b.getValue()));
                 azulNum.setText(String.valueOf(b.getValue()));
             }
         });
+
+
+
 
 
 

@@ -1,0 +1,18 @@
+Toddo lo que creemos en el .form en el formulario (con nombre) se me crea
+automaticamente en el .java en forma de atributo para poder usarlo luego
+con mas comodidad
+
+JSlider NO es un scroll, es para valores (volumenes, etc.)
+
+ventana.setResizable(false); - no se puede redimensionar
+
+Si cambiamos los colores de los botones o cualquier cosa, NO hace falta escribirlo
+nuevamente en el java, se nos crea automaticamente dentro de los ficheros .form
+en formato XML. Si modificamos el .form en un documento de texto tambien se modificaria
+en el intelIJ
+
+toolTipText etiquetas cuando dejas el raton encima
+
+addChangeListener para el slaider
+
+setText para añdir un texto

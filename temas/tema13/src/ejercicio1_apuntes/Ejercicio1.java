@@ -38,6 +38,8 @@ public class Ejercicio1 extends JFrame{
         //hacemos visible la ventana
         setVisible(true);
 
+
+
         //Listeners
         //Slider rojo
         r.addChangeListener(new ChangeListener() {
@@ -45,6 +47,14 @@ public class Ejercicio1 extends JFrame{
             public void stateChanged(ChangeEvent e) {
                 color.setBackground(new Color(r.getValue(), g.getValue(),b.getValue()));
                 rojoNum.setText(String.valueOf(r.getValue()));
+
+                //pasar a hexadecimal con el 02 mantenemos el 0 a la izquierda y la x lo pasa solo
+                // a hexadecimal, no hace falta el toHExString
+                String rohex = String.format("%02x",r.getValue());
+                String vehex = String.format("%02x",g.getValue());
+                String azhex = String.format("%02x",b.getValue());
+                String hexa = rohex+vehex+azhex;;
+                hexadecimal.setText("#"+hexa);
             }
         });
 
@@ -54,6 +64,14 @@ public class Ejercicio1 extends JFrame{
             public void stateChanged(ChangeEvent e) {
                 color.setBackground(new Color(r.getValue(), g.getValue(),b.getValue()));
                 verdeNum.setText(String.valueOf(g.getValue()));
+
+                //pasar a hexadecimal
+                String rohex = String.format("%02x",r.getValue());
+                String vehex = String.format("%02x",g.getValue());
+                String azhex = String.format("%02x",b.getValue());
+                String hexa = rohex+vehex+azhex;;
+                hexadecimal.setText("#"+hexa);
+
             }
         });
 
@@ -63,12 +81,15 @@ public class Ejercicio1 extends JFrame{
             public void stateChanged(ChangeEvent e) {
                 color.setBackground(new Color(r.getValue(), g.getValue(),b.getValue()));
                 azulNum.setText(String.valueOf(b.getValue()));
+
+                //pasar a hexadecimal
+                String rohex = String.format("%02x",r.getValue());
+                String vehex = String.format("%02x",g.getValue());
+                String azhex = String.format("%02x",b.getValue());
+                String hexa = rohex+vehex+azhex;;
+                hexadecimal.setText("#"+hexa);
             }
         });
-
-
-
-
 
 
 
@@ -86,7 +107,7 @@ public class Ejercicio1 extends JFrame{
                 try{
                     //como ejercicio 1 extiende de JFrame no nos hace falta crear un nuevo JFrame
                     //entonces solo tenemos que crear un nuevo objeto de la clase Ejercicios1
-                    Ejercicio1 ventana = new Ejercicio1("Selector Color");
+                    Ejercicio1 ventana = new Ejercicio1("Vanessa Lopez Pastor");
                     ventana.setResizable(false);
 
                 } catch (Exception e) {

@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="terminado">
-      <change beforePath="$PROJECT_DIR$/temas/tema13/src/ejercicio1_apuntes/Ejercicio1.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema13/src/ejercicio1_apuntes/Ejercicio1.java" afterDir="false" />
+    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="mini correcion">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683739120097</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="mini correcion">
+      <created>1683785231335</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1683785231335</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -287,6 +294,7 @@
     <MESSAGE value="Apuntes de clase" />
     <MESSAGE value="Correcion" />
     <MESSAGE value="terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="terminado" />
+    <MESSAGE value="mini correcion" />
+    <option name="LAST_COMMIT_MESSAGE" value="mini correcion" />
   </component>
 </project>

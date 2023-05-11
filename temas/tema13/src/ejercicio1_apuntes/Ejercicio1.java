@@ -50,10 +50,10 @@ public class Ejercicio1 extends JFrame{
 
                 //pasar a hexadecimal con el 02 mantenemos el 0 a la izquierda y la x lo pasa solo
                 // a hexadecimal, no hace falta el toHExString
-                String rohex = String.format("%02x",r.getValue());
-                String vehex = String.format("%02x",g.getValue());
-                String azhex = String.format("%02x",b.getValue());
-                String hexa = rohex+vehex+azhex;;
+                String roHex = String.format("%02x",r.getValue());
+                String veHex = String.format("%02x",g.getValue());
+                String azHex = String.format("%02x",b.getValue());
+                String hexa = roHex+veHex+azHex;
                 hexadecimal.setText("#"+hexa);
             }
         });
@@ -66,10 +66,10 @@ public class Ejercicio1 extends JFrame{
                 verdeNum.setText(String.valueOf(g.getValue()));
 
                 //pasar a hexadecimal
-                String rohex = String.format("%02x",r.getValue());
-                String vehex = String.format("%02x",g.getValue());
-                String azhex = String.format("%02x",b.getValue());
-                String hexa = rohex+vehex+azhex;;
+                String roHex = String.format("%02x",r.getValue());
+                String veHex = String.format("%02x",g.getValue());
+                String azHex = String.format("%02x",b.getValue());
+                String hexa = roHex+veHex+azHex;
                 hexadecimal.setText("#"+hexa);
 
             }
@@ -83,10 +83,10 @@ public class Ejercicio1 extends JFrame{
                 azulNum.setText(String.valueOf(b.getValue()));
 
                 //pasar a hexadecimal
-                String rohex = String.format("%02x",r.getValue());
-                String vehex = String.format("%02x",g.getValue());
-                String azhex = String.format("%02x",b.getValue());
-                String hexa = rohex+vehex+azhex;;
+                String roHex = String.format("%02x",r.getValue());
+                String veHex = String.format("%02x",g.getValue());
+                String azHex = String.format("%02x",b.getValue());
+                String hexa = roHex+veHex+azHex;
                 hexadecimal.setText("#"+hexa);
             }
         });

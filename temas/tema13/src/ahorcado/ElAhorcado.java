@@ -51,7 +51,8 @@ public class ElAhorcado {
         public PanelPrincipal(){
             //para establecer la disposicion del panel
             setLayout(new BorderLayout());
-            setLayout(new FlowLayout());//??????
+
+
 
             //____PANEL TITULO____
             //creamos un nuevo JPanel de un panel para la respuesta
@@ -71,15 +72,38 @@ public class ElAhorcado {
             //al panel del titulo, le añadimos el titulo
             panelTitulo.add(titulo);
             //lo añadimos al panel principal y declaramos la posicion
-            add(panelTitulo,BorderLayout.NORTH);
+            add(panelTitulo,BorderLayout.PAGE_START);
+
+            //____PANEL CENTRAL____
+            //creamos un nuevo JPanel de un panel para la respuesta
+            JPanel panelCentral = new JPanel();
+            panelCentral.setLayout(new BorderLayout());
+
+            //____PANEL IMAGEN____
+            //creamos un nuevo JPanel de un panel para la respuesta
+            JPanel panelImagen = new JPanel();
 
             //____IMAGEN____
             //habemos un nuevo JLabel de la imagen
             imagen=new JLabel();
             //le ponemos la imagen
             imagen.setIcon(new ImageIcon("temas/tema13/src/ahorcado/archivos/Hangman-0.png"));
-            //lo añadimos al panel principal y declaramos la disposicion
-            add(imagen,BorderLayout.LINE_START);
+            //añadimos al panel de la imagen la imagen y la centramos
+            panelImagen.add(imagen,BorderLayout.CENTER);
+            //añadimos al panel de la imagen la imagen
+            panelCentral.add(panelImagen,BorderLayout.PAGE_START);
+
+            //____PANEL LETRAS____
+            //creamos un nuevo JPanel de panel letras
+            panelLetras=new JPanel();
+            //llamamos al metodo para poner los botones
+            ponerBotones();
+            panelCentral.add(panelLetras);
+
+            //añadimos al Panel PRINCIPAL el panel central
+            //lo añdimos al panel principal
+            add(panelCentral,BorderLayout.CENTER);
+
 
             //____PANEL RESPUESTA____
             //creamos un nuevo JPanel de un panel para la respuesta
@@ -98,14 +122,6 @@ public class ElAhorcado {
             panelRespuesta.add(respuesta);
             //lo añadimos al panel principal y le declaramos la disposicion
             add(panelRespuesta,BorderLayout.PAGE_END);
-
-            //____PANEL LETRAS____
-            //creamos un nuevo JPanel de panel letras
-            panelLetras=new JPanel();
-            //llamamos al metodo para poner los botones
-            ponerBotones();
-            //lo añdimos al panel principal
-            add(panelLetras);
 
             //a la palabra secreta le asignamos una palabra, en este caso Thiar
             secreta="thiar";

@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="mini correcion" />
+    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="mini correcion">
+      <change afterPath="$PROJECT_DIR$/temas/tema13/src/ahorcado/ElAhorcado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema13/src/ahorcado/archivos/Hangman-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema13/src/ahorcado/archivos/Hangman-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema13/src/ahorcado/archivos/Hangman-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema13/src/ahorcado/archivos/Hangman-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema13/src/ahorcado/archivos/Hangman-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema13/src/ahorcado/archivos/Hangman-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema13/src/ahorcado/archivos/Hangman-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema13/src/ahorcado/archivos/ahorcado.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

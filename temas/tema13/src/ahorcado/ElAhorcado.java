@@ -284,7 +284,7 @@ public class ElAhorcado {
         //metodo para elegir una palabra del diccionario del Tema 12
         public String palabraDiccionario(){
             //ponemos el fichero
-            File f = new File("temas/tema12/DOCS/diccionario.txt");
+            File f = new File("temas/tema13/src/ahorcado/diccionario.txt");
             ArrayList<String> lista= new ArrayList<>();
 
             //lo leemos

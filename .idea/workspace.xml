@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="Ahorcado terminado">
+      <change afterPath="$PROJECT_DIR$/temas/tema13/src/swing/ejer1/ParOImpar.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema13/src/swing/ejer1/ParOImpar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema13/src/swing/ejer2/MiniCalculadoraI.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema13/src/swing/ejer2/MiniCalculadoraI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema13/src/ahorcado/ElAhorcado.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema13/src/ahorcado/ElAhorcado.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +39,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "179",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "300",
     "last_opened_file_path": "C:/Users/Vanessa/Documents/GitHub/vanessa_lopez",
     "settings.editor.selected.configurable": "preferences.pluginManager"

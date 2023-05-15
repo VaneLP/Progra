@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="ejercicios nuevos" />
+    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="ejercicios nuevos">
+      <change afterPath="$PROJECT_DIR$/temas/tema13/src/swing/ejer3/MiniCalculadoraII.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema13/src/swing/ejer3/MiniCalculadoraII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema13/src/swing/ejer4/ValidarLetraNIF.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema13/src/swing/ejer4/ValidarLetraNIF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema13/src/swing/ejer5/NumAle.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema13/src/swing/ejer5/NumAle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema13/src/swing/ejer1/ParOImpar.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema13/src/swing/ejer1/ParOImpar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema13/src/swing/ejer2/MiniCalculadoraI.form" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema13/src/swing/ejer2/MiniCalculadoraI.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema13/src/swing/ejer2/MiniCalculadoraI.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema13/src/swing/ejer2/MiniCalculadoraI.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,19 +44,20 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "179",
-    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "300",
-    "last_opened_file_path": "C:/Users/Vanessa/Documents/GitHub/vanessa_lopez",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "138",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "286",
+    "last_opened_file_path": "C:/Users/Vane/Documents/Progra/temas/tema13/src/swing/ejer3",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vane\Documents\Progra\temas\tema13\src\swing\ejer3" />
       <recent name="C:\Users\Vane\Documents\Progra\temas\tema12\src" />
       <recent name="C:\Users\Vanessa\Documents\GitHub\Progra\temas\tema12\src" />
       <recent name="C:\Users\Vanessa\Documents\GitHub\Progra\temas\tema11\src\ejer12" />
       <recent name="C:\Users\Vane\Documents\Progra\temas\tema11\src\ejer5" />
-      <recent name="C:\Users\Vane\Documents\Progra\temas\tema11\src\ejer4" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Vanessa\Documents\GitHub\Progra\temas\tema13\src\_apuntes" />

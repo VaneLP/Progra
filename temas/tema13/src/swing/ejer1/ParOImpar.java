@@ -34,14 +34,14 @@ public class ParOImpar extends JFrame{
         botonParOImpar.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                JButton botonPulsado=(JButton)e.getSource();
+                //cuando pulsamos el boton con el valor dentro nos devuelve si es par o impar
                 parOImpar(Integer.parseInt(textFieldValor.getText()));
             }
         });
 
     }
 
-    //metodo
+    //metodo para saber si el numero es par o impar
     public void parOImpar(int num){
         if(num % 2 == 0)
             JLabelMostrar.setText("PAR");
@@ -58,7 +58,7 @@ public class ParOImpar extends JFrame{
                     //como ejercicio extiende de JFrame no nos hace falta crear un nuevo JFrame
                     //entonces solo tenemos que crear un nuevo objeto de la clase
                     ParOImpar ventana = new ParOImpar("¿Par o impar?");
-                    ventana.setResizable(false);
+
 
                 } catch (Exception e) {
                     throw new RuntimeException(e);

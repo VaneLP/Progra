@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="Ahorcado terminado">
-      <change afterPath="$PROJECT_DIR$/temas/tema13/src/swing/ejer1/ParOImpar.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema13/src/swing/ejer1/ParOImpar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema13/src/swing/ejer2/MiniCalculadoraI.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema13/src/swing/ejer2/MiniCalculadoraI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="ejercicios nuevos" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -283,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684004970121</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="ejercicios nuevos">
+      <created>1684136804054</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1684136804054</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -298,7 +299,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="empezado ejer 6" />
     <MESSAGE value="terminado 6" />
     <MESSAGE value="terminado 7 y 8" />
     <MESSAGE value="mas ejers" />
@@ -323,6 +323,7 @@
     <MESSAGE value="ahorcado" />
     <MESSAGE value="progreso ahorcado" />
     <MESSAGE value="Ahorcado terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ahorcado terminado" />
+    <MESSAGE value="ejercicios nuevos" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicios nuevos" />
   </component>
 </project>

@@ -1,19 +1,15 @@
 package swing.ejer9;
 
-import utilidades.Persona;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
+//FIXME MUCHOS FALLOS, SE CREAN USERS REPES, HASTA LOS HUEVOS
 public class InicioSesion extends JFrame {
     //atributos
     private JPanel panelPrincipal;
@@ -37,6 +33,7 @@ public class InicioSesion extends JFrame {
 
 
         //listener
+        //INICIAR SESION
         iniciarSesionButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -69,6 +66,8 @@ public class InicioSesion extends JFrame {
             }
         });
 
+        //EXTRA
+        //CREAR USUARIO
         crearCuentaNuevaButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -151,7 +150,7 @@ public class InicioSesion extends JFrame {
     }
 
     public void leer(){
-        try(Scanner lectura= new Scanner("temas/tema13/src/swing/ejer9/usuario.txt")){
+        try(Scanner lectura= new Scanner(new File("temas/tema13/src/swing/ejer9/usuario.txt"))){
 
             while (lectura.hasNextLine()){
                 String seperacion=lectura.nextLine();
@@ -161,6 +160,8 @@ public class InicioSesion extends JFrame {
                 if(partes.length==2)
                     guardado.put(partes[0],partes[1]);
             }
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
         }
     }
 

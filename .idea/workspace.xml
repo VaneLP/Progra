@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="comenzando7">
-      <change afterPath="$PROJECT_DIR$/temas/tema13/src/swing/ejer8/TablasMultiplicar.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema13/src/swing/ejer8/TablasMultiplicar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema13/src/swing/ejer9/InicioSesion.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema13/src/swing/ejer9/InicioSesion.java" afterDir="false" />
+    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="me cago en mi vida">
+      <change afterPath="$PROJECT_DIR$/temas/tema13/src/swing/ejer10/MiniEditorTexto.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema13/src/swing/ejer10/MiniEditorTexto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema13/src/swing/ejer7/MonitorSistema.form" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema13/src/swing/ejer7/MonitorSistema.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema13/src/swing/ejer7/MonitorSistema.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema13/src/swing/ejer7/MonitorSistema.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema13/src/swing/ejer9/InicioSesion.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema13/src/swing/ejer9/InicioSesion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -315,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684233019754</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="me cago en mi vida">
+      <created>1684265755141</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1684265755141</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -330,7 +334,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="correccion" />
     <MESSAGE value="intento 13" />
     <MESSAGE value="coreccion de errores" />
     <MESSAGE value="ejer agenda" />
@@ -355,7 +358,8 @@
     <MESSAGE value="ejercicios del 2 al 5" />
     <MESSAGE value="ejercicio6" />
     <MESSAGE value="comenzando7" />
-    <option name="LAST_COMMIT_MESSAGE" value="comenzando7" />
+    <MESSAGE value="me cago en mi vida" />
+    <option name="LAST_COMMIT_MESSAGE" value="me cago en mi vida" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -371,7 +375,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/temas/tema13/src/swing/ejer9/InicioSesion.java</url>
-          <line>133</line>
+          <line>132</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>

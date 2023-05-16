@@ -1,55 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="swing.ejer7.MonitorSistema">
   <grid id="27dc6" binding="panelPrincipal" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
-    <margin top="0" left="0" bottom="0" right="0"/>
+    <margin top="10" left="10" bottom="10" right="10"/>
     <constraints>
       <xy x="20" y="20" width="500" height="400"/>
     </constraints>
     <properties/>
     <border type="none"/>
     <children>
-      <component id="279e1" class="javax.swing.JProgressBar" binding="progressBarRAM">
+      <component id="df63" class="javax.swing.JProgressBar" binding="progressBarProcesador">
         <constraints>
-          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties/>
-      </component>
-      <component id="1998f" class="javax.swing.JButton" binding="button1" default-binding="true">
-        <constraints>
-          <grid row="0" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <foreground color="-15630917"/>
+          <orientation value="1"/>
         </properties>
       </component>
-      <component id="8c401" class="javax.swing.JLabel">
+      <component id="8c401" class="javax.swing.JLabel" binding="labelRam">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="bda17" class="javax.swing.JLabel">
         <constraints>
           <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Label"/>
+          <font size="20"/>
+          <text value="RAM"/>
         </properties>
       </component>
-      <component id="983e" class="javax.swing.JLabel">
+      <component id="983e" class="javax.swing.JLabel" binding="labelProcesador">
         <constraints>
-          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Label"/>
+          <font size="20"/>
+          <text value="0"/>
         </properties>
       </component>
-      <component id="df63" class="javax.swing.JProgressBar" binding="progressBarProcesador">
+      <component id="ef731" class="javax.swing.JLabel">
         <constraints>
-          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties/>
-      </component>
-      <component id="39d7d" class="javax.swing.JButton" binding="button2" default-binding="true">
-        <constraints>
-          <grid row="2" column="1" row-span="2" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Button"/>
+          <font size="20"/>
+          <text value="Procesador"/>
+        </properties>
+      </component>
+      <component id="39d7d" class="javax.swing.JButton" binding="botonActualiza">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Actualizar"/>
+        </properties>
+      </component>
+      <component id="279e1" class="javax.swing.JProgressBar" binding="progressBarRAM">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-7662930"/>
+          <orientation value="1"/>
         </properties>
       </component>
     </children>

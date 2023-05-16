@@ -56,6 +56,11 @@ public class InicioSesion extends JFrame {
                 System.out.println("INICIAR");
                 System.out.println(guardado);
 
+                // !!!!!
+                //FIXME: No hay breaks, asi que sigue comprobando todos los usuarios aunque ya haya encontrado uno. 
+                // Hay que tener la opcion de contra incorrecta fuera del bucle (y algun boolean para ver 
+                // si ya lo hemos encontrado y salirse del 'for')
+                
                 //llamamos al metodo y le pasamos el usuario y la contraseña
                 for (Map.Entry<String, String> entry : guardado.entrySet()) {
                     if(entry.getKey().equalsIgnoreCase(user) && entry.getValue().equalsIgnoreCase(String.valueOf(contraseña)))
@@ -129,6 +134,13 @@ public class InicioSesion extends JFrame {
                 opcion=true;
             }
             else {
+                
+                // !!!!!
+                //FIXME: Bug parecido. Como el break solo esta en caso de que sean diferentes,
+                // siempre que sean iguales, va a seguir dentro del bucle.
+                // Como sigue dentro del bucle hasta que encuentra uno diferente, 
+                // siempre va a crear una copia de mas en el archivo de texto
+               
                 //hacemos un iter para recorrer nuestro mapa
                 for (String s : guardado.keySet()) {
                     //si el uduario introducido no es igual al usuario que estamos recorriendo

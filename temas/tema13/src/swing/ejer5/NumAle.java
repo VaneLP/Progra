@@ -27,7 +27,7 @@ public class NumAle extends JFrame {
         botonAle.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                int numAle = ThreadLocalRandom.current().nextInt(0,sliderMax.getValue());
+                int numAle = ThreadLocalRandom.current().nextInt(0,sliderMax.getValue()+1);
 
                 JLabelValor.setText(String.valueOf(numAle));
             }

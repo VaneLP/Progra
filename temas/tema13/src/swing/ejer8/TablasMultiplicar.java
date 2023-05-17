@@ -22,6 +22,10 @@ public class TablasMultiplicar extends JFrame {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setVisible(true);
 
+        //si EXISTE tableModel pero hay que escribirlo
+        //DefaultTableModel modeloTabla = new DefaultTableModel(null, new String[]{}) para ponerle nombre a las columnas
+        //setModel()
+
         multiplicarButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {

@@ -8,7 +8,7 @@
     <properties/>
     <border type="none"/>
     <children>
-      <component id="b4dbb" class="javax.swing.JTextArea" binding="textArea">
+      <component id="b4dbb" class="javax.swing.JTextArea" binding="textAreaEscribir">
         <constraints>
           <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="50"/>
@@ -36,7 +36,9 @@
         <constraints>
           <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
-        <properties/>
+        <properties>
+          <value value="0"/>
+        </properties>
       </component>
       <component id="53e42" class="javax.swing.JLabel">
         <constraints>

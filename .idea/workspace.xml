@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="me cago en mi vida">
-      <change beforePath="$PROJECT_DIR$/temas/tema13/src/swing/ejer9/InicioSesion.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema13/src/swing/ejer9/InicioSesion.java" afterDir="false" />
+    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="funciona el 9">
+      <change afterPath="$PROJECT_DIR$/temas/tema13/src/swing/casoPractico/BurgerMenuApp.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temas/tema13/src/swing/casoPractico/BurgerMenuApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema13/src/swing/ejer10/MiniEditorTexto.form" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema13/src/swing/ejer10/MiniEditorTexto.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema13/src/swing/ejer10/MiniEditorTexto.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema13/src/swing/ejer10/MiniEditorTexto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +40,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "true",
-    "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "150",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "115",
     "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
-    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "356",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "201",
     "last_opened_file_path": "C:/Users/Vane/Documents/Progra/temas/tema13/src/swing/ejer3",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   },
@@ -321,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684265755141</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="funciona el 9">
+      <created>1684305144018</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1684305144018</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -336,7 +347,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="intento 13" />
     <MESSAGE value="coreccion de errores" />
     <MESSAGE value="ejer agenda" />
     <MESSAGE value="agenda terminada" />
@@ -361,22 +371,8 @@
     <MESSAGE value="ejercicio6" />
     <MESSAGE value="comenzando7" />
     <MESSAGE value="me cago en mi vida" />
-    <option name="LAST_COMMIT_MESSAGE" value="me cago en mi vida" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/temas/tema13/src/swing/ejer8/TablasMultiplicar.java</url>
-          <line>27</line>
-          <properties method="actionPerformed">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="funciona el 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="funciona el 9" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Progra$InicioSesion.ic" NAME="InicioSesion Coverage Results" MODIFIED="1684262495109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

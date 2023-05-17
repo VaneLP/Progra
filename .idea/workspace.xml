@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="funciona el 9">
+    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="panel casi terminado">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/temas/tema13/src/swing/casoPractico/BurgerMenuApp.form" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema13/src/swing/casoPractico/BurgerMenuApp.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/temas/tema13/src/swing/casoPractico/BurgerMenuApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema13/src/swing/casoPractico/BurgerMenuApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema13/src/swing/ejer8/TablasMultiplicar.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema13/src/swing/ejer8/TablasMultiplicar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,29 +28,32 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2NBaszudFhanZKAUzY6UCapEAr8" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW&quot;: &quot;true&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH&quot;: &quot;115&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW&quot;: &quot;true&quot;,
-    &quot;UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH&quot;: &quot;201&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vane/Documents/Progra/temas/tema13/src/swing/ejer3&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW": "true",
+    "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "115",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "313",
+    "last_opened_file_path": "C:/Users/Vane/Documents/Progra/temas/tema13/src/swing/ejer3",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;PLAIN_TEXT&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Vane\Documents\Progra\temas\tema13\src\swing\ejer3" />
@@ -67,6 +72,26 @@
       <recent name="ejerB.ejr6" />
       <recent name="ejerB.ejr5" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TablasMultiplicar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="swing.ejer8.TablasMultiplicar" />
+      <module name="Progra" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="swing.ejer8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TablasMultiplicar" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -329,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684305144018</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="panel casi terminado">
+      <created>1684309743242</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1684309743242</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -344,7 +376,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="coreccion de errores" />
     <MESSAGE value="ejer agenda" />
     <MESSAGE value="agenda terminada" />
     <MESSAGE value="correccion errores" />
@@ -369,7 +400,8 @@
     <MESSAGE value="comenzando7" />
     <MESSAGE value="me cago en mi vida" />
     <MESSAGE value="funciona el 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="funciona el 9" />
+    <MESSAGE value="panel casi terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="panel casi terminado" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Progra$InicioSesion.ic" NAME="InicioSesion Coverage Results" MODIFIED="1684262495109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

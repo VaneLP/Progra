@@ -22,14 +22,22 @@ public class TablasMultiplicar extends JFrame {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setVisible(true);
 
-
         multiplicarButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 int a=Integer.parseInt(textFieldA.getText());
                 int b=Integer.parseInt(textFieldB.getText());
 
-                tabla = new JTable(10,(b-a)+1);
+
+//                tabla = new JTable(10,(b-a)+1);
+
+                for (int i = 0; i <= 9; i++) {
+                    //recorremos las columnas
+                    for (int j = 0; j <= 9; j++) {
+                        //le ponemos el valor
+                        tabla.setValueAt("",i,j);
+                    }
+                }
 
                 //extra 2
                 //recorremos las filas con el valor A y el valor B
@@ -37,14 +45,14 @@ public class TablasMultiplicar extends JFrame {
                     //recorremos las columnas
                     for (int j = 1; j <= 10; j++) {
                         //le ponemos el valor
-                        tabla.setValueAt(i + " x "+j+" = "+i*j,j-1,i-a);//FIXME no funciona!!
+                        tabla.setValueAt(i + " x "+j+" = "+i*j,j-1,i-a);
                     }
                 }
                 tabla.setVisible(true);
+                //repaint();
 
             }
         });
-
 
         //extra 1
         generarTablasButton.addActionListener(new ActionListener() {
@@ -69,6 +77,7 @@ public class TablasMultiplicar extends JFrame {
         });
     }
 
+
     //normal
     //con esto hacemos un componente customizado
     private void createUIComponents() {
@@ -76,7 +85,7 @@ public class TablasMultiplicar extends JFrame {
         tabla = new JTable(10, 10);
 
         //hacemos la tabla invisible
-        tabla.setVisible(false);
+//        tabla.setVisible(false);
 
         //recorremos las filas
         for (int i = 0; i <= 9; i++) {

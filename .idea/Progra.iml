@@ -26,6 +26,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Examenes/examen t12/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Examenes/examen_t.12/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/temas/tema13/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/temas/tema14/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/.idea" />
     </content>
     <orderEntry type="inheritedJdk" />

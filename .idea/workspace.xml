@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="casita terminada">
-      <change afterPath="$PROJECT_DIR$/temas/tema14/src/main/java/AccediendoAGeografia/AccediendoAGeografia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema14/src/main/java/AccediendoAGeografia/Pais.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema14/src/main/java/AccediendoAGeografia/enunciado" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema14/src/main/java/Prueba.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema14/src/main/java/Prueba.java" afterDir="false" />
-    </list>
+    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="ejercicio terminado" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -420,7 +412,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684740207240</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="ejercicio terminado">
+      <created>1684998580866</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1684998580866</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -435,7 +434,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="caso practico A" />
     <MESSAGE value="NO FUNCIONA" />
     <MESSAGE value="arreglado" />
     <MESSAGE value="ejercicios" />
@@ -460,7 +458,8 @@
     <MESSAGE value="terminados" />
     <MESSAGE value="dibujando la casita" />
     <MESSAGE value="casita terminada" />
-    <option name="LAST_COMMIT_MESSAGE" value="casita terminada" />
+    <MESSAGE value="ejercicio terminado" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicio terminado" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Progra$InicioSesion.ic" NAME="InicioSesion Coverage Results" MODIFIED="1684262495109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

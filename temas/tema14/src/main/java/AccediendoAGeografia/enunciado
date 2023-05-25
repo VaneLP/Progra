@@ -1,0 +1,16 @@
+
+Realiza un programa que se conecte a vuestra base de datos de geografía, y rellene
+un HashMap de Paises con sus datos.
+
+Parta ello vamos a crear una clase Pais con los atributos:
+
+codigo - Code String 3 letras
+nombre - Name String
+continente - Continenet String
+superficie - SurfaceArea double
+poblacion - Population int
+
+La clave del HashMap será el código del pais, el valor del HashMap será el objeto
+Pais que tienes que construir con sus datos.
+
+Por último muestra los datos de todos los paises

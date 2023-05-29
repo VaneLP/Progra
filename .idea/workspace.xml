@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="ejercicio terminado">
-      <change afterPath="$PROJECT_DIR$/temas/tema14/src/main/java/Ejercicio_CRUD/Ciudades.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema14/src/main/java/Ejercicio_CRUD/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema14/src/main/java/Ejercicio_CRUD/ClientesDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema14/src/main/java/Ejercicio_CRUD/DAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema14/src/main/java/Ejercicio_CRUD/Enunciado" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema14/UD14_AccesoBBDD_v02.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema14/UD14_AccesoBBDD_v02.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema14/tema14.iml" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema14/tema14.iml" afterDir="false" />
-    </list>
+    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="ejercicio nuevo CRUD" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -429,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684998580866</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="ejercicio nuevo CRUD">
+      <created>1685346239397</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1685346239397</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -444,7 +442,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="NO FUNCIONA" />
     <MESSAGE value="arreglado" />
     <MESSAGE value="ejercicios" />
     <MESSAGE value="ejercicios pregrsion" />
@@ -469,7 +466,8 @@
     <MESSAGE value="dibujando la casita" />
     <MESSAGE value="casita terminada" />
     <MESSAGE value="ejercicio terminado" />
-    <option name="LAST_COMMIT_MESSAGE" value="ejercicio terminado" />
+    <MESSAGE value="ejercicio nuevo CRUD" />
+    <option name="LAST_COMMIT_MESSAGE" value="ejercicio nuevo CRUD" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Progra$InicioSesion.ic" NAME="InicioSesion Coverage Results" MODIFIED="1684262495109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

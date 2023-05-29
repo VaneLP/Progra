@@ -1,0 +1,25 @@
+T14. Ejercicio creación aplicación CRUD
+
+Se llama a una aplicación CRUD aquella que realiza acciones de "Crear, Leer,
+Actualizar y Borrar" en una base de datos (Más información)
+
+Paso 1.
+Crea la aplicación CRUD del Ejemplo programa gestión de clientes.
+
+Paso 2.
+Crea una nueva aplicación CRUD para los datos de la tabla ciudades de la base
+de datos geografía.
+
+Restricciones
+- Obligatoriamente se debe usar el patrón de diseño DAO.
+- Tendremos un JComboBox para seleccionar el país y así mostrar las ciudades de
+ese país en un a tabla
+- Deberemos poder modificar, borrar y actualizar ciudades
+- La interfaz gráfica deberá ser similar a esta
+
+Adiciones:
+- Evitar que se puedan modificar las columnas de la tabla
+
+(foto aules)
+
+Entrega el proyecto completo de tu aplicación de ciudades

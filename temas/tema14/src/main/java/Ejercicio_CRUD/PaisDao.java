@@ -4,33 +4,33 @@ import javax.sql.DataSource;
 import java.util.List;
 import java.util.Optional;
 
-public class ClientesDao implements DAO<Cliente>{
-    //para obtener las conexiones con la base de datos
+public class PaisDao implements DAO<Pais> {
+    //para obtener las conexiones con la base de daros
     private DataSource dataSource;
 
     //metodos heredados de DAO
     @Override
-    public Optional<Cliente> obtener(long id) {
+    public Optional<Pais> obtener(long id) {
         return Optional.empty();
     }
 
     @Override
-    public List<Cliente> obtenerTodos() {
+    public List<Pais> obtenerTodos() {
         return null;
     }
 
     @Override
-    public void guardar(Cliente cliente) {
+    public void guardar(Pais pais) {
 
     }
 
     @Override
-    public void actualizar(Cliente cliente) {
+    public void actualizar(Pais pais) {
 
     }
 
     @Override
-    public void borrar(Cliente cliente) {
+    public void borrar(Pais pais) {
 
     }
 }

@@ -23,3 +23,14 @@ Adiciones:
 (foto aules)
 
 Entrega el proyecto completo de tu aplicación de ciudades
+
+
+
+
+
+
+
+---- MIO ----
+Para juntar ambas tablas hay que hacer un JOIN y se necesita
+- countrycode (city)
+- code (country)

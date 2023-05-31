@@ -34,4 +34,4 @@ consulta sql
 SELECT city.id, city.name, city.district, city.population
 FROM city,country
 WHERE city.CountryCode = country.Code
-AND country.name="spain";
+AND country.name="lo que queramos"

@@ -3,6 +3,8 @@ package Ejercicio_CRUD;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class FormularioPaises extends JFrame{
     //atributos
@@ -31,8 +33,35 @@ public class FormularioPaises extends JFrame{
         setVisible(true);
 
         //hacemos un modelo de tabla al cual le pasamos el nombre de las columnas
-        DefaultTableModel modeloTabla = new DefaultTableModel(null, new String[]{"ID","Nombre","Distrito","Pobalacion"});
+        DefaultTableModel modelo = new DefaultTableModel(null, new String[]{"ID","Nombre","Distrito","Pobalacion"});
+        //le asignamos a nuestra tabla el modelo que hemos definido
+        tabla.setModel(modelo);
+        //para que no se puedan mover las columnas (buscado en internet)
+        tabla.getTableHeader().setReorderingAllowed(false);
 
+        //BOTON ACTUALIZAR
+        actualizarButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
+
+        //BOTON BORRAR
+        borrarButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
+
+        //BOTON INSERTAR
+        insertarButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
     }
 
     //main

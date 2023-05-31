@@ -11,8 +11,6 @@ public class PaisDao implements DAO<Pais> {
     //para obtener las conexiones con la base de daros
     private DataSource dataSource;
 
-
-
     //metodos heredados de DAO
     @Override
     public Optional<Pais> obtener(long id) {

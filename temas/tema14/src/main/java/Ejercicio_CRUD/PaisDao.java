@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Optional;
 
 public class PaisDao implements DAO<Pais> {
-    //para obtener las conexiones con la base de daros
+    //para obtener las conexiones con la base de datos
     private DataSource dataSource;
 
     //metodos heredados de DAO

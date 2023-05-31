@@ -25,12 +25,13 @@ Adiciones:
 Entrega el proyecto completo de tu aplicación de ciudades
 
 
-
-
-
-
-
 ---- MIO ----
 Para juntar ambas tablas hay que hacer un JOIN y se necesita
 - countrycode (city)
 - code (country)
+
+consulta sql
+SELECT city.id, city.name, city.district, city.population
+FROM city,country
+WHERE city.CountryCode = country.Code
+AND country.name="spain";

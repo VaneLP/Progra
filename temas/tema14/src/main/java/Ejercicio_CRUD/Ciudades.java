@@ -10,10 +10,11 @@ Ciudades tiene
 public class Ciudades {
     //atributos
     String nombre, distrito;
-    long id, poblacion;
+    String id;
+    long poblacion;
 
     //constructor
-    public Ciudades(String nombre, String distrito, long id, long poblacion) {
+    public Ciudades(String nombre, String distrito, String id, long poblacion) {
         this.nombre = nombre;
         this.distrito = distrito;
         this.id = id;
@@ -38,7 +39,7 @@ public class Ciudades {
     }
 
     //id
-    public long getId() {
+    public String getId() {
         return id;
     }
 

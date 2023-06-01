@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Optional;
 
 public interface DAO<T> { //le indicamos una T para poder posteriormente indicar el tipo de dato que vayamos a usar
-    Optional<T> obtener(long id);
+    Optional<T> obtener(String id);
     List<T> obtenerTodos();
 
     void guardar(T t);

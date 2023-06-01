@@ -49,14 +49,14 @@ public class CiudadesDao implements DAO<Ciudades>{
      * @param id
      */
     @Override
-    public Optional<Ciudades> obtener(long id) {
+    public Optional<Ciudades> obtener(String id) {
         //para conectarnos a nuestro servidor
         try(Connection conn = dataSource.getConnection();
             //consulta SQL
             PreparedStatement ptmt = conn.prepareStatement("SELECT id, name, district, population FROM city WHERE id = ?")){
 
             //le asignamos 1 al indice porque tenemos un solo interrogante, para poder distinguirlos
-            ptmt.setLong(1,id);
+            ptmt.setString(1,id);
 
             try(ResultSet rs = ptmt.executeQuery()){
                 //mientras que rs tenga una siguiente linea
@@ -99,13 +99,13 @@ public class CiudadesDao implements DAO<Ciudades>{
             //mientras que nuestro rs tenga una siguiente linea
             while (rs.next()){
                 //asignamos a variables los parametros de la consulta sql
-                long id = rs.getLong("id");
+                String id = rs.getString("id");
                 String nombre = rs.getString("name");
                 String distrito = rs.getString("district");
                 long poblacion = rs.getLong("population");
 
                 //creamos un nuevo objeto ciudad
-                Ciudades ciudad = new Ciudades(nombre, distrito, poblacion, id);
+                Ciudades ciudad = new Ciudades(nombre, distrito, id, poblacion);
                 //añadimos la ciudad a la lista
                 listaCiudades.add(ciudad);
             }
@@ -158,7 +158,7 @@ public class CiudadesDao implements DAO<Ciudades>{
             //al preparedStatmet le asignamos a cada ? la obtencion lo que le corresponda
             ptmt.setString(1, ciudades.getNombre());
             ptmt.setString(2, ciudades.getDistrito());
-            ptmt.setLong(3, ciudades.getId());
+            ptmt.setString(3, ciudades.getId());
             ptmt.setLong(4, ciudades.getPoblacion());
 
             //actualizamos el preparedStatment
@@ -182,7 +182,7 @@ public class CiudadesDao implements DAO<Ciudades>{
             PreparedStatement ptmt = conn.prepareStatement("DELETE FROM city WHERE id=?")){
 
             //al preparedStatmet le asignamos a la ? la obtencion del id
-            ptmt.setLong(1,ciudades.getId());
+            ptmt.setString(1,ciudades.getId());
 
             //actualizamos el preparedStatment
             ptmt.executeUpdate();
@@ -191,4 +191,6 @@ public class CiudadesDao implements DAO<Ciudades>{
             e.printStackTrace();
         }
     }
+
+
 }

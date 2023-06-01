@@ -25,6 +25,15 @@ Adiciones:
 Entrega el proyecto completo de tu aplicación de ciudades
 
 
+---- COSAS QUE HACER AUN ----
+- rellenar comboBox
+- rellenar tabla
+- hacer que los botones funcionen
+- campos de la tabla no editables
+- id no editable
+- datos introducidos sean correctos
+
+
 ---- MIO ----
 Para juntar ambas tablas hay que hacer un JOIN y se necesita
 - countrycode (city)

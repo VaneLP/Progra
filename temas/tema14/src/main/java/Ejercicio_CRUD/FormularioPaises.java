@@ -5,6 +5,7 @@ import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
 
 public class FormularioPaises extends JFrame{
     //atributos
@@ -39,6 +40,9 @@ public class FormularioPaises extends JFrame{
         //para que no se puedan mover las columnas (buscado en internet)
         tabla.getTableHeader().setReorderingAllowed(false);
 
+
+
+
         //BOTON ACTUALIZAR
         actualizarButton.addActionListener(new ActionListener() {
             @Override
@@ -62,7 +66,38 @@ public class FormularioPaises extends JFrame{
 
             }
         });
+
+        //todo no va
+        comboBoxPais.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                comboBoxPais.addItem("1");
+                comboBoxPais.addItem("2");
+                comboBoxPais.addItem("3");
+
+                rellenarComboBoxPais();
+                comboBoxPais.getSelectedItem();
+
+            }
+        });
     }
+
+    /**
+     * Metodo para rellenar el combo box con todos los paises
+     */
+    public void rellenarComboBoxPais(){
+        //todo no va
+        comboBoxPais = new JComboBox();
+        comboBoxPais.addItem("1");
+        comboBoxPais.addItem("2");
+        comboBoxPais.addItem("3");
+    }
+
+    public void rellenarTabla(){
+
+
+    }
+
 
     //main
     public static void main(String[] args) {
@@ -73,4 +108,6 @@ public class FormularioPaises extends JFrame{
             }
         });
     }
+
+
 }

@@ -5,9 +5,8 @@ import org.apache.commons.dbcp2.BasicDataSource;
 import javax.sql.DataSource;
 import java.io.IOException;
 import java.io.InputStream;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
+import java.sql.*;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.Properties;
@@ -27,7 +26,7 @@ public class CiudadesDao implements DAO<Ciudades>{
             datos.load(configStream);
 
         } catch (IOException e) {
-            System.out.println(e.getMessage());
+            e.printStackTrace();
         }
 
         //creamos un basicDataSource
@@ -39,13 +38,14 @@ public class CiudadesDao implements DAO<Ciudades>{
         basicDataSource.setUsername(datos.getProperty("db.usuario"));
         basicDataSource.setPassword(datos.getProperty("db.clave"));
 
+        //al dataSource le asignamos el basicDataSource
         this.dataSource = basicDataSource;
     }
 
 
     //metodos herados de DAO
     /**
-     * Para OBTENER las ciudades necesitamos un INSERT
+     * Para OBTENER las ciudades necesitamos un SELECT
      * @param id
      */
     @Override
@@ -53,23 +53,69 @@ public class CiudadesDao implements DAO<Ciudades>{
         //para conectarnos a nuestro servidor
         try(Connection conn = dataSource.getConnection();
             //consulta SQL
-            PreparedStatement stmt = conn.prepareStatement("")){
+            PreparedStatement ptmt = conn.prepareStatement("SELECT id, name, district, population FROM city WHERE id = ?")){
 
+            //le asignamos 1 al indice porque tenemos un solo interrogante, para poder distinguirlos
+            ptmt.setLong(1,id);
+
+            try(ResultSet rs = ptmt.executeQuery()){
+                //mientras que rs tenga una siguiente linea
+                while (rs.next()){
+                    //guardamos en variables los parametros seleccionados en la consulta sql
+                    String nombre = rs.getString("name");
+                    String distrito = rs.getString("district");
+                    long poblacion = rs.getLong("population");
+
+                    //asignamos los parametros a una nueva ciudad
+                    Ciudades ciudad = new Ciudades(nombre,distrito,id,poblacion);
+                    //devolvemos esa ciudad
+                    return Optional.of(ciudad);
+                }
+            }
 
         } catch (SQLException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
 
         return Optional.empty();
     }
 
     /**
-     * Para OBTENER TODOS los registros
-     * @return
+     * Para OBTENER TODOS los registros SELECT
+     * @return la lista de las ciudades
      */
     @Override
     public List<Ciudades> obtenerTodos() {
-        return null;
+        //creamos una lista para guardar todas las ciudades
+        List<Ciudades> listaCiudades = new ArrayList<>();
+
+        //comprobamos la conexion
+        try(Connection conn = dataSource.getConnection();
+            //creamos un statement
+            Statement stmt = conn.createStatement();
+            //se lo asignamos al resultset con la consulta sql
+            ResultSet rs = stmt.executeQuery("SELECT id, name, district, population FROM city")){
+
+            //mientras que nuestro rs tenga una siguiente linea
+            while (rs.next()){
+                //asignamos a variables los parametros de la consulta sql
+                long id = rs.getLong("id");
+                String nombre = rs.getString("name");
+                String distrito = rs.getString("district");
+                long poblacion = rs.getLong("population");
+
+                //creamos un nuevo objeto ciudad
+                Ciudades ciudad = new Ciudades(nombre, distrito, poblacion, id);
+                //añadimos la ciudad a la lista
+                listaCiudades.add(ciudad);
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+        //devolvemos la lista
+        return listaCiudades;
     }
 
     /**
@@ -82,10 +128,18 @@ public class CiudadesDao implements DAO<Ciudades>{
         //para conectarnos a nuestro servidor
         try(Connection conn = dataSource.getConnection();
             //consulta SQL
-            PreparedStatement stmt = conn.prepareStatement("")){
+            PreparedStatement ptmt = conn.prepareStatement("INSERT INTO city(name, district, population) VALUES(?,?,?)")){
+
+            //al preparedStatmet le asignamos a cada ? la obtencion lo que le corresponda
+            ptmt.setString(1, ciudades.getNombre());
+            ptmt.setString(2, ciudades.getDistrito());
+            ptmt.setLong(3, ciudades.getPoblacion());
+
+            //actualizamos el preparedStatment
+            ptmt.executeUpdate();
 
         } catch (SQLException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
     }
 
@@ -99,10 +153,19 @@ public class CiudadesDao implements DAO<Ciudades>{
         //para conectarnos a nuestro servidor
         try(Connection conn = dataSource.getConnection();
             //consulta SQL
-            PreparedStatement stmt = conn.prepareStatement("")){
+            PreparedStatement ptmt = conn.prepareStatement("UPDATE city SET name=?, district=?, population=? WHERE id=?")){
+
+            //al preparedStatmet le asignamos a cada ? la obtencion lo que le corresponda
+            ptmt.setString(1, ciudades.getNombre());
+            ptmt.setString(2, ciudades.getDistrito());
+            ptmt.setLong(3, ciudades.getId());
+            ptmt.setLong(4, ciudades.getPoblacion());
+
+            //actualizamos el preparedStatment
+            ptmt.executeUpdate();
 
         } catch (SQLException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
     }
 
@@ -116,10 +179,16 @@ public class CiudadesDao implements DAO<Ciudades>{
         //para conectarnos a nuestro servidor
         try(Connection conn = dataSource.getConnection();
             //consulta SQL
-            PreparedStatement stmt = conn.prepareStatement("")){
+            PreparedStatement ptmt = conn.prepareStatement("DELETE FROM city WHERE id=?")){
+
+            //al preparedStatmet le asignamos a la ? la obtencion del id
+            ptmt.setLong(1,ciudades.getId());
+
+            //actualizamos el preparedStatment
+            ptmt.executeUpdate();
 
         } catch (SQLException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
     }
 }

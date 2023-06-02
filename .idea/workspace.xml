@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="avanzando">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema14/src/main/java/Ejercicio_CRUD/Ciudades.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema14/src/main/java/Ejercicio_CRUD/Ciudades.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema14/src/main/java/Ejercicio_CRUD/CiudadesDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema14/src/main/java/Ejercicio_CRUD/CiudadesDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema14/src/main/java/Ejercicio_CRUD/Enunciado" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema14/src/main/java/Ejercicio_CRUD/Enunciado" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/temas/tema14/src/main/java/Ejercicio_CRUD/FormularioPaises.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema14/src/main/java/Ejercicio_CRUD/FormularioPaises.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema14/src/main/java/Ejercicio_CRUD/Pais.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema14/src/main/java/Ejercicio_CRUD/Pais.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,13 +121,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679047598023</updated>
-    </task>
-    <task id="LOCAL-00003" summary="terminado 6">
-      <created>1679303469211</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1679303469211</updated>
     </task>
     <task id="LOCAL-00004" summary="terminado 7 y 8">
       <created>1679337881426</created>
@@ -469,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685640018427</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="avanzando">
+      <created>1685702923469</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1685702923469</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

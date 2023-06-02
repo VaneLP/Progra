@@ -9,7 +9,7 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Vector;
 
-public class FormularioPaises extends JFrame{
+public class FormularioPaises extends JFrame {
     //atributos
     CiudadesDao daoCiudades = new CiudadesDao();
     PaisDao daoPais = new PaisDao();
@@ -28,7 +28,7 @@ public class FormularioPaises extends JFrame{
     private JTable tabla;
 
     //contructor
-    public FormularioPaises(String cadena){
+    public FormularioPaises(String cadena) {
         //para pasarle el titulo en el main
         super(cadena);
         setContentPane(panelPrincipal);
@@ -38,18 +38,8 @@ public class FormularioPaises extends JFrame{
         pack();
 
 
-        //hacemos un modelo de tabla al cual le pasamos el nombre de las columnas
-        DefaultTableModel modelo = new DefaultTableModel(null, new String[]{"ID","Nombre","Distrito","Pobalacion"});
-        //le asignamos a nuestra tabla el modelo que hemos definido
-        tabla.setModel(modelo);
-        //para que no se puedan mover las columnas (buscado en internet)
-        tabla.getTableHeader().setReorderingAllowed(false);
-
-
-
         //llamamos a la funcion para llenar el comboBox
         rellenarComboBoxPais();
-
 
 
         //hacemos la ventana visible
@@ -87,29 +77,42 @@ public class FormularioPaises extends JFrame{
         comboBoxPais.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                //hacemos un modelo de tabla al cual le pasamos el nombre de las columnas
+                DefaultTableModel modelo = new DefaultTableModel(null, new String[]{"ID", "Nombre", "Distrito", "Pobalacion"});
+                //le asignamos a nuestra tabla el modelo que hemos definido
+                tabla.setModel(modelo);
+                //para que no se puedan mover las columnas (buscado en internet)
+                tabla.getTableHeader().setReorderingAllowed(false);
 
-                //*-*-*-*-* ¡¡¡PRUEBAAAAS!!! *-*-*-*-*
+
+                //hacemos un array de las ciudades obteniendolas todas
                 ArrayList<Ciudades> listaCiudades = new ArrayList<>(daoCiudades.obtenerTodos());
 
                 //Creamos un vector de tipo para poder añadirlo luego al modelo
                 Vector<String> fila = new Vector<>();
+
+                //en una variable guardamos el codigo del pais para poder compararlo luego
                 String pCode = ((Pais) comboBoxPais.getSelectedItem()).getCode();
 
-                    for (Ciudades listaCiu : listaCiudades) {
-                        if(listaCiu.getCountrycode().equals(pCode)) {
-                            fila.add(listaCiu.getId());
-                            fila.add(listaCiu.getNombre());
-                            fila.add(listaCiu.getDistrito());
-                            fila.add(String.valueOf(listaCiu.getPoblacion()));
-                        }
+                //recorremos todas las ciudades
+                for (Ciudades listaCiu : listaCiudades) {
+                    //si el codigo de la ciudad es igual al codigo del pais
 
+                    if (listaCiu.getCountrycode().equals(pCode)) {
+                        //reseteamos el vector porque si no siempre se guarda la misma ciudad
+                        fila = new Vector<>();
+                        //añadimos a cada columna lo que le corresponde
+                        fila.add(listaCiu.getId());
+                        fila.add(listaCiu.getNombre());
+                        fila.add(listaCiu.getDistrito());
+                        fila.add(String.valueOf(listaCiu.getPoblacion()));
+                        //añadimos a nuestro modelo de tabla la fila
                         modelo.addRow(fila);
+
+                        //pruebas
+                        System.out.println(listaCiu.getNombre());
                     }
-
-
-
-
-
+                }
             }
         });
     }
@@ -117,7 +120,7 @@ public class FormularioPaises extends JFrame{
     /**
      * Metodo para rellenar el combo box con todos los paises
      */
-    public void rellenarComboBoxPais(){
+    public void rellenarComboBoxPais() {
         //lista para coger todos los paises
         ArrayList<Pais> listapais = new ArrayList<>(daoPais.obtenerTodos());
 
@@ -129,7 +132,7 @@ public class FormularioPaises extends JFrame{
     }
 
 
-    public void rellenarTabla(){
+    public void rellenarTabla() {
 
     }
 

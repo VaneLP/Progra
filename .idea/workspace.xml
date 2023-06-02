@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="funciona la tablaaaaa">
-      <change afterPath="$PROJECT_DIR$/temas/tema14/src/main/java/Ejercicio_CRUD/PanelActualizar.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema14/src/main/java/Ejercicio_CRUD/PanelActualizar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema14/src/main/java/Ejercicio_CRUD/PanelGuardar.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema14/src/main/java/Ejercicio_CRUD/PanelGuardar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema14/src/main/java/Ejercicio_CRUD/CiudadesDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema14/src/main/java/Ejercicio_CRUD/CiudadesDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema14/src/main/java/Ejercicio_CRUD/Enunciado" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema14/src/main/java/Ejercicio_CRUD/Enunciado" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema14/src/main/java/Ejercicio_CRUD/FormularioPaises.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema14/src/main/java/Ejercicio_CRUD/FormularioPaises.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema14/src/main/java/Ejercicio_CRUD/PaisDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema14/src/main/java/Ejercicio_CRUD/PaisDao.java" afterDir="false" />
-    </list>
+    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="terminado y sin fallos" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -128,13 +118,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679047598023</updated>
-    </task>
-    <task id="LOCAL-00005" summary="mas ejers">
-      <created>1679388459881</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1679388459881</updated>
     </task>
     <task id="LOCAL-00006" summary="correccion">
       <created>1679475969855</created>
@@ -472,7 +455,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685705898808</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="terminado y sin fallos">
+      <created>1685728940156</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1685728940156</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -487,7 +477,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="terminado ejer" />
     <MESSAGE value="correcciones" />
     <MESSAGE value="Apuntes de clase" />
     <MESSAGE value="Correcion" />
@@ -512,7 +501,8 @@
     <MESSAGE value="pom" />
     <MESSAGE value="avanzando" />
     <MESSAGE value="funciona la tablaaaaa" />
-    <option name="LAST_COMMIT_MESSAGE" value="funciona la tablaaaaa" />
+    <MESSAGE value="terminado y sin fallos" />
+    <option name="LAST_COMMIT_MESSAGE" value="terminado y sin fallos" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Progra$InicioSesion.ic" NAME="InicioSesion Coverage Results" MODIFIED="1684262495109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

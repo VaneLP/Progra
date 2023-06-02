@@ -33,4 +33,9 @@ public class Pais {
     }
 
 
+    //To String
+    @Override
+    public String toString() {
+        return name;
+    }
 }

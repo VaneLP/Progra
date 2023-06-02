@@ -12,9 +12,11 @@ public class Ciudades {
     String nombre, distrito;
     String id;
     long poblacion;
+    String countrycode;
 
     //constructor
-    public Ciudades(String nombre, String distrito, String id, long poblacion) {
+    public Ciudades(String countrycode, String nombre, String distrito, String id, long poblacion) {
+        this.countrycode = countrycode;
         this.nombre = nombre;
         this.distrito = distrito;
         this.id = id;
@@ -41,6 +43,11 @@ public class Ciudades {
     //id
     public String getId() {
         return id;
+    }
+
+    //countrycode
+    public String getCountrycode() {
+        return countrycode;
     }
 
     //poblacion

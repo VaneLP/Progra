@@ -5,10 +5,16 @@ import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.Vector;
 
 public class FormularioPaises extends JFrame{
     //atributos
+    CiudadesDao daoCiudades = new CiudadesDao();
+    PaisDao daoPais = new PaisDao();
+
+
     private JPanel panelPrincipal;
     private JComboBox comboBoxPais;
     private JTextPane textPaneID;
@@ -30,8 +36,7 @@ public class FormularioPaises extends JFrame{
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         //para que se ajuste solo
         pack();
-        //hacemos la ventana visible
-        setVisible(true);
+
 
         //hacemos un modelo de tabla al cual le pasamos el nombre de las columnas
         DefaultTableModel modelo = new DefaultTableModel(null, new String[]{"ID","Nombre","Distrito","Pobalacion"});
@@ -42,12 +47,20 @@ public class FormularioPaises extends JFrame{
 
 
 
+        //llamamos a la funcion para llenar el comboBox
+        rellenarComboBoxPais();
+
+
+
+        //hacemos la ventana visible
+        setVisible(true);
 
         //BOTON ACTUALIZAR
         actualizarButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                //UPDATE city SET name=?, district=?, population=? WHERE id=?
+//                daoCiudades.actualizar();
             }
         });
 
@@ -55,7 +68,8 @@ public class FormularioPaises extends JFrame{
         borrarButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                //DELETE FROM city WHERE id=?
+//                daoCiudades.borrar();
             }
         });
 
@@ -63,20 +77,38 @@ public class FormularioPaises extends JFrame{
         insertarButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                //INSERT INTO city(name, district, population) VALUES(?,?,?)
+//                daoCiudades.guardar();
             }
         });
 
-        //todo no va
+
+        //COMBO BOX
         comboBoxPais.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                comboBoxPais.addItem("1");
-                comboBoxPais.addItem("2");
-                comboBoxPais.addItem("3");
 
-                rellenarComboBoxPais();
-                comboBoxPais.getSelectedItem();
+                //*-*-*-*-* ¡¡¡PRUEBAAAAS!!! *-*-*-*-*
+                ArrayList<Ciudades> listaCiudades = new ArrayList<>(daoCiudades.obtenerTodos());
+
+                //Creamos un vector de tipo para poder añadirlo luego al modelo
+                Vector<String> fila = new Vector<>();
+                String pCode = ((Pais) comboBoxPais.getSelectedItem()).getCode();
+
+                    for (Ciudades listaCiu : listaCiudades) {
+                        if(listaCiu.getCountrycode().equals(pCode)) {
+                            fila.add(listaCiu.getId());
+                            fila.add(listaCiu.getNombre());
+                            fila.add(listaCiu.getDistrito());
+                            fila.add(String.valueOf(listaCiu.getPoblacion()));
+                        }
+
+                        modelo.addRow(fila);
+                    }
+
+
+
+
 
             }
         });
@@ -86,18 +118,20 @@ public class FormularioPaises extends JFrame{
      * Metodo para rellenar el combo box con todos los paises
      */
     public void rellenarComboBoxPais(){
-        //todo no va
-        comboBoxPais = new JComboBox();
-        comboBoxPais.addItem("1");
-        comboBoxPais.addItem("2");
-        comboBoxPais.addItem("3");
+        //lista para coger todos los paises
+        ArrayList<Pais> listapais = new ArrayList<>(daoPais.obtenerTodos());
+
+        //lo recorremos para mostrarlo
+        for (Pais lista : listapais) {
+            //añadimos al combo box el nombre del pais
+            comboBoxPais.addItem(lista);
+        }
     }
+
 
     public void rellenarTabla(){
 
-
     }
-
 
     //main
     public static void main(String[] args) {

@@ -53,7 +53,7 @@ public class CiudadesDao implements DAO<Ciudades>{
         //para conectarnos a nuestro servidor
         try(Connection conn = dataSource.getConnection();
             //consulta SQL
-            PreparedStatement ptmt = conn.prepareStatement("SELECT id, name, district, population FROM city WHERE id = ?")){
+            PreparedStatement ptmt = conn.prepareStatement("SELECT countrycode, id, name, district, population FROM city WHERE id = ?")){
 
             //le asignamos 1 al indice porque tenemos un solo interrogante, para poder distinguirlos
             ptmt.setString(1,id);
@@ -62,12 +62,13 @@ public class CiudadesDao implements DAO<Ciudades>{
                 //mientras que rs tenga una siguiente linea
                 while (rs.next()){
                     //guardamos en variables los parametros seleccionados en la consulta sql
+                    String countryCode = rs.getString("countrycode");
                     String nombre = rs.getString("name");
                     String distrito = rs.getString("district");
                     long poblacion = rs.getLong("population");
 
                     //asignamos los parametros a una nueva ciudad
-                    Ciudades ciudad = new Ciudades(nombre,distrito,id,poblacion);
+                    Ciudades ciudad = new Ciudades(countryCode,nombre,distrito,id,poblacion);
                     //devolvemos esa ciudad
                     return Optional.of(ciudad);
                 }
@@ -94,18 +95,19 @@ public class CiudadesDao implements DAO<Ciudades>{
             //creamos un statement
             Statement stmt = conn.createStatement();
             //se lo asignamos al resultset con la consulta sql
-            ResultSet rs = stmt.executeQuery("SELECT id, name, district, population FROM city")){
+            ResultSet rs = stmt.executeQuery("SELECT countrycode, id, name, district, population FROM city")){
 
             //mientras que nuestro rs tenga una siguiente linea
             while (rs.next()){
                 //asignamos a variables los parametros de la consulta sql
+                String countryCode = rs.getString("countrycode");
                 String id = rs.getString("id");
                 String nombre = rs.getString("name");
                 String distrito = rs.getString("district");
                 long poblacion = rs.getLong("population");
 
                 //creamos un nuevo objeto ciudad
-                Ciudades ciudad = new Ciudades(nombre, distrito, id, poblacion);
+                Ciudades ciudad = new Ciudades(countryCode, nombre, distrito, id, poblacion);
                 //añadimos la ciudad a la lista
                 listaCiudades.add(ciudad);
             }

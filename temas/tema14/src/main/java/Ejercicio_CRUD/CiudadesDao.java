@@ -3,6 +3,7 @@ package Ejercicio_CRUD;
 import org.apache.commons.dbcp2.BasicDataSource;
 
 import javax.sql.DataSource;
+import javax.swing.*;
 import java.io.IOException;
 import java.io.InputStream;
 import java.sql.*;
@@ -113,7 +114,7 @@ public class CiudadesDao implements DAO<Ciudades>{
             }
 
         } catch (SQLException e) {
-            e.printStackTrace();
+            JOptionPane.showMessageDialog(null,"Conexion fallida");
         }
 
         //devolvemos la lista
@@ -130,12 +131,13 @@ public class CiudadesDao implements DAO<Ciudades>{
         //para conectarnos a nuestro servidor
         try(Connection conn = dataSource.getConnection();
             //consulta SQL
-            PreparedStatement ptmt = conn.prepareStatement("INSERT INTO city(name, district, population) VALUES(?,?,?)")){
+            PreparedStatement ptmt = conn.prepareStatement("INSERT INTO city(name, district, population, countrycode) VALUES(?,?,?,?)")){
 
             //al preparedStatmet le asignamos a cada ? la obtencion lo que le corresponda
             ptmt.setString(1, ciudades.getNombre());
             ptmt.setString(2, ciudades.getDistrito());
             ptmt.setLong(3, ciudades.getPoblacion());
+            ptmt.setString(4, ciudades.getCountrycode());
 
             //actualizamos el preparedStatment
             ptmt.executeUpdate();
@@ -160,8 +162,8 @@ public class CiudadesDao implements DAO<Ciudades>{
             //al preparedStatmet le asignamos a cada ? la obtencion lo que le corresponda
             ptmt.setString(1, ciudades.getNombre());
             ptmt.setString(2, ciudades.getDistrito());
-            ptmt.setString(3, ciudades.getId());
-            ptmt.setLong(4, ciudades.getPoblacion());
+            ptmt.setLong(3, ciudades.getPoblacion());
+            ptmt.setString(4, ciudades.getId());
 
             //actualizamos el preparedStatment
             ptmt.executeUpdate();

@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="terminado y sin fallos">
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_7_monopoly/ColorTerreno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_7_monopoly/Estaciones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_7_monopoly/Propiedad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_7_monopoly/Terreno.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_7_monopoly/Casilla.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_7_monopoly/Casilla.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_7_monopoly/Terreno.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_7_monopoly/Terreno.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +80,7 @@
       <recent name="ejerB.ejr5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Casita">
+  <component name="RunManager">
     <configuration name="Casita" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Pintando.Casita" />
       <module name="Progra" />
@@ -472,6 +468,9 @@
     </task>
     <option name="localTasksCounter" value="55" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:com.google.protobuf:protobuf-java" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

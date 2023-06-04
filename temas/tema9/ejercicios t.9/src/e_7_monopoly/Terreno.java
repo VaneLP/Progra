@@ -5,8 +5,8 @@ public class Terreno extends Propiedad{
     private static ColorTerreno colorTerreno;
     private static int precioAlquiler;
 
-    public Terreno(String nombre, int precio, int hipoteca, int propietario,ColorTerreno colorTerreno,int precioAlquiler) {
-        super(nombre, precio, hipoteca, propietario);
+    public Terreno(String nombre, int precio, int hipoteca,ColorTerreno colorTerreno,int precioAlquiler) {
+        super(nombre,precio,hipoteca);
         this.colorTerreno=colorTerreno;
         this.precioAlquiler= precioAlquiler;
     }

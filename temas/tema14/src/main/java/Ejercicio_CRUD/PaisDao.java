@@ -3,6 +3,7 @@ package Ejercicio_CRUD;
 import org.apache.commons.dbcp2.BasicDataSource;
 
 import javax.sql.DataSource;
+import javax.swing.*;
 import java.io.IOException;
 import java.io.InputStream;
 import java.sql.*;
@@ -107,7 +108,7 @@ public class PaisDao implements DAO<Pais> {
             }
 
         } catch (SQLException e) {
-            e.printStackTrace();
+            JOptionPane.showMessageDialog(null,"Conexion fallida");
         }
 
         //devolvemos la lista

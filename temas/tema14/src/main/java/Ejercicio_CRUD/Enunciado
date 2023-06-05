@@ -27,10 +27,10 @@ Entrega el proyecto completo de tu aplicación de ciudades
 
 ---- COSAS QUE HACER AUN ----
 - rellenar comboBox (V)
-- rellenar tabla
-- hacer que los botones funcionen
-- campos de la tabla no editables
-- id no editable
+- rellenar tabl (V)
+- hacer que los botones funcionen (V)
+- campos de la tabla no editables (V)
+- id no editable (V)
 - datos introducidos sean correctos
 - si da tiempo ponerlo bonito
 

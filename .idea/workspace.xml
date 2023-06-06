@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="funciona la tablaaaaa">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-=======
     <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="terminado y sin fallos">
+      <change afterPath="$PROJECT_DIR$/Repaso/src/bucles/Ejer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repaso/src/bucles/Ejer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repaso/src/bucles/Ejer3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Progra.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Progra.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_7_monopoly/Terreno.java" beforeDir="false" afterPath="$PROJECT_DIR$/temas/tema9/ejercicios t.9/src/e_7_monopoly/Terreno.java" afterDir="false" />
->>>>>>> 26bde1422f9af5ff9c611850576e37eb379dc788
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +83,7 @@
       <recent name="ejerB.ejr5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Casita">
+  <component name="RunManager">
     <configuration name="Casita" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Pintando.Casita" />
       <module name="Progra" />

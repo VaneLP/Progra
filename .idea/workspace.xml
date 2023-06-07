@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="terminado y sin fallos">
+      <change afterPath="$PROJECT_DIR$/Repaso/src/bucles/ejer8.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repaso/src/bucles/Ejer5.java" beforeDir="false" afterPath="$PROJECT_DIR$/Repaso/src/bucles/Ejer5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Repaso/src/bucles/Ejer6.java" beforeDir="false" afterPath="$PROJECT_DIR$/Repaso/src/bucles/Ejer6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,40 +81,6 @@
       <recent name="ejerB.ejr6" />
       <recent name="ejerB.ejr5" />
     </key>
-  </component>
-  <component name="RunManager" selected="Application.Casita">
-    <configuration name="Casita" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Pintando.Casita" />
-      <module name="Progra" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Pintando.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TablasMultiplicar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="swing.ejer8.TablasMultiplicar" />
-      <module name="Progra" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="swing.ejer8.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Casita" />
-        <item itemvalue="Application.TablasMultiplicar" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

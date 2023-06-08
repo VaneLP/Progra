@@ -5,13 +5,13 @@ import java.util.Objects;
 public abstract class Vehiculos {
     //Atributos
     private final String matricula, modelo;
-    private int pasos=0;
+    private int pasos;
 
     //constructor
-    public Vehiculos(String matricula, String modelo, int pasos) {
+    public Vehiculos(String matricula, String modelo) {
         this.matricula = matricula;
         this.modelo = modelo;
-        this.pasos = pasos;
+        this.pasos = 0;
     }
 
     //getter y setters
@@ -33,13 +33,13 @@ public abstract class Vehiculos {
         this.pasos = pasos;
     }
 
+
     //metodos
     public String Mostrar(){
-        return String.format("%10 %10 %10","Matricula", "Modelo", "Pasos"+
-                "%10 %10 %10",matricula,modelo,pasos);
+        return String.format("%10s Matricula %10s Modelo %10s Pasos",matricula,modelo,pasos);
     }
 
-    public abstract void recorrer(int numPasos) throws VehiculoException;
+    public abstract void recorrer(int numPasos) throws VehiculoExcepcion;
 
     @Override
     public boolean equals(Object o) {

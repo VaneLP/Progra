@@ -13,8 +13,28 @@ public class FlotaVehiculos {
     }
 
     //metodos
-    public void agregarVehiculo(Vehiculos v){
-        flota.add(v);
+    public void agregarVehiculo(String matricula, String modelo,int numrudas){
+        try {
+            flota.add(new Terrestres(matricula,modelo,numrudas));
+        } catch (VehiculoExcepcion e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void agregarVehiculo(String matricula, String modelo,int numrudas,boolean aireAcondicionado){
+        try {
+            flota.add(new Coche(matricula,modelo,numrudas,aireAcondicionado));
+        } catch (VehiculoExcepcion e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public void agregarVehiculo(String matricula, String modelo,int numrudas,Color color){
+        try {
+            flota.add(new Motos(matricula,modelo,numrudas,color));
+        } catch (VehiculoExcepcion e) {
+            throw new RuntimeException(e);
+        }
     }
 
     /**
@@ -30,15 +50,17 @@ public class FlotaVehiculos {
     }
 
     /**
-     * @param c
      * @return va a devolver un Array con todos los coches que tenemos
      */
-    public int[] arrayCoches(Coche c){
-        int[] arraycoches= new int[flota.size()];
+    public Coche[] arrayCoches(){
+        Coche[] arraycoches= new Coche[flota.size()];
 
-        for(int i=0; i<arraycoches.length;i++){
-//            if(c.equals())
-                arraycoches[i]=i++;
+        int cont=0;
+        for (Vehiculos v : flota) {
+            if (v instanceof Coche) {
+                arraycoches[cont] = (Coche) v;
+                cont++;
+            }
         }
 
         return arraycoches;

@@ -3,17 +3,17 @@ package examen;
 public class Terrestres extends Vehiculos{
     //atributos
     private final int numRuedas;
-    private static int limitePasos=100000;
+    static final int LIMITEPASOS=100000;
 
     //constructor
-    public Terrestres(String matricula, String modelo, int pasos, int numRuedas) throws Exception{
-        super(matricula, modelo, pasos);
+    public Terrestres(String matricula, String modelo, int numRuedas) throws VehiculoExcepcion{
+        super(matricula, modelo);
 
         if(matricula.matches("[0-9]{4}[a-zA-Z]{3}")) {
            this.numRuedas=numRuedas;
         }
-
-        throw new Exception("Excepcion en vehiculos con el valor: : "+matricula);
+        else
+            throw new VehiculoExcepcion("Excepcion en vehiculos con el valor: : "+matricula);
 
     }
 
@@ -33,9 +33,11 @@ public class Terrestres extends Vehiculos{
     }
 
     @Override
-    public void recorrer(int numPasos) throws VehiculoException{
-        if(numPasos>limitePasos)
-            throw new VehiculoException("Excepcion en vehiculos, limite de pasos alcanzado: "+ numPasos);
+    public void recorrer(int numPasos) throws VehiculoExcepcion{
+        if(getPasos()+(numPasos*2)>LIMITEPASOS) {
+            throw new VehiculoExcepcion("Excepcion en vehiculos, limite de pasos alcanzado: " + numPasos);
+        }
+        setPasos(getPasos()+(numPasos*2));
     }
 
 

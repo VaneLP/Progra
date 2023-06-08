@@ -6,8 +6,8 @@ public class Coche extends Terrestres{
 
 
     //constructor
-    public Coche(String matricula, String modelo, int pasos, int numRuedas, boolean aireAcondicionado) throws Exception {
-        super(matricula, modelo, pasos, numRuedas);
+    public Coche(String matricula, String modelo, int numRuedas, boolean aireAcondicionado) throws VehiculoExcepcion {
+        super(matricula, modelo, numRuedas);
         this.aireAcondicionado = aireAcondicionado;
     }
 
@@ -19,8 +19,11 @@ public class Coche extends Terrestres{
     }
 
     @Override
-    public void recorrer(int numPasos) {
-        setPasos(numPasos*2);
+    public void recorrer(int numPasos) throws VehiculoExcepcion{
+        if(getPasos()+(numPasos*2)>LIMITEPASOS) {
+            throw new VehiculoExcepcion("Excepcion en vehiculos, limite de pasos alcanzado: " + numPasos);
+        }
+        setPasos(getPasos()+(numPasos*2));
     }
 
 }

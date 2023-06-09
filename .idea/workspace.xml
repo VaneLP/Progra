@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="terminado y sin fallos">
-      <change afterPath="$PROJECT_DIR$/Examenes/examen de la muerte 2/src/examen/VehiculoExcepcion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Repaso/src/bucles/Ejer10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Repaso/src/bucles/ejer9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Repaso/src/repasoEx/Asignatura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Repaso/src/repasoEx/Estudiante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Repaso/src/repasoEx/Programa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Examenes/examen de la muerte 2/src/examen/Coche.java" beforeDir="false" afterPath="$PROJECT_DIR$/Examenes/examen de la muerte 2/src/examen/Coche.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Examenes/examen de la muerte 2/src/examen/FlotaVehiculos.java" beforeDir="false" afterPath="$PROJECT_DIR$/Examenes/examen de la muerte 2/src/examen/FlotaVehiculos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Examenes/examen de la muerte 2/src/examen/Motos.java" beforeDir="false" afterPath="$PROJECT_DIR$/Examenes/examen de la muerte 2/src/examen/Motos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Examenes/examen de la muerte 2/src/examen/Terrestres.java" beforeDir="false" afterPath="$PROJECT_DIR$/Examenes/examen de la muerte 2/src/examen/Terrestres.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Examenes/examen de la muerte 2/src/examen/VehiculoException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Examenes/examen de la muerte 2/src/examen/Vehiculos.java" beforeDir="false" afterPath="$PROJECT_DIR$/Examenes/examen de la muerte 2/src/examen/Vehiculos.java" afterDir="false" />
-    </list>
+    <list default="true" id="c20b6cfd-ab19-4ffe-ac5d-952fda73e2f2" name="Changes" comment="terminado y sin fallos" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
